@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>선물하기 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">선물추천</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<div class="giftRecomList swiperMenu">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<span class="gift_01"></span>
+							</span>
+							<p class="tit">생일</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<span class="gift_02"></span>
+							</span>
+							<p class="tit">스몰럭셔리</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<span class="gift_03"></span>
+							</span>
+							<p class="tit">임신/출산</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link" class="on">
+							<span class="img">
+								<span class="gift_04"></span>
+							</span>
+							<p class="tit">부모님선물</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<span class="gift_05"></span>
+							</span>
+							<p class="tit">여친선물</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<span class="gift_06"></span>
+							</span>
+							<p class="tit">남친선물</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="full mt20 pb30">
+			<div class="swipeMenuTabA tabBar swiperMenu">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on"><a href="#link">전체</a></li>
+					<li class="swiper-slide"><a href="#link">1만원 미만</a></li>
+					<li class="swiper-slide"><a href="#link">1~3만원</a></li>
+					<li class="swiper-slide"><a href="#link">3~5만원</a></li>
+					<li class="swiper-slide"><a href="#link">5~10만원</a></li>
+					<li class="swiper-slide"><a href="#link">10만원 이상</a></li>
+				</ul>
+			</div>
+			<div class="sortArea filter mt20 pd20">
+				<div class="lcont">
+					<span class="txt"><em class="bold">9,999</em> 개</span>
+				</div>
+				<div class="rcont">
+					<div class="sltWrap mini">
+						<select name="" id="">
+							<option value="">추천순</option>
+						</select>
+					</div>
+					<button type="button" class="btn_prdI"><span class="blind">상품 이미지타입</span></button>
+					<!-- <button type="button" class="btn_prdL"><span class="blind">상품 리스트타입</span></button> -->
+				</div>
+			</div>
+			<div class="prdCategory_columnB mt20 pd20">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

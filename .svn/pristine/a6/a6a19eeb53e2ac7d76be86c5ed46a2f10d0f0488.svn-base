@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>베스트 리뷰어 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">베스트 리뷰어</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<div class="rankBanner">
+			<a href="#link" class="rankNone">
+				<em>AK_12</em> 님은 리뷰어 랭킹이 없습니다.
+				<span class="bold block">랭킹을 올리고 싶으시다면?</span>
+			</a>
+		</div>
+		<div class="rankBanner">
+			<a href="#link" class="rank1">
+				<em>AK_12</em> 님은 리뷰어 랭킹 <span class="bold">1위</span> 입니다.
+				<span class="bold block">랭킹을 유지하고 싶으시다면?</span>
+			</a>
+		</div>
+		<div class="rankBanner">
+			<a href="#link" class="rank5">
+				<em>AK_12</em> 님은 리뷰어 랭킹 <span class="bold">5위</span> 입니다.
+				<span class="bold block">랭킹을 유지하고 싶으시다면?</span>
+			</a>
+		</div>
+		<div class="rankBanner">
+			<a href="#link" class="rank10">
+				<em>AK_12</em> 님은 리뷰어 랭킹 <span class="bold">10위</span> 입니다.
+				<span class="bold block">랭킹을 유지하고 싶으시다면?</span>
+			</a>
+		</div>
+		<div class="rankBanner">
+			<a href="#link" class="rank50">
+				<em>AK_12</em> 님은 리뷰어 랭킹 <span class="bold">50위</span> 입니다.
+				<span class="bold block">랭킹을 올리고 싶으시다면?</span>
+			</a>
+		</div>
+		<div class="rankBanner">
+			<a href="#link" class="rank100">
+				<em>AK_12</em> 님은 리뷰어 랭킹 <span class="bold">100위</span> 입니다.
+				<span class="bold block">랭킹을 올리고 싶으시다면?</span>
+			</a>
+		</div>
+		<div class="rankBanner">
+			<a href="#link" class="rank150">
+				<em>AK_12</em> 님은 리뷰어 랭킹 <span class="bold">150위</span> 입니다.
+				<span class="bold block">랭킹을 올리고 싶으시다면?</span>
+			</a>
+		</div>
+		<!-- 21.01.13 추가 -->
+		<div class="rankBanner">
+			<a href="#link" class="rankNologin">
+				고객님은 비로그인 상태 입니다.
+				<span class="bold block">랭킹을 확인하고 싶으시다면?</span>
+			</a>
+		</div>
+		<!-- //21.01.13 추가 -->
+		
+		<section>
+			<ul class="bestReviewer">
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num first montBold">1</p>
+							<span class="down"><span class="blind">하락</span>3</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer1.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">Ddoa22</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num Second montBold">2</p>
+							<span class="up"><span class="blind">증가</span>2</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer2.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">빠오링</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num third montBold">3</p>
+							<span class="keep"><span class="blind">변동없음</span>-</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer3.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">미쥬</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num montBold">4</p>
+							<span class="down"><span class="blind">하락</span>5</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer4.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">arang_arang97</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num montBold">5</p>
+							<span class="up"><span class="blind">증가</span>2</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer5.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">고구마호박</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num montBold">6</p>
+							<span class="down"><span class="blind">하락</span>1</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer6.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">조이joy</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num montBold">7</p>
+							<span class="down"><span class="blind">하락</span>5</span>
+						</div>
+						<div class="profileImg">
+							<a href="#">
+								<img src="../resources/images/content/img_best_reviewer4.png" alt="">
+							</a>
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name"><a href="#">arang_arang97</a></p>
+								<span class="info">
+									<em>20대</em><em>여</em><em>건성</em><em>웜톤</em>
+								</span>
+							</div>
+							<div class="reviewInfo">
+								<span class="prdAppraisal">상품평수 <em class="num">6</em></span>
+								<span class="reviewHelp">도움수 <em class="num">524</em></span>
+							</div>
+						</div>						
+					</div>
+				</li>
+			</ul>
+		</section>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+
+	<!-- quickLink -->
+	<div class="quickLinkArea botBtnArea">
+		<!-- floating button -->
+		<div class="chatbotWrap">
+			<!-- <a href="#" target="_self" class="chaBtn_myPouch"><span class="blind">마이파우치 페이지로 이동</span></a> -->
+			<a href="#" target="_self" class="chaBtn_ReviewWrite"><span class="blind">리뷰작성 페이지로 이동</span></a>
+			<!-- <a href="#" target="_self" class="chaBtn_vContent"><span class="blind">V-콘텐츠 보기</span></a> -->
+			<a href="#" class="chaBtn_GoTop"><span class="blind">페이지 최상단으로 이동</span></a>
+		</div>
+		<!-- // floating button -->
+		<!-- bottom menu -->
+		<div class="quickBtnArea">
+			<ul class="quickBtn">
+				<li><a href="#">메뉴</a></li>
+				<li><a href="#">리뷰</a></li>
+				<li><a href="#" class="on">홈</a></li>
+				<li><a href="#">MY</a></li>
+				<li class="historyBtn"><a href="#">히스토리<span class="historyOn"><em class="blind">최근본상품</em></span></a></li> <!-- 최근본상품이 있을 경우 "historyOn"영역 show/hidden -->
+			</ul>
+		</div>
+		<!-- // bottom menu -->
+	</div>
+	<!-- // quickLink -->
+
+	<!-- footer -->
+	<footer></footer>
+	<!--// footer -->
+
+</div>
+<!--// wrap -->
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>이벤트 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont hasBtn"><!-- class ::  -->
+					<div class="popHead">
+						<h1 class="titH3">상품평 작성 현황</h1>
+					</div>
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<!-- 상품평 작성 완료한 경우 -->
+							<div class="titleArea txtAl pd0">
+								<h2 class="titH2">상품평<span class="normal">작성이 완료됐어요.<br>뷰티체험단 신청하러 가볼까요?</span></h2>
+							</div>								
+							<!-- //상품평 작성 완료한 경우 -->
+							<!-- 상품평 개수가 부족한 경우 -->
+							<div class="titleArea txtAl pd0">
+								<h2 class="titH2">상품평<span class="normal">이 부족해요<br>조금만 더 힘내볼까요?</span></h2>
+							</div>
+
+							<p class="txtL txtAl">체험단 참여까지 <em class="numUnder">1개</em>의 상품평이 남았습니다.</p>
+							<!-- //상품평 개수가 부족한 경우 -->
+
+							<div class="objGraphBox mg0 mt30">
+								<div class="limitGraph">
+									<div class="graphBar compNone">
+										<span class="bar" style="width: 50%;"></span>
+									</div>
+									<div class="graphIcon">
+										<span class="icon" style="left: 50%;">
+											<span class="img"><img src="../resources/images/icon/ico_obj_graph.png" alt=""></span>
+										</span>
+									</div>
+									<div class="count">
+										<span class="num0">0</span>
+										<ul>
+											<li>1</li>
+											<li>2</li>
+											<li>3</li>
+											<li>4</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					<div class="popBgInner">
+						<div class="titleArea txtAl">
+								<h3 class="titH3">뷰티체험단 참여 조건</h3>
+							</div>
+
+							<ul class="txtList_disc">
+								<li>상품평 작성 기간 : 2020.08.25~2020.09.25</li>
+								<li>상품평 개수 : 2개 이상</li>
+							</ul>
+					</div>
+					<div class="btnArea sticky">
+						<button type="button" class="btn_p">상품평 작성하기</button>
+					</div>
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

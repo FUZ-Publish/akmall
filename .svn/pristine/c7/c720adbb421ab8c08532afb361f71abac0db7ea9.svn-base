@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>회원가입 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">회원가입</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+            <div class="titArea">
+                <h2 class="titH1">이메일 인증</h2>
+            </div>
+			<div class="formArea">
+				<span class="label">이메일 <span class="required"><span class="blind">필수</span></span></span>
+				<div class="iptWrap flex">
+					<input type="text" class="ipt" placeholder="이메일 입력" title="이메일 입력" id="" name="" value="">
+					<span class="sign" aria-hidden="true">@</span>
+					<input type="text" class="ipt" placeholder="직접 입력" title="도메인 입력" id="" name="" value="">
+					<select name="" id="" class="minSelect">
+						<option value="">직접 입력</option>
+						<option value="">naver.com</option>
+                    </select>
+                </div>
+                <p class="formMsg error">이미 사용 중인 이메일 입니다.</p>
+
+                <button type="button" class="btn_l m mt20">인증메일 발송</button>
+                
+                <span class="label">인증번호</span>
+				<div class="iptWrap setBtnS">
+					<input type="text" class="ipt" placeholder="인증번호 입력" title="인증번호 입력" id="" name="" value="">
+					<button type="button" class="btnS">확인</button>
+                </div>
+                <p class="formMsg">이메일 인증이 완료되었습니다.</p>
+                <p class="formMsg error">인증번호가 일치하지 않습니다. 인증 메일을 다시 발송해 주세요.</p>
+            </div>
+            
+            <div class="btnArea">
+                <button type="button" class="btn_p">다음</button>
+            </div>
+		</section>
+
+		
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+</div>
+<!--// wrap -->
+</body>
+</html>

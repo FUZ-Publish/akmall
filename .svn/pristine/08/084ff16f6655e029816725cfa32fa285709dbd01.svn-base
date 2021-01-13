@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>히스토리 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap category_full">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<!-- 로그인상태 
+			<p class="headUser"><em>홍길동</em>님 안녕하세요!</p>
+			<!-- //로그인상태 -->
+
+			<!-- 로그아웃상태 -->
+			<div class="headNonLogin">
+				<div class="linkGroup">
+					<a href="#link" class="links line">로그인</a>
+					<a href="#link" class="links line">회원가입</a>
+				</div>
+			</div>
+			<!-- //로그아웃상태 -->
+			<div class="ar">
+				<a href="#" class="setupBtn">
+					<em class="blind">닫기</em>
+				</a>
+				<a href="#" class="closeBtn">
+					<em class="blind">닫기</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- menu -->
+	<div class="MenuTabA">
+		<ul class="">
+			<li><a href="#">카테고리</a></li>
+			<li><a href="#">브랜드</a></li>
+			<li class="on"><a href="#">히스토리</a></li>
+		</ul>
+	</div>
+
+	<div class="swipeMenuTabB swiperMenu mt20">
+		<ul class="swiper-wrapper">
+			<li class="swiper-slide"><a href="#link">최근 본상품(<em>11</em>)</a></li>
+			<li class="swiper-slide"><a href="#link">최근 본 VOD(<em class="pointC1">4</em>)</a></li>
+			<li class="swiper-slide on"><a href="#link">최근 본 페이지(<em>19</em>)</a></li>
+			<li class="swiper-slide"><a href="#link">찜한상품(<em class="pointC1">6</em>)</a></li>
+			<li class="swiper-slide"><a href="#link">찜한VOD(<em class="pointC1">6</em>)</a></li>
+		</ul>
+	</div>
+	<!-- // menu -->
+
+	<!-- container -->
+	<div class="container">
+		<section>
+			<div class="sortArea filter">
+				<div class="lcont">
+					<span class="txt">전체(<em class="pointC1">19</em>)</span>
+				</div>
+				<div class="rcont">
+					<button type="button" class="btn_allDel normal">전체삭제</button>
+				</div>
+			</div>
+			
+
+			<ul class="pageList">
+				<li>
+					<div class="inner">
+						<p class="category">이벤트</p>
+						<div class="pageInfo">
+							<p class="tit"><a href="#link">[메이크업 포에버] NEW 립스틱</a></p>
+							<p class="desc">2020.10.05 ~ 2020.10.11</p>
+						</div>
+						<div class="btnArea">
+							<button type="button" class="btnPic btnZzim del off"><span class="blind">기록 삭제</span></button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<p class="category">브랜드</p>
+						<div class="pageInfo">
+							<p class="tit"><a href="#link">메이크업 포에버</a></p>
+						</div>
+						<div class="btnArea">
+							<button type="button" class="btnPic btnZzim typeA off"><span class="blind">찜하기</span></button>
+							<button type="button" class="btnPic btnZzim del off"><span class="blind">기록 삭제</span></button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<p class="category">카테고리</p>
+						<div class="pageInfo">
+							<p class="tit"><a href="#link">스킨/토너</a></p>
+							<p class="desc">스토어 > 스킨케어</p>
+						</div>
+						<div class="btnArea">
+							<button type="button" class="btnPic btnZzim typeA off"><span class="blind">찜하기</span></button>
+							<button type="button" class="btnPic btnZzim del off"><span class="blind">기록 삭제</span></button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<p class="category">카테고리</p>
+						<div class="pageInfo">
+							<p class="tit"><a href="#link">스킨케어</a></p>
+							<p class="desc">스토어</p>
+						</div>
+						<div class="btnArea">
+							<button type="button" class="btnPic btnZzim typeA on"><span class="blind">찜하기</span></button>
+							<button type="button" class="btnPic btnZzim del off"><span class="blind">기록 삭제</span></button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<p class="category">기획전</p>
+						<div class="pageInfo">
+							<p class="tit"><a href="#link">[나스] 2020 홀리데이 컬렉션</a></p>
+							<p class="desc">백화점 명품화장품</p>
+						</div>
+						<div class="btnArea">
+							<button type="button" class="btnPic btnZzim del off"><span class="blind">기록 삭제</span></button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<p class="category">기획전</p>
+						<div class="pageInfo">
+							<p class="tit"><a href="#link">11월 클럽 WEEK</a></p>
+						</div>
+						<div class="btnArea">
+							<button type="button" class="btnPic btnZzim del off"><span class="blind">기록 삭제</span></button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer> 
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

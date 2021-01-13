@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>성분검색 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1>성분검색</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<div class="schConsBanner">
+			원하는 성분은 <span class="bold">추가</span>하고,<br>
+			원치 않는 성분은 <span class="bold">제외</span>할 수 있어요.
+		</div>
+		<div class="iptWrap schWrap">
+			<input type="text" name="" value="" class="delete sch" placeholder="검색할 성분을 입력해주세요">
+			<button type="button" class="schBtn"><span class="blind">검색</span></button>
+		</div>
+		<section class="full">
+			<div class="schConsAcc consPage">
+				<!-- list -->
+				<div class="list">
+					<a href="#link" class="accBtn">
+						<div class="accHeader">
+							20가지 주의성분
+						</div>
+					</a>
+					<div class="accBody">
+						<ul class="chekConsList">
+							<li>
+								<span class="item">메틸<em>파라</em>벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch1_1" id="radio1_1">
+												<label for="radio1_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch1_1" id="radio1_2">
+												<label for="radio1_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch1_2" id="radio1_3">
+												<label for="radio1_3">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch1_2" id="radio1_4">
+												<label for="radio1_4">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- // list -->
+				<!-- list -->
+				<div class="list">
+					<a href="#link" class="accBtn">
+						<div class="accHeader">
+							알레르기 주의성분
+						</div>
+					</a>
+					<div class="accBody">
+						<ul class="chekConsList">
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch2_1" id="radio2_1">
+												<label for="radio2_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch2_1" id="radio2_2">
+												<label for="radio2_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- // list -->
+				<!-- list -->
+				<div class="list">
+					<a href="#link" class="accBtn">
+						<div class="accHeader">
+							높은 위험도 성분
+						</div>
+					</a>
+					<div class="accBody">
+						<ul class="chekConsList">
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch3_1" id="radio3_1">
+												<label for="radio3_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch3_1" id="radio3_2">
+												<label for="radio3_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- // list -->
+				<!-- list -->
+				<div class="list">
+					<a href="#link" class="accBtn">
+						<div class="accHeader">
+							중간 위험도 성분
+						</div>
+					</a>
+					<div class="accBody">
+						<ul class="chekConsList">
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch4_1" id="radio4_1">
+												<label for="radio4_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch4_1" id="radio4_2">
+												<label for="radio4_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- // list -->
+				<!-- list -->
+				<div class="list">
+					<a href="#link" class="accBtn">
+						<div class="accHeader">
+							중간 위험도 성분
+						</div>
+					</a>
+					<div class="accBody">
+						<ul class="chekConsList">
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch5_1" id="radio5_1">
+												<label for="radio5_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch5_1" id="radio5_2">
+												<label for="radio5_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch5_3" id="radio5_3">
+												<label for="radio5_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch5_4" id="radio5_4">
+												<label for="radio5_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch5_5" id="radio5_5">
+												<label for="radio5_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch5_6" id="radio5_6">
+												<label for="radio5_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch5_7" id="radio5_7">
+												<label for="radio5_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch5_8" id="radio5_8">
+												<label for="radio5_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span class="item">메틸파라벤</span>
+								<div class="ar">
+									<div class="iptWrap txtCheck tyB">
+										<ul>
+											<li>
+												<input type="radio" name="ch5_8" id="radio5_8">
+												<label for="radio5_1">제외</label>
+											</li>
+											<li>
+												<input type="radio" name="ch5_9" id="radio5_9">
+												<label for="radio5_2">포함</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- // list -->
+			</div>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+	<!-- //container -->
+
+
+
+	<!-- 선택성분레이어 노출영역 -->
+	<div class="consLayerWrap"><!-- style="height:270px;" -->
+		<button type="button" class="consOpbtn">검색하기</button>
+		<div class="consInner">
+			<div class="titWrap">
+				<span class="tit">포함</span>
+				<button type="button" class="btn_init tyC ar">초기화</button>
+			</div>
+			<div class="attBtnSwipe swiperMenu">
+				<ul class="swiper-wrapper attBtnList">
+					<li class="swiper-slide on">
+						<span class="btn_del_txt">메틸파라벤</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+				</ul>
+			</div>
+			<div class="titWrap mt30">
+				<span class="tit">제외</span>
+				<button type="button" class="btn_init tyC ar">초기화</button>
+			</div>
+			<div class="attBtnSwipe swiperMenu">
+				<ul class="swiper-wrapper attBtnList">
+					<li class="swiper-slide on">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">메틸파라벤</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+					<li class="swiper-slide">
+						<span class="btn_del_txt">건성</span>
+						<button type="button" class="btn_delT"><span class="blind">키워드 삭제</span></button>
+					</li>
+				</ul>
+			</div>
+
+			<button type="button" class="btn_l tyB">10개 성분으로 검색하기</button>
+		</div>
+	</div>
+	<!-- // 선택성분레이어 노출영역 -->
+
+	
+</div>
+<!--// wrap -->
+</body>
+</html>

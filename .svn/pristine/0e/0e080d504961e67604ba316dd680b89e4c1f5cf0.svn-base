@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">전성분</h1>
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- container -->
+	<div class="container">
+		
+		<section>
+			
+			<span class="block txtS txtAr">성분 : 찍검제공</span>
+
+			<div class="ingredGraph">
+				<div class="barScore">
+					<p class="ingred">20가지 주의성분</p>
+					<div class="revGraph ingred20">
+						<div class="limitGraph">
+							<div class="graphBar">
+								<span class="bar" style="width: 1%;"></span>
+							</div>
+						</div>
+					</div>
+					<p class="percent">1</p>
+				</div>
+				<div class="barScore">
+					<p class="ingred">알레르기 주의성분</p>
+					<div class="revGraph allergy">
+						<div class="limitGraph">
+							<div class="graphBar">
+								<span class="bar" style="width: 3%;"></span>
+							</div>
+						</div>
+					</div>
+					<p class="percent">3</p>
+				</div>
+				<div class="barScore">
+					<p class="ingred">전성분</p>
+					<div class="revGraph all">
+						<div class="limitGraph">
+							<div class="graphBar">
+								<span class="bar" style="width: 17%;"></span>
+							</div>
+						</div>
+					</div>
+					<p class="percent">17</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="full hr">
+			<div class="grdArea pd20 mt20">
+				<p class="ingredgrade undecid">등급미정</p>
+				<p class="ingredgrade low">낮은 위험도</p>
+				<p class="ingredgrade middle">중간 위험도</p>
+				<p class="ingredgrade high">높은 위험도</p>
+			</div>
+
+			<ul class="ingredList">
+				<li>
+					<p class="tit low">다이소듐이디티에이</p>
+					<p class="btn_l xs colorRoundA">20가지</p>
+				</li>
+				<li>
+					<p class="tit undecid">다이프로필렌글라이콜</p>
+					<p class="btn_l xs colorRoundB">알레르기</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit low">메틸파아펜</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit middle">부틸렌글라이콜</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit low">세티스-20</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit low">소튬시트레이트</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit middle">스타이렌/아크릴레이트코폴리머</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit high">시트릭애씨드</p>
+				</li>
+				</li>
+				<li>
+					<p class="tit low">에틸파라벤</p>
+				</li>
+			</ul>
+		</section>
+
+
+
+
+		<div class="btnArea sticky btnBuyArea bdRadiusN">
+			<button type="button" class="btnPic typeD off"><span class="blind">찜하기</span></button>
+			<div class="btnR">
+				<button type="button" class="btnCart">장바구니</button>
+				<button type="button" class="btnBuy">바로구매</button>
+				<!-- <button type="button" class="btnRsv">예약주문</button> -->
+			</div>		
+		</div>
+		
+	</div>
+	 
+	
+	
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>  

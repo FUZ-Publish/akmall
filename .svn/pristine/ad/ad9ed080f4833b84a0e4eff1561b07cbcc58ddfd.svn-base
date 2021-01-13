@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>회원가입 안내 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">회원가입</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2">AK멤버스 통합 회원가입</h2>
+			</div>
+			<p class="txtL">AK멤버스 통합회원으로 가입하시면 온라인과 오프라인에서 사용하신 실적에 따라 마일리지가 적립되어 사용하실 수 있습니다.</p>
+			
+			<div class="btnArea mt30">
+				<button type="button" class="btn_p">AK멤버스 통합 회원 가입</button>
+			</div>
+
+			<div class="titleArea mt40">
+				<h2 class="titH2">간편 회원가입</h2>
+			</div>
+			<p class="txtL">기존 SNS 계정으로 본인인증 없이 가입이 가능하며, 마일리지 외 적립금 및 포인트 모두 사용 가능합니다.</p>
+
+			<div class="easyJoin">
+				<ul class="list">
+					<li>
+						<a href="#link">
+							<span class="joinIco_email small"><span class="blind">이메일</span></span>
+							이메일 인증 가입
+						</a>
+					</li>
+					<li>
+						<a href="#link">
+							<span class="joinIco_naver small"><span class="blind">네이버</span></span>
+							네이버 간편 가입
+						</a>
+					</li>
+					<li>
+						<a href="#link">
+							<span class="joinIco_kakao small"><span class="blind">카카오</span></span>
+							카카오 간편 가입
+						</a>
+					</li>
+					<li>
+						<a href="#link">
+							<span class="joinIco_face small"><span class="blind">페이스북</span></span>
+							페이스북 간편 가입
+						</a>
+					</li>
+					<li>
+						<a href="#link">
+							<span class="joinIco_payco small"><span class="blind">페이코</span></span>
+							PAYCO 간편 가입
+						</a>
+					</li>
+					<li>
+						<a href="#link">
+							<span class="joinIco_wemake small"><span class="blind">위메프</span></span>
+							위메프 간편 가입
+						</a>
+					</li>
+					<li>
+						<a href="#link">
+							<span class="joinIco_apple small"><span class="blind">Apple</span></span>
+							Apple 간편 가입
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

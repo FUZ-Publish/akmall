@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>header &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+	
+	<!-- 메인 해더 -->
+	<header class="header">
+		<div class="gnb_header">
+			<h1 class="logo"><a href="#"><em class="blind">AK</em></a></h1>
+			<h1 class="fds_logos"><a href="#fds"><img src="../resources/images/logo/logo_23.png" alt=""></a></h1>
+			<a href="#" class="cate_link"><em class="blind">카테고리</em></a>
+			<div class="right_menu">
+				<a href="#" class="search_link"><em>검색</em></a>
+				<a href="#" class="cart_link"><em>장바구니</em></a>
+			</div>
+		</div>
+		<!-- gnb -->
+		<div class="main_gnb main_gnb2 swiper-gnb">
+			<ul class="swiper-wrapper">
+				<li class="on swiper-slide"><a href="#home">홈</a></li>
+				<li class="swiper-slide"><a href="#deal">파워딜</a></li>
+				<li class="swiper-slide"><a href="#plz">AK플라자</a></li>
+				<li class="swiper-slide"><a href="#plz">기획전</a></li>
+				<li class="swiper-slide"><a href="#event">이벤트</a></li>
+				<li class="swiper-slide"><a href="#">베스트</a></li>
+				<li class="swiper-slide"><a href="#">&amp;PICK</a></li>
+				<li class="swiper-slide"><a href="#">바캉스</a></li>
+				<li class="swiper-slide"><a href="#">뷰티</a></li>
+				<li class="swiper-slide"><a href="#">키즈</a></li>
+				<li class="swiper-slide"><a href="#">트랜드픽</a></li>
+				<li class="swiper-slide"><a href="#">기획전상세</a></li>
+			</ul>
+			<div class="deem"></div>
+			<div class="arrows"></div>
+			<div class="arrow"></div>
+		</div>
+		<!-- //gnb -->
+	</header>
+	<!--// 메인해더 -->
+
+	<!-- Sub Header : 메뉴가 있을 경우 -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<div class="headerMenuOp">
+				<h1><a href="#link" class="dropClick open">스킨케어<i></i></a></h1>
+				<ul class="headerDropWrap">
+					<li><a href="#link">스킨케어</a></li>
+					<li><a href="#link">메이크업</a></li>
+					<li><a href="#link">향수</a></li>
+					<li><a href="#link">헤어/바디</a></li>
+					<li><a href="#link">미용기기/소품</a></li>
+					<li><a href="#link">뷰티푸드</a></li>
+					<li><a href="#link">남성화장품</a></li>
+					<li><a href="#link">베이비케어</a></li>
+				</ul>
+			</div>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// Sub Header : 메뉴가 있을 경우 -->
+
+	<!-- Sub Main Header  -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1></h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+					<span class="num">9</span>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// Sub Main Header -->
+
+	<!-- 검색결과 Header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<div class="iptWrap schWrap">
+				<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+				<button type="button" class="schBtn"><span class="blind">검색</span></button>
+			</div>
+			<div class="ar">
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// 검색결과 Header -->
+
+	<!-- 컨텐츠 Header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1>header</h1>
+		</div>
+	</header>
+	<!--// 컨텐츠 Header -->
+
+	<!-- 검색기능이 있는 Header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1>header</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// 검색기능이 있는 Header -->
+
+<script type="text/javascript" src="../resources/js/config/config.js"></script>
+<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+</body>
+</html>

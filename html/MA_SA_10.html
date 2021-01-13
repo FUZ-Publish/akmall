@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>필터 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap" style="overflow:hidden;">
+	<!-- header -->
+	<header class="header type_nb searchHeader">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+		</div>
+		<div class="iptWrap schWrap">
+			<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+			<button type="button" class="schBtn"><span class="blind">검색</span></button>
+		</div>
+		<ul class="schKindBtn">
+			<li>
+				<a href="#link" class="ingredient"><i></i>성분검색</a>
+			</li>
+			<li>
+				<a href="#link" class="voice"><i></i>음성검색</a>
+			</li>
+			<li>
+				<a href="#link" class="barcode"><i></i>바코드검색</a>
+			</li>
+		</ul>
+	</header>
+	<!--// header -->
+
+	<!-- container -->
+	<div class="container">
+		<button class="btn_filter filterOpLayer">filterOpLayer</button>
+	</div>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+	<!-- //container -->
+</div>
+<!--// wrap -->
+
+
+<!-- 상세검색 필터 레이어 (s) -->
+<div class="filterSchWrap">
+	<div class="topArea">
+		<div class="tit">
+			상세검색
+			<button type="button" class="btn_init ar">초기화</button>
+		</div>
+		<div class="swiperMenu attBtnSwipe">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide on">
+					<span class="btn_keyword">선스틱<button type="button" class="del"><span class="blind">키워드 삭제</span></button></span>
+				</li>
+				<li class="swiper-slide">
+					<span class="btn_keyword">선스틱<button type="button" class="del"><span class="blind">키워드 삭제</span></button></span>
+				</li>
+				<li class="swiper-slide">
+					<span class="btn_keyword">선스틱<button type="button" class="del"><span class="blind">키워드 삭제</span></button></span>
+				</li>
+				<li class="swiper-slide">
+					<span class="btn_keyword">선스틱<button type="button" class="del"><span class="blind">키워드 삭제</span></button></span>
+				</li>
+			</ul>
+		</div>
+		<button type="button" class="btnIco_close"><span>닫기</span></button>
+	</div>
+	<div class="filterInner accordion">
+		<ul class="list">
+			<!-- 카테고리 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">카테고리</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup categoryFold">
+						<li>
+							<input type="checkbox" name="chk1" id="chk1_1">
+							<label for="chk1_1" class="depth_1">전체 <em>(19,304)</em></label>
+							<ul class="foldList check">
+								<li>
+									<input type="checkbox" name="chk2_1" id="chk2_1">
+									<label for="chk2_1" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+									<ul class="foldList">
+										<li>
+											<input type="checkbox" name="chk3_1" id="chk3_1">
+											<label for="chk3_1" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+										<li>
+											<input type="checkbox" name="chk3_1" id="chk3_2">
+											<label for="chk3_2" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<input type="checkbox" name="chk2_2" id="chk2_2">
+									<label for="chk2_2" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+									<ul class="foldList">
+										<li>
+											<input type="checkbox" name="chk3_2" id="chk3_3">
+											<label for="chk3_3" class="depth_3">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+										<li>
+											<input type="checkbox" name="chk3_2" id="chk3_4">
+											<label for="chk3_4" class="depth_3">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1" id="chk1_2">
+							<label for="chk1_2" class="depth_1">선케어 <em>(19,304)</em></label>
+							<ul class="foldList check">
+								<li>
+									<input type="checkbox" name="chk2_3" id="chk2_3">
+									<label for="chk2_3" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+									<ul class="foldList">
+										<li>
+											<input type="checkbox" name="chk3_5" id="chk3_5">
+											<label for="chk3_5" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+										<li>
+											<input type="checkbox" name="chk3_6" id="chk3_6">
+											<label for="chk3_6" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<input type="checkbox" name="chk2_4" id="chk2_4">
+									<label for="chk2_4" class="depth_2">선크림/로션/젤 <em>(19,304)</em></label>
+									<ul class="foldList">
+										<li>
+											<input type="checkbox" name="chk3_7" id="chk3_7">
+											<label for="chk3_7" class="depth_3">선크림/로션/젤 <em>(19,304)</em></label>
+										</li>
+										<li>
+											<input type="checkbox" name="chk3_8" id="chk3_8">
+											<label for="chk3_8" class="depth_3">선크림/k로션/젤 <em>(19,304)</em></label>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<div class="foldBtnArea">
+						<button type="button" class="btn_l m foldBtn">더보기</button>
+					</div>
+				</div>
+			</li>
+			<!-- // 카테고리 -->
+			
+			<!-- 브랜드 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">브랜드</span>
+					<div class="checkIt swiperMenu" dir="rtl">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide on">
+								<span class="btn_l s mini pointC1">브랜드</span>
+							</li>
+							<li class="swiper-slide">
+								<span class="btn_l s mini pointC1">브랜드2</span>
+							</li>
+							<li class="swiper-slide">
+								<span class="btn_l s mini pointC1">브랜드3</span>
+							</li>
+							<li class="swiper-slide">
+								<span class="btn_l s mini pointC1">브랜드4</span>
+							</li>
+						</ul>
+					</div>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<div class="tab contentTab">
+						<ul class="tabList flex div_2">
+							<li class="active"><a href="#tab1">상품수순</a></li>
+							<li><a href="#tab2">가나다순</a></li>
+						</ul>
+						<!-- 탭 콘텐츠 (s) -->
+						<div class="tabContents in" id="tab1">
+							<ul class="iptGroup">
+								<li>
+									<input type="checkbox" name="chk1_3" id="chk1_3">
+									<label for="chk1_3">에스티로더 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_4" id="chk1_4">
+									<label for="chk1_4">헤라 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_5" id="chk1_5">
+									<label for="chk1_5">입생로랑 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_6" id="chk1_6">
+									<label for="chk1_6">나스 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_7" id="chk1_7">
+									<label for="chk1_7">VDL <em>(19,304)</em></label>
+								</li>
+							</ul>
+
+							<div class="foldBtnArea">
+								<button type="button" class="btn_l m foldBtn">더보기</button>
+							</div>
+						</div>
+						<!-- 탭 콘텐츠 (e) -->
+						<!-- 탭 콘텐츠 (s) -->
+						<div class="tabContents" id="tab2">
+							<ul class="iptGroup">
+								<li>
+									<input type="checkbox" name="chk1_8" id="chk1_8">
+									<label for="chk1_8">가 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_9" id="chk1_9">
+									<label for="chk1_9">나 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_10" id="chk1_10">
+									<label for="chk1_10">다 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_11" id="chk1_11">
+									<label for="chk1_11">라 <em>(19,304)</em></label>
+								</li>
+								<li>
+									<input type="checkbox" name="chk1_12" id="chk1_12">
+									<label for="chk1_12">마 <em>(19,304)</em></label>
+								</li>
+							</ul>
+
+							<div class="foldBtnArea">
+								<button type="button" class="btn_l m foldBtn">더보기</button>
+							</div>
+						</div>
+						<!-- 탭 콘텐츠 (e) -->
+					</div>
+				</div>
+			</li>
+			<!-- // 브랜드 -->
+			
+			<!-- 피부타입 --><!-- 20.11.26 : 피부타입 영역 추가 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">피부타입</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk8" id="chk1_80">
+							<label for="chk1_80">건성</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk8" id="chk1_81">
+							<label for="chk1_81">지성</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk8" id="chk1_82">
+							<label for="chk1_82">중성</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk8" id="chk1_83">
+							<label for="chk1_83">복합성</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk8" id="chk1_84">
+							<label for="chk1_84">민감성</label>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<!-- // 피부타입 -->
+			
+			<!-- 피부고민 --><!-- 20.11.26 : 피부고민 영역 추가 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">피부고민</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_85">
+							<label for="chk1_85">트러블</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_86">
+							<label for="chk1_86">속건조</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_87">
+							<label for="chk1_87">미백</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_88">
+							<label for="chk1_88">탄력/주름</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_89">
+							<label for="chk1_89">유분/피지</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_90">
+							<label for="chk1_90">아토피</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_91">
+							<label for="chk1_91">수부지</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_92">
+							<label for="chk1_92">다크써클</label>
+						</li>	
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_93">
+							<label for="chk1_93">잡티</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_94">
+							<label for="chk1_94">각질</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_95">
+							<label for="chk1_95">블랙헤드</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_96">
+							<label for="chk1_96">모공</label>
+						</li>						
+					</ul>
+				</div>
+			</li>
+			<!-- // 피부고민 -->
+			
+			<!-- 용량 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">용량</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk1_18" id="chk1_18">
+							<label for="chk1_18">~10ml</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_19" id="chk1_19">
+							<label for="chk1_19">10ml ~ 50ml</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_20" id="chk1_20">
+							<label for="chk1_20">50ml ~ 100ml</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_21" id="chk1_21">
+							<label for="chk1_21">100ml ~ 300ml</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_22" id="chk1_22">
+							<label for="chk1_22">300ml ~ 500ml</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_23" id="chk1_23">
+							<label for="chk1_23">500ml ~</label>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<!-- // 용량 -->
+
+			<!-- 중량 --><!-- 20.11.26 : 중량 영역 추가 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">중량</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_100">
+							<label for="chk1_100">~ 15g</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_101">
+							<label for="chk1_101">15g ~ 50g</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_102">
+							<label for="chk1_102">50g ~ 150g</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_103">
+							<label for="chk1_103">150g ~ 300g<</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_104">
+							<label for="chk1_104">300g ~ 500g<</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_104">
+							<label for="chk1_104">500g ~ 1000g</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk9" id="chk1_105">
+							<label for="chk1_105">1000g ~</label>
+						</li>						
+					</ul>
+				</div>
+			</li>
+			<!-- // 중량 -->
+
+			<!-- 추천모발타입 --><!-- 20.11.26 : 추천모발타입 영역 추가 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">추천모발타입</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk10" id="chk1_106">
+							<label for="chk1_106">지성모발</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk10" id="chk1_107">
+							<label for="chk1_107">민감두피</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk10" id="chk1_108">
+							<label for="chk1_108">건성모발</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk10" id="chk1_109">
+							<label for="chk1_109">모든모발</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk10" id="chk1_110">
+							<label for="chk1_110">탈모모발</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk10" id="chk1_111">
+							<label for="chk1_111">손상모발</label>
+						</li>					
+					</ul>
+				</div>
+			</li>
+			<!-- // 추천모발타입 -->
+
+			<!-- 자외선차단방법 --><!-- 20.11.26 : 자외선차단방법 영역 추가 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">자외선차단방법</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk11" id="chk1_112">
+							<label for="chk1_112">유기자차</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk11" id="chk1_113">
+							<label for="chk1_113">무기자차</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk11" id="chk1_114">
+							<label for="chk1_114">혼합자차</label>
+						</li>				
+					</ul>
+				</div>
+			</li>
+			<!-- // 자외선차단방법 -->
+
+			<!-- 매장/앤픽 --><!-- 20.11.26 : 매장/앤픽 영역 추가 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">매장/앤픽</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk7" id="chk1_75">
+							<label for="chk1_75">분당점</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk1_76">
+							<label for="chk1_76">수원점</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk1_77">
+							<label for="chk1_77">온라인전용</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk1_78">
+							<label for="chk1_78">평택점</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk1_79">
+							<label for="chk1_79"><img src="../resources/images/icon/ico_npic.png" alt="" class="ico_npic">앤픽</label>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<!-- // 매장/앤픽 -->
+
+			<!-- 배송/혜택 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">배송/혜택</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk1_52" id="chk1_52">
+							<label for="chk1_52">청구할인</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_53" id="chk1_53">
+							<label for="chk1_53">무이자</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_54" id="chk1_54">
+							<label for="chk1_54">적립금</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_55" id="chk1_55">
+							<label for="chk1_55">할인쿠폰</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_56" id="chk1_56">
+							<label for="chk1_56">무료배송</label>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<!-- // 배송/혜택 -->
+
+			<!-- 가격 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">가격</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup">
+						<li>
+							<input type="checkbox" name="chk1_57" id="chk1_57">
+							<label for="chk1_57">전체</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_58" id="chk1_58">
+							<label for="chk1_58">~ 1만원</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_59" id="chk1_59">
+							<label for="chk1_59">1만원 ~ 3만원</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_60" id="chk1_60">
+							<label for="chk1_60">3만원 ~ 7만원</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_61" id="chk1_61">
+							<label for="chk1_61">7만원 이상</label>
+						</li>
+					</ul>
+					
+					<div class="formArea">
+						<div class="iptWrap schPriceSort">
+							<input type="text" class="ipt mini" placeholder="최저가" title="최저가 입력" id="" name="" value="">
+							<span class="sign" aria-hidden="true">~</span>
+							<input type="text" class="ipt mini" placeholder="최고가" title="최고가 입력" id="" name="" value="">
+							<button type="button" class="btn_p m mini">적용</button>
+						</div>
+					</div>
+				</div>
+			</li>
+			<!-- // 가격 -->
+
+			<!-- 색상 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">색상</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<ul class="iptGroup checkColor">
+						<li>
+							<input type="checkbox" name="chk1_62" id="chk1_62">
+							<label for="chk1_62" class="color1"><span class="blind">#ff0000</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_63" id="chk1_63">
+							<label for="chk1_63" class="color2"><span class="blind">#c00000</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_64" id="chk1_64">
+							<label for="chk1_64" class="color3"><span class="blind">#ffc000</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_65" id="chk1_65">
+							<label for="chk1_65" class="color4"><span class="blind">#ffff00</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_66" id="chk1_66">
+							<label for="chk1_66" class="color5"><span class="blind">#92d050</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_67" id="chk1_67">
+							<label for="chk1_67" class="color6"><span class="blind">#00b050</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_68" id="chk1_68">
+							<label for="chk1_68" class="color7"><span class="blind">#00b0f0</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_69" id="chk1_69">
+							<label for="chk1_69" class="color8"><span class="blind">#0070c0</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_70" id="chk1_70">
+							<label for="chk1_70" class="color9"><span class="blind">#002060</span></label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk1_71" id="chk1_71">
+							<label for="chk1_71" class="color10"><span class="blind">#c5e0b4</span></label>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<!-- // 색상 -->
+
+			<!-- 검색 내 재검색 -->
+			<li>
+				<div class="accHeader">
+					<span class="tit">검색 내 재검색</span>
+					<a href="#link" class="accBtn"><span class="blind">내용 보기</span></a>
+				</div>
+				<div class="accBody">
+					<div class="iptGroup mt20">
+						<div class="single">
+							<input type="radio" name="radioB" id="chk1_72">
+							<label for="chk1_72">포함</label>
+						</div>
+						<div class="single">
+							<input type="radio" name="radioB" id="chk1_73">
+							<label for="chk1_73">제외</label>
+						</div>
+					</div>
+					
+					<div class="iptWrap schWrap">
+						<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+						<button type="button" class="schBtn"><span class="blind">검색</span></button>
+					</div>
+				</div>
+			</li>
+			<!-- // 검색 내 재검색 -->
+		</ul>
+	</div>
+
+</div>
+<!-- 상세검색 필터 레이어 (e) -->
+
+</body>
+</html>

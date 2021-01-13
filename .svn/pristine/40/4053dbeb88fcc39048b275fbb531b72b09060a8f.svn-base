@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">상품Q&A</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+			<p class="bold ac pointC3">백화점 매장 전화번호 <a href="tel:031-708-2086" class="tel">031-708-2086</a></p>
+			<div class="btnArea mt0 pt15">
+				<button type="button" class="btn_p">상품 Q&A 작성하기</button>
+			</div>
+		</section>
+		<section class="hr full">
+			<div class="sortArea filter pd20 mt20">
+				<div class="lcont">
+					<div class="iptGroup">
+						<input type="checkbox" name="chk1" id="chk1_1">
+						<label for="chk1_1">나의 Q&A 보기</label>
+					</div>
+				</div>
+				<div class="rcont">
+					<div class="sltWrap mini">
+						<select name="" id="">
+							<option value="">전체</option>
+							<option value="">답변완료</option>
+							<option value="">답변대기</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="faqArea qnaArea mt20">
+				<div class="faqList">
+					<div class="list">
+						<div href="#" class="faqHeader faqBtn">
+							<p class="tit">질문에 대한 제목이 들어가는 영역입니다. 영역에 제목을 입력하세요.</p>
+							<div class="info">
+								<span class="name">날아다니는코끼리</span>
+								<span class="date">2020.07.30</span>
+								<span class="answer">답변대기</span>
+							</div>
+						</div>
+					</div>
+					<div class="list">
+						<a href="#" class="faqHeader faqBtn">
+							<p class="tit">질문에 대한 제목이 들어가는 영역입니다. 영역에 제목을 입력하세요.</p>
+							<div class="info">
+								<span class="name">날아다니는코끼리</span>
+								<span class="date">2020.07.30</span>
+								<span class="answer end">답변 완료</span>
+							</div>
+						</a>
+						<div id="list2" class="faqBody">
+							해당 질문에 대한 답변이 등록되는 영역입니다. 제목 클릭 또는 탭 시 답변에 대한 내용이 드롭다운 되면서 노출됩니다. 상세한 내용을 보려면 클릭 해 주세요.
+						</div>
+					</div>
+					<div class="list">
+						<div href="#" class="faqHeader faqBtn secret">
+							<p class="tit">비밀글입니다.</p>
+							<div class="info">
+								<span class="name">날아다니는코끼리</span>
+								<span class="date">2020.07.30</span>
+								<span class="answer end">답변 완료</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 21.1.7 : 더보기 버튼 추가 -->
+			<div class="mt20 pd20">
+				<button type="button" class="btn_l m">더보기 (0 / 10)</button>
+			</div>
+			<!-- // 21.1.7 : 더보기 버튼 추가 -->
+		</section>
+
+		<section>
+			<!-- 검색 결과가 없는 경우 -->
+			<div class="noData">
+				등록된 상품 Q&A가 없습니다.
+			</div>
+			<!-- // 검색 결과가 없는 경우 -->
+		</section>
+		<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+		<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>
+		<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+		<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

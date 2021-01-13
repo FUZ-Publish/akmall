@@ -1,0 +1,5015 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>메인 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<div class="top_md">
+		<a href="#1"><img src="../resources/images/main/test_img16.jpg" alt=""></a>
+		<a href="#2" class="btn_close"><em class="blind">이동</em></a>
+	</div>
+	<!-- header -->
+	<!-- [D] 2016.12.28 헤더 개선 -->
+	<header class="header">
+		<div class="gnb_header">
+			<h1 class="logo"><a href="#"><em class="blind">AK</em></a></h1>
+			<!-- [D] 2016.1.17 fds 로고 추가 -->
+			<h1 class="fds_logos"><a href="#fds"><img src="../resources/images/logo/logo_23.png" alt=""></a></h1>
+			<!-- [D] 2016.1.17 fds 로고 추가 -->
+			<a href="#" class="cate_link"><em class="blind">카테고리</em></a>
+			<div class="right_menu">
+				<a href="#" class="search_link"><em>검색</em></a>
+				<a href="#" class="cart_link"><em>장바구니</em></a>
+			</div>
+		</div>
+		<!-- gnb -->
+		<div class="main_gnb main_gnb2 swiper-gnb">
+			<ul class="swiper-wrapper">
+				<li class="on swiper-slide"><a href="#home">홈</a></li>
+				<li class="swiper-slide"><a href="#deal">파워딜</a></li>
+				<li class="swiper-slide"><a href="#plz">AK플라자</a></li>
+				<li class="swiper-slide"><a href="#plz">기획전</a></li>
+				<li class="swiper-slide"><a href="#event">이벤트</a></li>
+				<li class="swiper-slide"><a href="#">베스트</a></li>
+				<li class="swiper-slide"><a href="#">&amp;PICK</a></li>
+				<li class="swiper-slide"><a href="#">바캉스</a></li>
+				<li class="swiper-slide"><a href="#">뷰티</a></li>
+				<li class="swiper-slide"><a href="#">키즈</a></li>
+				<li class="swiper-slide"><a href="#">트랜드픽</a></li>
+				<li class="swiper-slide"><a href="#">기획전상세</a></li>
+			</ul>
+			<div class="deem"></div>
+			<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+			<div class="arrow"></div>
+		</div>
+		<!-- //gnb -->
+	</header>
+	<!-- // [D] 2016.12.28 헤더 개선 -->
+	<!--// header -->
+	<!-- container -->
+	<div class="container swiper-main">	
+
+		<div class="swiper-wrapper sw-width">
+
+			<!-- home -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img15_.png" alt="">
+									<div></div>
+									<strong>AK 단독 영유아동복 브랜드 대전</strong>
+									<span>여름시즌 전브랜드 신상품 오픈 및 사은품 증정</span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img15_.png" alt="">
+									<strong>AK 단독 영유아동복 브랜드 대전</strong>
+									<span>여름시즌 전브랜드 신상품 오픈 및 사은품 증정</span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+	
+					<div class="grid_menu">
+						<div class="grid_menu_inner">
+							<ul class="uio_link">
+								<li class="ul_item"><a href="#" class="ul_a">정치</a></li>
+								<li class="ul_item"><a href="#" class="ul_a">경제</a></li>
+								<li class="ul_item"><a href="#" class="ul_a">사회</a></li>
+								<li class="ul_item"><a href="#" class="ul_a">생활</a></li>
+								<li class="ul_item"><a href="#" class="ul_a">세계</a></li>
+								<li class="ul_item"><a href="#" class="ul_a">IT</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="grid_menu">
+						<div class="grid_menu_inner">
+							<ul class="uio_link">
+								<li class="ul_item"><a href="/special/TagOnBeautyList.do?ctgId=254592" class="ul_a">스킨케어</a></li>
+								<li class="ul_item"><a href="/special/TagOnBeautyList.do?ctgId=254591" class="ul_a">메이크업</a></li>
+								<li class="ul_item"><a href="/special/TagOnBeautyList.do?ctgId=254594" class="ul_a">바디케어</a></li>
+								<li class="ul_item"><a href="/special/TagOnBeautyList.do?ctgId=254593" class="ul_a">헤어케어</a></li>
+								<li class="ul_item"><a href="/special/TagOnBeautyList.do?ctgId=254598" class="ul_a">퍼퓸</a></li>
+								<li class="ul_item"><a href="/special/TagOnBeautyList.do?ctgId=254595" class="ul_a">라이프</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- 추천 브랜드 -->
+					<div class="brandshop">
+						<h1 class="sub_h1">
+								<strong class="sp_main_title title_img08">추천 브랜드</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="brandshop_list swiper-brand">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<span><img src="../resources/images/main/test_img104.png" alt=""></span>
+										<strong>샤넬</strong>
+										<i>이드라 뷰티 보습케어</i>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<span><img src="../resources/images/main/test_img105.png" alt=""></span>
+										<strong>SK-ll</strong>
+										<i>모든 구매 시 사은품 증정</i>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<span><img src="../resources/images/main/test_img104.png" alt=""></span>
+										<strong>샤넬</strong>
+										<i>이드라 뷰티 보습케어</i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //추천 브랜드 -->
+					
+					
+					<!-- banner -->
+					<div class="sbanner3 mb15">
+						<a href="#1"><img src="../resources/images/main/test_img108.png" alt=""></a>
+					</div>
+					<!-- //benner -->
+
+					<!-- 카드혜택, 이벤트 -->
+					<ul class="favor_list">
+						<li><a href="#1">하나카드 10%청구할인 <em>2016.07.29 ~ 2016.08.29</em></a></li>
+						<li><a href="#1">PAYCO 생 첫 결제 시 5000원 즉시 할인 <em>2016.07.29 ~ 2016.08.29</em></a></li>
+					</ul>
+					<!-- //카드혜택, 이벤트 -->
+
+					<div class="theme_exhibit">
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>최대 35% SALE</strong>
+										<span>AK독점, 단 일주일간 혜택</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>최대 35% SALE</strong>
+										<span>AK독점, 단 일주일간 혜택</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					
+					
+					
+					<!-- hot brand -->
+					<div class="hotbrand">
+						<h1>
+							<strong class="sp_main_title title_img01">HOT BRAND</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<span>MD가 추천하는 브랜드 인기상품</span>
+						</h1>
+						<!--div class="md">
+							<a href="#1"><img src="../resources/images/main/test_img13.jpg" alt=""></a>
+							<a href="#2"><span><i>#스토케</i></span></a>				
+						</div-->
+						<div class="hotbrand_list swiper-hot">
+							<ul class="hotbrand_slide swiper-wrapper">
+							
+								<li class="swiper-slide">
+									<div class="md">
+										<a href="javascript:goShopEventUrl('/planshop/PlanShopView.do?shop_event_id=1015912&amp;urlpath=NMA_04_01', 'NMA_04_01')">
+										<img src="http://photo.akmall.com/image0/banner/51/83/86/53/51838653.jpg" alt="" onerror="noImage(this, 200, true)">
+										</a>
+										<a href="javascript:goShopEventUrl('/planshop/PlanShopView.do?shop_event_id=1015912&amp;urlpath=NMA_04_01', 'NMA_04_01')">
+											<span class="txt_box">
+												<span class="txt">
+													<strong>핫브랜드 : 설화수</strong>
+													<em>명절 선물의 베스트셀러!  최대 10% 페이백</em>
+												</span>
+											</span>
+										</a>
+									</div>
+									<div class="prod">
+										<a href="#">
+											<div>
+												<img src="../resources/images/main/test_img12.jpg" alt="">
+												<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+												<strong>365,000<i>원</i></strong>
+											</div>
+										</a>
+										<a href="#">
+											<div>
+												<img src="../resources/images/main/test_img12.jpg" alt="">
+												<span>2016년 신상품 킹스톤 레더</span>
+												<strong>365,000<i>원</i></strong>
+											</div>
+										</a>
+										<a href="#">
+											<div>
+												<img src="../resources/images/main/test_img12.jpg" alt="">
+												<span>2016년 신상품 킹스톤 레더</span>
+												<strong>365,000<i>원</i></strong>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+					</div>
+					<!-- //hot brand -->
+
+					<!-- 라이벌 브랜드전 -->
+					<div class="rival boxline">
+						<h1>
+							<strong class="sp_main_title title_img02">라이벌 브랜드전</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<span>반응 폭발! 요즘 뜨는 라이벌 브랜드</span>
+							<!-- [D] 2016.11.24 더보기 삭제 -->
+							<!--a href="#"><em class="blind">더보기</em></a-->
+						</h1>
+						<div class="rival_list swiper-rival" style="overflow: hidden;">
+							<ul class="rival_slide swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#1"><img src="../resources/images/main/test_img5.jpg" alt=""></a>
+									<div class="tag_wrap">
+										<span class="left">
+										<a href="#2"><em><i>#STELLA2</i></em></a>
+										</span>
+										<span class="right">
+											<a href="#2"><em><i>#STELLA2</i></em></a>
+										</span>
+									</div>
+								</li>
+								<li class="type1 swiper-slide">
+									<span>
+										<a href="#1"><img src="../resources/images/main/test_img10.jpg" alt=""></a>
+										<a href="#2"><em><i>#STELLA</i></em></a>
+									</span>
+									<span>
+										<a href="#3"><img src="../resources/images/main/test_img11.jpg" alt=""></a>
+										<a href="#4"><em><i>#SONIA</i></em></a>
+									</span>
+								</li>
+								<li class="type2 swiper-slide">
+									<a href="#1"><img src="../resources/images/main/test_img5.jpg" alt=""></a>
+									<a href="#2"><em><i>#STELLA2</i></em></a>
+								</li>
+							</ul>
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+					</div>
+					<!-- //라이벌 브랜드전 -->
+
+					<!-- 고객 맞춤상품 -->
+					<div class="zerozone boxline">
+						<h1>
+							<strong class="sp_main_title title_img03">제로존</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<span>배송비만 내고 상품은 0원에 가져가세요</span>
+							<!--a href="#"><em class="blind">더보기</em></a--><!-- [D] 2016.12.06 더보기 삭제 -->
+						</h1>
+						<div>
+							<a href="#">
+								<img src="../resources/images/main/test_img50.png" alt="">
+								<span class="inner">
+									<i>[프랜치켓]</i>
+									<i class="tit">아동 데님 롱 항공 점퍼</i>
+									<strong class="price">제로존가  <i>0<em>원</em></i></strong>
+								</span>
+							</a>
+						</div>
+					</div>
+					<!-- //고객 맞춤상품 -->
+
+					<!-- 기획전 -->
+					<!-- [D] 2016.12.27  기획전 개선 작업 -->
+					<div class="exhibit">
+						<h1>
+							<strong class="sp_main_title title_img05">기획전</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<span>금주의 핫한 기획전 높치지 마세요.</span>
+							<a href="#"><em class="blind">더보기</em></a>
+						</h1>
+						<div class="inner">
+							<div class="exhibit_list bg1 swiper-exhibit1" style="background-image: url(../resources/images/main/exhibit_bg1.png);">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide">
+										<a href="#">
+											<!-- [D] 2016.12.27  마크업 변경 -->
+											<div class="inner_area">
+												<span class="info">
+													<strong>할인최대할인최대할인최대할인최대할인최대</strong>
+													<em>우리아이의 여름 패션 꿈을 선물하세요</em>
+												</span>
+											</div>
+											<!--// [D] [D] 2016.12.27  마크업 변경-->
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<span class="info">
+												<strong><i>+</i>62</strong>
+												<em>상품 더보기</em>
+												<i class="bg"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+								<div class="swiper-exhibit-pagination1"></div>
+							</div>
+						</div>
+						<div class="inner">
+							<div class="exhibit_list bg2 swiper-exhibit2" style="background-image: url(../resources/images/main/exhibit_bg2.png);">
+								<ul class="swiper-wrapper">
+									<li class="no_img swiper-slide"></li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<span class="info">
+												<strong><i>+</i>62</strong>
+												<em>상품 더보기</em>
+												<i class="bg"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+								<div class="swiper-exhibit-pagination2"></div>
+							</div>
+						</div>
+						<div class="inner">
+							<div class="exhibit_list bg3 swiper-exhibit3" style="background-image: url(../resources/images/main/exhibit_bg3.png);">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide">
+										<a href="#">
+											<!-- [D] 2016.12.27  마크업 변경 -->
+											<div class="inner_area">
+												<span class="info">
+													<strong>최대 50%할인</strong>
+													<em>우리아이의 여름 패션 꿈을 선물하세요</em>
+												</span>
+											</div>
+											<!-- [D] 2016.12.27  마크업 변경 -->
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<img src="../resources/images/main/test_img8.jpg" alt="">
+											<span class="info">
+												<span class="tit">[빈폴아웃도어]핫클래식 기능성 바람막이바람막이바람막이</span>
+												<del>320,000원</del>
+												<strong>9,130,000<i>원</i></strong>
+											</span>
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="#">
+											<span class="info">
+												<strong><i>+</i>62</strong>
+												<em>상품 더보기</em>
+												<i class="bg"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+								<div class="swiper-exhibit-pagination3"></div>
+							</div>
+						</div>
+					
+										<div class="theme_exhibit">
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>최대 35% SALE</strong>
+										<span>AK독점, 단 일주일간 혜택</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>최대 35% SALE</strong>
+										<span>AK독점, 단 일주일간 혜택</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					
+					</div>
+					<!-- //기획전 -->
+
+					<!-- AK만의 특별함 -->
+					<div class="ak_special">
+						<h1>
+							<strong class="sp_main_title title_img07">AK만의 특별함</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<span>AK만의 특별한 혜택을 누리세요.</span>
+						</h1>
+						<ul class="special_list">
+							<li>
+								<a href="#">
+									<!-- [D] 2016.11.21 수정 -->
+									<strong>쇼핑알림</strong>
+									<!--// [D] 2016.11.21 수정 -->
+									<span>내가 좋아하는 상품을<br>쇼핑알림에서 바로 확인하자!</span>
+									<em><img src="../resources/images/main/my_img.png" alt=""></em>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong>PICK</strong>
+									<span>AK몰에서 구매하고<br>AK플라자에서 픽업하세요</span>
+									<em><img src="../resources/images/main/pick_img.png" alt=""></em>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //AK만의 특별함 -->
+
+					<!-- 반짝 뜨는 검색어 -->
+					<div class="keyword">
+						<h1>
+							<strong>반짝 뜨는 검색어</strong>
+							<span>지금 이시간 핫 키워드</span>
+						</h1>
+						<!-- [D] 2016.11.21 수정 -->
+						<div class="keyword_list hot">
+							<a href="#" class="hot">#출석체크</a>
+							<a href="#" class="hot">#유아동</a>
+							<a href="#" class="hot">#명품화장품</a>
+						</div>
+						<!--// [D] 2016.11.21 수정 -->
+						<div class="keyword_list">
+							<a href="#">#크로스백</a>
+							<a href="#">#래쉬가드</a>
+							<a href="#">#아디다스</a>
+							<a href="#">#크로스백</a>
+							<a href="#">#크라운 로브</a>
+							<a href="#">#팬츠</a>
+							<a href="#">#와이드팬츠</a>
+							<a href="#">#슈즈</a>
+						</div>
+					</div>
+					<!-- //반짝 뜨는 검색어 -->
+
+					<!-- 30대 여성이 많이 본 상품 -->
+					<div class="mostview_prod">
+						<h1>
+							<strong>30대 여성이 많이 본 상품</strong>
+							<span>또래들이 많이 찾는 상품</span>
+						</h1>
+						<!-- <h1>
+							<strong>고객이 가장 많이 본 상품</strong>
+							<span>AK MALL에서 가장 핫한 상품을 추천합니다.</span>
+						</h1> -->
+						<div class="mostview_list swiper-mostview">
+							<ul class="mostview_slide swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+									<a href="#">
+										<div>
+											<img src="../resources/images/main/test_img4.jpg" alt="">
+											<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+											<del>400,000원</del>
+											<strong>365,000<i>원</i></strong>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+						
+						<ul class="main_goods_list">
+							<li>
+									<div class="goods_list_img">
+										<a href="#">
+											<img src="http://photo.akmall.com/image0/goods/77/50/54/90/77505490_M_250.jpg" alt="">
+											<span class="info"><strong>30대 여성이 많이 본</strong></span>
+										</a>
+									</div>
+									<div class="goods_list_txt">
+										<a href="#">
+											<i class="sp">압도적 캐리어 1위</i>
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원</i></span><del>459,000원</del>
+										</a>
+									</div>
+							</li>
+							<li>
+									<div class="goods_list_img">
+										<a href="#">
+											<img src="http://photo.akmall.com/image2/goods/79/05/70/82/79057082_M_250.jpg" alt="">
+										</a>
+									</div>
+									<div class="goods_list_txt">
+										<a href="#">
+											<i class="sp">압도적 캐리어 1위</i>
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원</i></span><del>459,000원</del>
+										</a>
+									</div>
+							</li>
+						</ul>
+						
+					</div>
+					<!-- //30대 여성이 많이 본 상품 -->
+
+					<!-- banner -->
+					<div class="sbanner3 mt30"><!-- [D] 2017.1.11 mt30 추가 -->
+						<a href="#"><img src="../resources/images/main/test_img136.jpg" alt=""></a>
+						<i class="btn_close"><em class="blind">이동</em></i>
+					</div>
+					<!-- //benner -->
+
+					<!-- 고객 맞춤상품 -->
+					<div class="custom_prod">
+						<!-- <h1>
+							<strong>김애경님을 위한 맞춤상품</strong>
+							<span>고객님만을 위한 상품을 추천해 드립니다.</span>
+						</h1> -->
+						<h1>
+							<strong>고객님을 위한 맞춤상품</strong>
+							<span>고객님만을 위한 상품을 추천해 드립니다.</span>
+						</h1>
+						<ul class="custom_list">
+							<li>
+								<a href="#2">
+									<span class="prod_info">2016년 신상품 킹스톤 레더</span>
+									<span class="prod_del"><del>120,000원</del></span>
+									<strong class="prod_price">120,000<i>원</i></strong>
+									<img src="../resources/images/main/test_img2.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#2">
+									<span class="prod_info">2016년 신상품 킹스톤 레더</span>
+									<span class="prod_del"><del>120,000원</del></span>
+									<strong class="prod_price">96,000<i>원</i></strong>
+									<img src="../resources/images/main/test_img2.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#2">
+									<span class="prod_info">2016년 신상품 킹스톤 레더</span>
+									<span class="prod_del"><del>120,000원</del></span>
+									<strong class="prod_price">56,000<i>원</i></strong>
+									<img src="../resources/images/main/test_img2.jpg" alt="">
+								</a>
+							</li>
+						</ul>
+						
+						<ul class="main_goods_list">
+							<li>
+									<div class="goods_list_img">
+										<a href="#">
+											<img src="http://photo.akmall.com/image2/goods/79/05/70/82/79057082_M_250.jpg" alt="">
+											<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+										</a>
+									</div>
+									<div class="goods_list_txt">
+										<a href="#">
+											<i class="sp">압도적 캐리어 1위</i>
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원</i></span><del>459,000원</del>
+										</a>
+									</div>
+							</li>
+							<li>
+									<div class="goods_list_img">
+										<a href="#">
+											<img src="http://photo.akmall.com/image2/goods/79/05/70/82/79057082_M_250.jpg" alt="">
+											<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+										</a>
+									</div>
+									<div class="goods_list_txt">
+										<a href="#">
+											<i class="sp">압도적 캐리어 1위</i>
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원</i></span><del>459,000원</del>
+										</a>
+									</div>
+							</li>
+						</ul>
+						
+					</div>
+					<!-- //고객 맞춤상품 -->
+
+					<!-- 파워딜 -->
+					<div class="powerdeal">
+						<h1>
+							<strong class="sp_main_title title_img04">파워딜</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<span>놓치면 후회! 금주 특가 상품</span>
+							<a href="#" class="powerdeal_more"><em class="blind">더보기</em></a>
+						</h1>
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img1.jpg" alt="">
+										<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+											<strong>오늘마감</strong>
+											<em>10:36:16</em>
+										</span>
+										<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<i class="sp">압도적 캐리어 1위</i>
+                                        <strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img1.jpg" alt="">
+										<span class="info">
+											<strong>최대판매</strong>
+											<em>2003개</em>
+										</span!-- >
+										<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img1.jpg" alt="">
+										<span class="info info2">
+											<strong>구매율</strong>
+											<em>98%</em>
+										</span!-- >
+										<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //파워딜 -->
+				
+				<!-- 임직원몰 브랜드-->
+				<div class="brand_bundle">
+					<div class="cb_list_wrap">
+					<ul class="cb_list">
+						<li class="cb_litem">
+							<a href="/special/Special.do?ctgId=261779" class="cb_la">
+							<div class="cb_ltable">
+								<div class="cb_mcell">
+									<div class="cb_mw">
+										<img src="http://www.akfamily.com/resource/templates/ui/akf_ak.png" width="100%" class="ub_m">
+									</div>
+								</div>
+								<div class="cb_tcell">
+									<div class="cb_tw">
+										<div class="cb_t"><span class="cb_ts">애경산업</span><span class="cui_em"><br>업계 최저가 제공</span></div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+						<li class="cb_litem">
+							<a href="/planshop/PlanShopView.do?shop_event_id=1017277" class="cb_la">
+							<div class="cb_ltable">
+								<div class="cb_mcell">
+									<div class="cb_mw">
+										<img src="http://www.akfamily.com/resource/templates/ui/akf_asmsung.png" width="100%" class="ub_m">
+									</div>
+								</div>
+								<div class="cb_tcell">
+									<div class="cb_tw">
+										<div class="cb_t"><span class="cb_ts">삼성전자</span><span class="cui_em"><br>임직원 전용 특가</span></div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+						<li class="cb_litem">
+							<a href="/planshop/PlanShopView.do?shop_event_id=1017113" class="cb_la">
+							<div class="cb_ltable">
+								<div class="cb_mcell">
+									<div class="cb_mw">
+										<img src="http://www.akfamily.com/resource/templates/ui/akf_sidiz.png" width="100%" class="ub_m">
+									</div>
+								</div>
+								<div class="cb_tcell">
+									<div class="cb_tw">
+										<div class="cb_t"><span class="cb_ts">시디즈</span><span class="cui_em"><br>공장도가 판매중</span></div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>	
+						<li class="cb_litem">
+							<a href="/planshop/PlanShopView.do?shop_event_id=1017299" class="cb_la">
+							<div class="cb_ltable">
+								<div class="cb_mcell">
+									<div class="cb_mw">
+										<img src="http://www.akfamily.com/resource/templates/ui/akf_pral.png" width="100%" class="ub_m">
+									</div>
+								</div>
+								<div class="cb_tcell">
+									<div class="cb_tw">
+										<div class="cb_t"><span class="cb_ts">LG프라엘</span><span class="cui_em"><br>애경 임직원 단독 혜택</span></div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>							
+					</ul>
+					</div>
+				</div>
+				<!--//임직원몰 브랜드-->
+				
+				</div>
+			</div>	
+			<!--// home -->
+
+			<!-- 파워딜 -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+					
+					<!-- [D] 2016.12.27 파워딜 상단 개선작업 -->
+					<div class="main_deal_top deal_banner">
+                    
+                    	<!--타이틀추가-->
+                        <div class="powerdeal_tit">
+                            <span>실시간 관심 <em class="blind">파워딜</em></span>
+                        </div>
+                        <!--//타이틀추가-->
+                    
+						<div class="swiper-deal">
+							<div class="swiper-wrapper">
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img19.png" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2017 16:49:00">
+												<strong>마감임박</strong>
+												<em>10:36:16</em>
+											</span>
+										</a>
+										<span class="layer_deal_notice"><em>다른 회원분이 구매하셨습니다.</em></span><!-- [D] 2016.12.27 추가 -->
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[칠성1]탄산음료 내맘대로 골라담기골라담기골라담기</strong>
+											<span>54,200<i>원 ~</i></span>
+										</a>
+									</dd>
+								</dl>
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img19.png" alt="">
+											<span class="info">
+												<strong>오늘오픈</strong>
+											</span>
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[칠성1]탄산음료 내맘대로 골라담기골라담기골라담기</strong>
+											<span>54,200<i>원 ~</i></span>
+										</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="swiper-page dot"></div>
+						</div>
+					</div>
+					<!--// [D] 2016.12.27 파워딜 상단 개선작업 -->
+
+					<!-- banner 
+					<div class="sbanner3 mb15 mt25">
+						<a href="#1"><img src="../resources/images/main/test_img109.png" alt=""></a>
+					</div>
+					<!-- //benner -->
+
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+					<div class="cate_main_tab swiper-deal-cate">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide"><a href="#">추천</a></li>
+							<li class=" swiper-slide"><a href="#">의류/속옷</a></li>
+							<li class="swiper-slide"><a href="#">잡화/뷰티</a></li>
+							<li class="swiper-slide"><a href="#">스포츠/레저</a></li>
+							<li class="swiper-slide"><a href="#">유아동/식품</a></li>
+							<li class="on swiper-slide active"><a href="#">리빙/가전</a></li>
+						</ul>
+						<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+						<div class="arrow"></div>
+					</div>
+					
+					<div class="main_sort_wrap">
+						<div class="select_btn">
+							<button class="on">신상</button>
+							<button>인기</button>
+						</div>
+						<div class="select_cate">
+							<button class="btn_full_cate">카테고리 선택</button>
+						</div>
+					</div>
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+
+					<!-- 파워딜 -->
+					<div class="powerdeal">
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<!-- [D]2016.12.13 img에서 video로 수정, a 태그 삭제 -->
+									<video poster="http://photo.akmall.com/image0/banner/47/47/48/22/47474822.jpg" style="width:100%">
+										<source src="file.html" type="video/mp4">
+										<source src="file.html" type="video/webm">
+										<source src="file.html" type="video/ogg">
+									</video><!-- // [D]2016.12.13 img에서 video로 수정, a 태그 삭제 -->
+									<span class="info">
+										<strong>오늘오픈</strong>
+									</span>
+									<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									<!-- [D] 2016.12.08 동영상 추가 -->
+									<!--// [D] 2016.12.08 동영상 추가 -->
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수 [헤르매리스] 남여 신사복 여름 맞이 긴급공수 [헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<!-- [D]2016.12.13 img에서 video로 수정, a 태그 삭제 -->
+									<video poster="../resources/images/main/test_img19.png" style="width:100%">
+										<source src="file.html" type="video/mp4">
+										<source src="file.html" type="video/webm">
+										<source src="file.html" type="video/ogg">
+									</video><!-- // [D]2016.12.13 img에서 video로 수정, a 태그 삭제 -->
+									<span class="info">
+										<strong>오늘오픈</strong>
+									</span>
+									<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									<!-- [D] 2016.12.08 동영상 추가 -->
+									<div class="movie_btn">
+										<div class="deem"></div>
+										<div class="btn_area">
+											<button class="btn_pause"><i></i>일시정지</button>
+											<button class="btn_list"><i></i>상품보기</button>
+										</div>
+									</div>
+									<!--// [D] 2016.12.08 동영상 추가 -->
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="http://photo.akmall.com/image0/banner/47/47/48/22/47474822.jpg" alt="">
+										<span class="info">
+											<strong>최대판매</strong>
+											<em>2003개</em>
+										</span>
+                                        <span class="timedeal">
+                                            <div class="timedeal_icon"></div>
+                                            
+                                        </span>
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img21.png" alt="">
+                                        <span class="timedeal">
+                                            <div class="timedeal_icon"></div>
+                                            <div class="deem">
+                                            	<p class="d_time"><span class="blind">남은시간</span><em class="tm">3Days 20:59:37</em></p>
+                                            </div>
+                                        </span>                                        
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+                                    	<i class="sp">압도적 캐리어 1위</i>
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span class="dealprice">파워딜가</span>
+                                        <span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img22.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span class="dealprice sale">10%</span>
+                                        <span>54,200<i>원</i></span>
+                                        <del>60,800원</del>
+                                        <em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //파워딜 -->
+
+					<!-- [D] 2016.11.22 수정 -->
+					<!-- banner -->
+					<div class="power_sbanner">
+						<a href="#1"><img src="../resources/images/main/test_img137.png" alt=""></a>
+					</div>
+					<!-- //benner -->
+					<!-- 파워딜 -->
+					<div class="powerdeal">
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //파워딜 -->
+					<!-- [D] 2016.11.22 수정 -->
+				</div>
+			</div>	
+			<!--// 파워딜 -->
+
+			<!-- ak 플라자 -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129_.png" alt="">
+									<strong>AK 분당전 19주년 기념 할인 행사</strong>
+									<span>여름시즌 전브랜드 신상품 오픈 및 사은품 증정</span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129_.png" alt="">
+									<strong>AK 분당전 19주년 기념 할인 행사</strong>
+									<span>여름시즌 전브랜드 신상품 오픈 및 사은품 증정</span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+
+					<!-- banner -->
+					<div class="sbanner3 mb15">
+						<a href="#1"><img src="../resources/images/main/test_img110.png" alt=""></a>
+					</div>
+					<!-- //benner -->
+
+					<!-- 추천 브랜드 -->
+					<div class="brandshop">
+						<h1 class="sub_h1">
+								<strong class="sp_main_title title_img08">추천 브랜드</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="brandshop_list swiper-brand">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<span><img src="../resources/images/main/test_img104.png" alt=""></span>
+										<strong>샤넬</strong>
+										<i>이드라 뷰티 보습케어</i>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<span><img src="../resources/images/main/test_img105.png" alt=""></span>
+										<strong>SK-ll</strong>
+										<i>모든 구매 시 사은품 증정</i>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<span><img src="../resources/images/main/test_img104.png" alt=""></span>
+										<strong>샤넬</strong>
+										<i>이드라 뷰티 보습케어</i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //추천 브랜드 -->
+
+
+					
+					<!-- AK NOW -->
+					<div class="ak_now">
+						<h1>
+							<strong class="mb15 sp_main_title title_img11">AK NOW</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<a href="#"><em class="blind">더보기</em></a>
+						</h1>
+						<!-- 백화점을 가다 -->
+						<div class="go_depar2">
+							<ul>
+								<li>
+									<div class="md">
+										<a href="javascript:goShopEventUrl('/planshop/PlanShopView.do?shop_event_id=1015912&amp;urlpath=NMA_04_01', 'NMA_04_01')">
+										<img src="http://photo.akmall.com/image0/banner/51/83/86/53/51838653.jpg" alt="" onerror="noImage(this, 200, true)">
+										</a>
+										<a href="javascript:goShopEventUrl('/planshop/PlanShopView.do?shop_event_id=1015912&amp;urlpath=NMA_04_01', 'NMA_04_01')">
+											<span class="txt_box">
+												<span class="txt">
+													<strong>백화점을가다 : 설화수</strong>
+													<em>명절 선물의 베스트셀러!  최대 10% 페이백</em>
+												</span>
+											</span>
+										</a>
+									</div>
+									<!--<a href="#">
+										<img src="http://photo.akmall.com/image0/banner/71/55/60/67/71556067.jpg" alt="">
+										<div class="deem"></div>
+										<div class="box">
+											<strong>백화점을 가다</strong>
+											<i>#30WONDERBRA</i>
+											<i>6월 17일(금) ~ 6월 23일(목), 7일간</i>
+										</div>
+									</a>-->
+								</li>
+							</ul>
+						</div>
+						<!-- //백화점을 가다-->
+						<!-- [D] 2016.11.21 수정 
+						<p class="ad_ak_now">
+							<a href="#"><img src="../resources/images/main/test_img103.png" alt=""></a>
+						</p>
+						<!-- [D] 2016.11.21 수정 -->
+						<!--<div class="swiper-deal">-->
+                        <div class="swiper-brand">
+                            <ul class="ak_on swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/50/13/36/91/50133691.jpg" alt="">
+											<span>SWAROVSKI<i>스와로브스키</i></span>
+										</em>
+									</a>
+                                 </li>
+                                 <li class="swiper-slide">
+									<a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/59/06/58/74/59065874.jpg" alt="">
+											<span>LACOSTE<br>bag<i>라코스테 핸드백</i></span>
+										</em>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/86/67/28/53/86672853.jpg" alt="">
+											<span>NICE CLAUP<i>나이스클랍</i></span>
+										</em>
+									</a>
+								</li>	
+                                <li class="swiper-slide">
+                                    <a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/78/09/74/29/78097429.jpg" alt="">
+											<span>FrenchCat<i>프랜치캣</i></span>
+										</em>
+									</a>
+								</li>
+                                								<li class="swiper-slide">
+									<a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/50/13/36/91/50133691.jpg" alt="">
+											<span>SWAROVSKI<i>스와로브스키</i></span>
+										</em>
+									</a>
+                                 </li>
+                                 <li class="swiper-slide">
+									<a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/59/06/58/74/59065874.jpg" alt="">
+											<span>LACOSTE<br>bag<i>라코스테 핸드백</i></span>
+										</em>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/86/67/28/53/86672853.jpg" alt="">
+											<span>NICE CLAUP<i>나이스클랍</i></span>
+										</em>
+									</a>
+								</li>	
+                                <li class="swiper-slide">
+                                    <a href="main_4_department1.html">
+										<em>
+											<img src="http://photo.akmall.com/image0/dept_store/78/09/74/29/78097429.jpg" alt="">
+											<span>FrenchCat<i>프랜치캣</i></span>
+										</em>
+									</a>
+								</li>
+                                <li class="swiper-slide">
+										<a href="/akplaza/DeptStoreList.do">
+											<span class="info">
+												<strong><i>+</i></strong>
+												<em>매장 더보기</em>
+												<i class="bg"></i>
+											</span>
+										</a>
+								</li>
+							</ul>
+							<div class="swiper-page dot"></div>
+						</div>
+					</div>
+					<!-- //AK NOW-->
+					
+					<!-- 플라자앱다운 -->
+					<div style="border-bottom: 1px solid #e5e5e5; box-shadow: 0 8px #ebebeb;margin-top: 8px;">
+					<a href="http://m.akplaza.com/mevent.do?act=view&event_index=681">
+					<img alt="플라자앱다운" src="../resources/images/akplaza_appevent.png" style="width: 100%">
+					</a>
+					</div>
+
+									<!-- 추천 파워딜 -->
+					<div class="deal_banner">
+						<h1>
+							<strong class="mb15 sp_main_title title_img09">추천 파워딜</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+							<a href="#"><em class="blind">더보기</em></a>
+						</h1>
+						<div class="swiper-deal">
+							<div class="swiper-wrapper">
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img19.png" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2017 16:49:00">
+												<strong>오늘마감</strong>
+												<em>10:36:16</em>
+											</span>
+											<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[몽벨] 남녀공용 샌들 락온/삭온 외</strong>
+											<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+										</a>
+									</dd>
+								</dl>
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img19.png" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+												<strong>오늘마감</strong>
+												<em>10:36:16</em>
+											</span>
+											<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[몽벨] 남녀공용 샌들 락온/삭온 외</strong>
+											<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+										</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="swiper-page dot"></div>
+						</div>
+					</div>
+					<!-- //추천 파워딜 -->
+				
+					<!-- 테마 기획전 -->
+					<div class="theme_exhibit">
+						<h1>
+							<strong class="mb15 sp_main_title title_img12">테마 기획전</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>쟈니마르켈 실버 프리사이즈반지 GIFT 추천</strong>
+										<span>여름시즌 92.5 신상품 오픈 및 사은품 증정!</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>쟈니마르켈 실버 프리사이즈반지 GIFT 추천</strong>
+										<span>여름시즌 92.5 신상품 오픈 및 사은품 증정!</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>쟈니마르켈 실버 프리사이즈반지 GIFT 추천</strong>
+										<span>여름시즌 92.5 신상품 오픈 및 사은품 증정!</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //테마 기획전-->
+					<!-- [D] 2017.1.10 카테고리 버튼 위치 변경 -->
+					<!-- 카테고리 베스트 -->
+					<div class="category_chioce mb0">
+						<div class="main_titlesort_wrap">
+							<h1>
+								<strong class="mb15 sp_main_title title_img13">카테고리 베스트</strong>
+							</h1>
+						</div>
+					</div>
+					<!-- //카테고리 베스트 -->
+					<div class="main_sort_wrap">
+						<div class="select_cate fln"><!-- [D] 2017.1.11  fln 클래스 추가 -->
+							<button class="btn_full_cate">카테고리 선택</button>
+						</div>
+					</div>
+					<!--// [D] 2017.1.10 카테고리 버튼 위치 변경 -->
+					<!-- 이미지형 -->
+					<div class="cate_img_type">
+						<!-- <h3 class="sub_tit mt15">백화점 명품화장품</h3> -->
+						<ul>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<div class="rental">
+											<p><span class="sbj">할인가 54,500원</span> <br> <span>(최초 1회차 결제)</span></p>
+											<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+											<p><span class="sbj">약정개월</span><span>39개월</span></p>
+										</div> 
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="selectshop"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="price">
+											<br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="selectshop"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<!-- //이미지형 -->
+				</div>
+			</div>	
+			<!--// ak 플라자 -->
+
+			<!-- 기획전 -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129__.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129__.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+
+					<!-- banner -->
+					<div class="sbanner3 mt25">
+						<a href="#1"><img src="../resources/images/main/test_img112.png" alt=""></a>
+					</div>
+					<!-- //benner -->
+
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+					<div class="cate_main_tab_fix">
+						<ul>
+							<li class="on"><a href="#">전체</a></li>
+							<li><a href="#">AK MALL</a></li>
+							<li><a href="#">AK PLAZA</a></li>
+						</ul>
+					</div>
+					
+					<div class="main_sort_wrap">
+						<div class="select_cate fln"><!-- [D] 2017.1.11  fln 클래스 추가 -->
+							<button class="btn_full_cate">카테고리 선택</button>
+						</div>
+					</div>
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+					
+					<div class="theme_exhibit brbn">
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>최대 35% SALE</strong>
+										<span>AK독점, 단 일주일간 혜택</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>최대 35% SALE</strong>
+										<span>AK독점, 단 일주일간 혜택</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<!--// 기획전 -->
+
+			<!-- event -->
+			<div class="event_wrap main_wrap swiper-slide">
+				<div class="height_check">
+                    
+                <!-- 출석체크 -->
+                <div class="day_check">
+					<p>
+						<strong>매일 출석체크 하세요!</strong>
+						<em>앱출석 3일이면 무료배송 쿠폰이~</em><!-- [D]2016.10.12 수정 -->
+					</p>
+					<a href="${SERVER_URL }/event/RightVisit.do">자세히 보기</a>
+					<!-- [D]2016.10.12 수정 -->
+					<!-- <div class="sticker_gray"><i>08/11<br> <em>출석체크</em></i></div><!-- 비활성 스탬프 -->
+					<div class="sticker_gray active"><i>TODAY<br /> <em>출석체크</em></i></div> <!-- --><!-- 모바일웹,앱 -->
+					<!-- <div class="sticker_gray shoping"><i>08/11<br /> <em>출석체크</em></i></div> --><!-- 쇼핑 후 -->
+					<!-- //[D]2016.10.12 수정 -->
+				</div>
+
+				<!-- 퀵링크 -->
+				<ul class="quick_links boxline">
+					<li>
+						<a href="#">
+							<strong>VIP라운지</strong>
+							<span>우수회원들을 위한<br> 특별한 공간</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<strong>쿠폰존</strong>
+							<span>모든 쿠폰을<br>한자리에서 다운</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<strong>AK 체험단/후기</strong>
+							<span>써보고 싶은 상품을<br>무료로 체험</span>
+						</a>
+					</li>
+				</ul>
+				<!-- //퀵링크 -->
+                					
+					<!-- 목록 -->
+					<div class="tap_list">
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						<div class="cate_main_tab_fix event_wrap">
+							<ul class="line_tap">
+								<li class="active"><a href="#">진행중 이벤트</a></li>
+								<li><a href="#">당첨자  확인</a></li>
+							</ul>
+						</div>
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						
+						<!-- 진행중 이벤트 -->
+						<div class="event_box">
+							<div class="sorting_btn_new swiper-event_id">
+								<ul class="inner swiper-wrapper">
+									<li class="swiper-slide">
+										<span>전체보기</span>
+									</li>								
+									<li class="swiper-slide">
+										<span>이벤트</span>
+									</li>
+									<li class="swiper-slide">
+										<span>구매 후 사은</span>
+									</li>
+									<li class="swiper-slide">
+										<span>카드혜택</span>
+									</li>
+									<li class="swiper-slide">
+										<span>문화 이벤트</span>
+									</li>
+									<li class="swiper-slide active">
+										<span class="on">체험단</span>
+									</li>
+								</ul>
+								<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+								<div class="arrow"></div><!-- [D] 2016.12.27  arrow클래스 및 마크업 추가 -->
+							</div>
+							<ul class="underway pb0">
+								<li>
+									<a href="#">
+										<div class="inner">
+											<span><!-- [D] 2016.12.28  class black 추가 --><i class="black">구매후사은</i></span>
+											<p class="tit">러쉬 7월 브랜드위크 사은 이벤트이벤트이벤트이벤트이벤트</p>
+											<em class="stit">러쉬 구매하고 기프트 세트 받자</em>
+											<em class="date">2016-07-08 ~ 2016-07-17</em>
+										</div>
+										<div class="img_area"><img src="../resources/images/main/test_img55.png" alt=""></div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="inner">
+											<span><!-- [D] 2016.12.28  class black 추가 --><i class="black">이벤트</i> <i>회원등급별</i></span>
+											<p class="tit">러쉬 7월 브랜드위크 사은 이벤트</p>
+											<em class="stit">러쉬 구매하고 기프트 세트 받자</em>
+											<em class="date">2016-07-08 ~ 2016-07-17</em>
+										</div>
+										<div class="img_area"><img src="../resources/images/main/test_img55.png" alt=""></div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="inner">
+											<span><!-- [D] 2016.12.28  class black 추가 --><i class="black">체험단</i> <i class="fc_red">10명 모집</i></span>
+											<p class="tit">러쉬 7월 브랜드위크 사은 이벤트</p>
+											<em class="stit">러쉬 구매하고 기프트 세트 받자</em>
+											<em class="date">2016-07-08 ~ 2016-07-17</em>
+										</div>
+										<div class="img_area"><img src="../resources/images/main/test_img55.png" alt=""></div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="inner">
+											<span><!-- [D] 2016.12.28  class black 추가 --><i class="black">문화이벤트</i></span>
+											<p class="tit">러쉬 7월 브랜드위크 사은 이벤트</p>
+											<em class="stit">러쉬 구매하고 기프트 세트 받자</em>
+											<em class="date">2016-07-08 ~ 2016-07-17</em>
+										</div>
+										<div class="img_area"><img src="../resources/images/main/test_img55.png" alt=""></div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- //진행중 이벤트 -->
+
+						<!-- 당첨자 확인 -->
+						<div class="event_box" style="display:none">
+							<ul class="winners">
+								<li>
+									<em class="flag"><i class="end">마감</i><i class="red">당첨</i></em>
+									<p class="tit"><a href="#">지난주 금요일에 주문했는데 파손돼서 왔습니다.</a></p>
+									<span><i>2016.07.23</i><i>수원점이벤트</i></span>
+								</li>
+								<li>
+									<em class="flag"><i>진행중</i><i class="black">다음 기회에</i></em>
+									<p class="tit"><a href="#">지난주 금요일에 주문했는데 파손돼서 왔습니다.</a></p>
+									<span><i>2016.07.23</i><i>수원점이벤트</i></span>
+								</li>
+								<li>
+									<em class="flag"><i>진행중</i></em>
+									<p class="tit"><a href="#">지난주 금요일에 주문했는데 파손돼서 왔습니다.</a></p>
+									<span><i>2016.07.23</i><i>수원점이벤트</i></span>
+								</li>
+								<li>
+									<em class="flag"><i>진행중</i></em>
+									<p class="tit"><a href="#">지난주 금요일에 주문했는데 파손돼서 왔습니다.</a></p>
+									<span><i>2016.07.23</i><i>수원점이벤트</i></span>
+								</li>
+							</ul>
+						</div>
+						<!-- //당첨자 확인 -->
+					</div>
+					<!-- //목록 -->
+				</div>
+			</div>	
+			<!--// event -->
+
+			<!-- best -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+					<div class="main_sort_wrap">
+						<div class="select_btn">
+							<button class="on">전체</button>
+							<button>남성</button>
+							<button>여성</button>
+						</div>
+						<div class="select_cate">
+							<button class="btn_age age1 sel_shape btn_sel_dr" data-class="age1">전체연령</button>
+							<select id="s131" class="hid_age1 selectdata" style="display: none;">
+								<option value="1">10대</option>
+								<option value="2">20대</option>
+								<option value="3">20대</option>
+								<option value="17">전체연령</option>
+							</select>
+							<button class="btn_full_cate btn_size72">카테고리</button><!-- [D] 2017.1.11  btn_size72 클래스 추가 -->
+						</div>
+					</div>
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+
+					<!-- 목록형 -->
+					<div class="cate_list_type best_list" style="display:;">
+						<ul>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">01</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="akplaza">AK 분당</em><em class="pick"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em><del>72,100원</del>
+											</span>
+											<span class="sale">12<i>%</i></span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">02</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<div class="rental">
+												<p><span class="sbj">할인가 54,500원</span><span>(최초 1회차 결제)</span></p>
+												<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+												<p><span class="sbj">약정개월</span><span>39개월</span></p>
+											</div> 
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">03</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="selectshop"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											
+											<span class="price">
+												<em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">04</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="akplaza">AK 분당</em><em class="pick"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em><del>72,100원</del>
+											</span>
+											<span class="sale">12<i>%</i></span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">05</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<div class="rental">
+												<p><span class="sbj">할인가 54,500원</span><span>(최초 1회차 결제)</span></p>
+												<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+												<p><span class="sbj">약정개월</span><span>39개월</span></p>
+											</div> 
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">06</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">
+											<span class="flag"><em class="selectshop"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											
+											<span class="price">
+												<em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">07</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">
+											<span class="flag"><em class="akplaza">AK 분당</em><em class="pick"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em><del>72,100원</del>
+											</span>
+											<span class="sale">12<i>%</i></span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">08</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<div class="rental">
+												<p><span class="sbj">할인가 54,500원</span><span>(최초 1회차 결제)</span></p>
+												<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+												<p><span class="sbj">약정개월</span><span>39개월</span></p>
+											</div> 
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">09</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">
+											<span class="flag"><em class="selectshop"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+										<em class="ranking">10</em>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<div class="rental">
+												<p><span class="sbj">할인가 54,500원</span><span>(최초 1회차 결제)</span></p>
+												<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+												<p><span class="sbj">약정개월</span><span>39개월</span></p>
+											</div> 
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //목록형 -->
+				</div>
+			</div>
+			<!--// best -->
+
+			<!-- npick -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+                
+                    <div class="boxline">
+                        <div class="sbanner_npick" style="margin:0 0 15px 0;">
+                        	<a href="#1"><img src="../resources/images/main/pick_top.jpg" alt=""></a>
+                        </div>
+    
+                        <div class="sbanner3 mt15 mb15">
+                            <a href="#1"><img src="http://m.akmall.com/resource/templates/main/2017/linebn_npick.jpg" alt=""></a>
+                        </div>
+                    
+                    </div>
+
+
+
+					<div class="spot_info">
+						
+                        <!--<h1>
+                            <strong class="sp_main_title title_img07">AK만의 특별함</strong>
+                            <span>AK만의 특별한 혜택을 누리세요.</span>
+                        </h1>-->
+                        
+                        <!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						<div class="cate_main_tab_fix">
+							<ul>
+								<!--<li class="on"><a href="#">전체</a></li>-->
+								<li class="on"><a href="#">분당점</a></li>
+								<li><a href="#">수원점</a></li>
+								<li><a href="#">구로점</a></li>
+								<li><a href="#">평택점</a></li>
+								<!--<li><a href="#">원주점</a></li>-->
+							</ul>
+						</div>
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						<div class="info_box2">
+							<a href="#"><i></i>지점안내</a>
+							<a href="#"><i></i>층별안내</a>
+							<a href="#"><i></i>쇼핑행사</a>
+							<a href="#"><i></i>쇼핑전단</a>
+						</div>
+					</div>
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+					<div class="main_sort_wrap type_bg2">
+						<div class="select_btn">
+							<button class="on">신상</button>
+							<button>인기</button>
+						</div>
+						<div class="select_cate">
+							<button class="btn_full_cate">카테고리</button>
+						</div>
+					</div>
+					<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+					<!-- //[D] 2016.11.19 수정 -->
+					
+					<!-- smemu -->
+					<!-- <div class="pick_bar" style="display: none;">
+						<ul>
+							<li>
+								<button class="img_type" style="display: none;"><em class="blind">list type</em></button>
+							</li>
+						
+							<li>
+								<button class="ntest1 btn_sel_dr" data-class="ntest1">신상품순</button>
+								<select id="s141" class="hid_ntest1 selectdata" style="display: none;">
+									<option value="1" selected="selected">신상품순</option>
+									<option value="2">판매순</option>
+									<option value="3">낮은 가격순</option>
+									<option value="4">높은가격순</option>
+								</select>
+							</li>
+							
+							<li><a href="#" class="btn_filter">필터</a></li>
+						</ul>
+					</div> -->
+					<!-- //smemu -->
+					
+					<!-- 목록형 -->
+					<div class="cate_list_type" style="display:;">
+						<ul>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="akplaza">AK 분당</em><em class="pick"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em><del>72,100원</del>
+											</span>
+											<span class="sale">12<i>%</i></span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<div class="rental">
+												<p><span class="sbj">할인가 54,500원</span><span>(최초 1회차 결제)</span></p>
+												<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+												<p><span class="sbj">약정개월</span><span>39개월</span></p>
+											</div> 
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="selectshop"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //목록형 -->
+				</div>
+			</div>	
+			<!--// npick -->
+			
+			<!-- theme 1 바캉스-->
+			<div class="category_wrap main_wrap swiper-slide">
+				<div class="height_check">
+					
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129___.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129___.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+
+					<!-- banner -->
+					<div class="sbanner3 mt25 line"></div>
+					<!-- //benner -->
+
+					<!-- 추천파워딜 -->
+					<div class="powerdeal deal_push">
+						<h1>
+							<strong class="mt40 sp_main_title title_img09">추천 파워딜</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img20.png" alt="">
+										<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+											<strong>오늘마감</strong>
+											<em>10:36:16</em>
+										</span>
+										
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt=""!-- >
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt=""!-- >
+										<!--i class="flag_akplaza"><em class="blind">ak플라자</em></i--><!-- [D] 2016.12.13 플래그 제거 -->
+									</a>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //추천파워딜 -->
+					
+					<!-- [D] 2016.12.08 제거 -->
+					<!-- smemu 
+					<div class="cate_smenu_new3">
+						<div class="fl">
+							<ul class="division_bar">
+								<li><button class="on">판매순</button></li>
+								<li><button>낮은가격</button></li>
+								<li><button>높은가격</button></li>
+								<li><button>신상</button></li>
+							</ul>
+						</div>
+						<div class="fr"><a href="#"><em class="blind">pick</em></a></div>
+					</div>
+					<! //smemu -->
+					<!-- [D] 2016.12.08 제거 -->
+
+					<!-- [D] 2016.12.08 추가 -->
+					<div class="main_sub_tit">
+						<strong class="sp_main_title title_img10">추천 상품</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+					</div>
+					<!--// [D] 2016.12.08 추가 -->
+					
+					<!-- 목록형 -->
+					<div class="cate_list_type themore">
+						<ul>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="akplaza">AK 분당</em><em class="pick"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em><del>72,100원</del>
+											</span>
+											<span class="sale">12<i>%</i></span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<div class="rental">
+												<p><span class="sbj">할인가 54,500원</span><span>(최초 1회차 결제)</span></p>
+												<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+												<p><span class="sbj">약정개월</span><span>39개월</span></p>
+											</div> 
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="item_box">
+									<span class="img_area">
+										<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span>
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</span>
+									<a href="#3" class="link_area">
+										<div class="link_inner">	
+											<span class="flag"><em class="selectshop"></em></span>
+											<strong>[페이지플린] 프릴소매린넨 블라우스_P6B-BL051</strong>
+											<span class="price">
+												<em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										<a href="#2" class="btn_full_link">연관상품</a>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //목록형 -->
+				</div>	
+			</div>
+			<!--// theme 1 바캉스 -->
+			
+			<!-- theme 2 뷰티 -->
+			<div class="category_wrap main_wrap swiper-slide">
+				<div class="height_check">
+
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129____.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129____.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+
+					<!-- banner -->
+					<div class="sbanner3 mt25 line mb5"></div>
+					<!-- //benner -->
+
+					<!-- 뷰티 핫키워드 -->
+					<div><!-- [D] 2016.12.27 수정 div 클래스 boxline 삭제 -->
+						<h1>
+							<strong>뷰티 핫키워드</strong>
+						</h1>
+						<div class="keyword_list keyword_list2">
+							<a href="#">#블라우스</a>
+							<a href="#" class="hot">#원피스</a>
+							<a href="#">#명품화장품</a>
+							<a href="#">#크로스백</a>
+							<a href="#">#래쉬가드</a>
+							<a href="#">#아디다스</a>
+							<a href="#" class="hot">#크로스백</a>
+							<a href="#">#크라운 로브</a>
+							<a href="#">#팬츠</a>
+							<a href="#" class="hot">#와이드팬츠</a>
+							<a href="#">#슈즈</a>
+						</div>
+					</div>
+					<!-- //뷰티 핫키워드 -->
+
+					<!-- 추천 브랜드 -->
+					<div class="brand_push">
+						<h1>
+							<strong class="sp_main_title title_img08">추천 브랜드</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="swipe swiper-deal">
+							<div class="swiper-wrapper"><!-- [D] 2016.11.21 수정 -->
+								<ul class="swiper-slide">
+									<li><a href="#"><span>CHANEL</span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span>프라다프라다프라다프라다프라다</span></a></li>
+									<li><a href="#"><span>스타일난다</span></a></li>
+								</ul>
+								<ul class="swiper-slide">
+									<li><a href="#"><span>CHANEL</span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span>프라다프라다프라다프라다프라다</span></a></li>
+									<li><a href="#"><span>스타일난다</span></a></li>
+								</ul>
+							</div><!-- //[D] 2016.11.21 수정 -->
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+					</div>
+					<!-- //추천 브랜드 -->
+
+					<!-- 파워딜 -->
+					<div class="powerdeal deal_push brbn pb0">
+						<h1>
+							<strong class="mt30 sp_main_title title_img09">추천 파워딜</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="deal_banner swiper-deal">
+							<div class="swiper-wrapper">
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img1.jpg" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+												<strong>오늘마감</strong>
+												<em>10:36:16</em>
+											</span>
+											<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+										</a>
+									</dd>
+								</dl>
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img1.jpg" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+												<strong>오늘마감</strong>
+												<em>10:36:16</em>
+											</span>
+											<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+										</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+					</div>
+					<!-- //파워딜 -->
+					
+					<!-- 테마 기획전 -->
+					<div class="theme_exhibit2 ">  
+						<h1>
+							<strong class="mt30 sp_main_title title_img12">테마 기획전</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="add_txt">
+							<strong>최대 15% SALE + 무료배송 혜택</strong>
+							<em>AK독점, 단 일주일단 혜택</em>
+						</div>	
+						<ul>
+							<li><a href="#"><img src="../resources/images/main/test_img119.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img120.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img121.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img123.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img124.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img125.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img126.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img127.png" alt=""></a></li>
+						</ul>
+						<div class="add_txt2">
+							<a href="#"><em>상품 더 보기<i>(20)</i></em></a><!-- [D]2016.12.02 <em>상품 더 보기<i>(20)</i></em> a태그 추가 -->
+						</div>	
+					</div>
+					<!-- //테마 기획전 -->
+
+					<!-- 신상품 -->
+					<div class="horizontal_swipe">  
+						<h1>
+							<strong class="mt30 sp_main_title title_img06">신상품</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="inner swiper-exhibit1">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //신상품 -->
+
+					<!-- 기획세트 -->
+					<div class="horizontal_swipe">  
+						<h1>
+							<strong class="mt30 sp_main_title title_img14">기획세트</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="inner swiper-exhibit1">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //기획세트 -->
+
+					<!-- 베스트셀러 -->
+					<div class="horizontal_swipe boxline">  
+						<h1>
+							<strong class="mt30 sp_main_title title_img15">베스트셀러</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="inner swiper-exhibit1">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img56.png" alt="">
+										<span>[입생로랑] 루쥬 쀠르 꾸뛰르꾸뛰르꾸뛰르꾸뛰르꾸뛰르</span>
+										<strong>12,100<i>원</i></strong>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //베스트셀러 -->
+
+					<!-- 진행중인 체험단 -->
+					<div class="experience_ing">
+						<h1>
+							<strong class="mt30 sp_main_title title_img16">진행중인 체험단</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="cate_list_type_new">
+							<ul>
+								<li>
+									<div class="item_box">
+										<span class="img_area">
+											<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										</span>
+										<a href="#3">
+											<span class="flag"><em>체험단</em><i class="fc_red">10명 모집</i></span>
+											<strong class="tit">루즈에디션 수플레 드 벨벳 벨벳 벨벳 </strong>
+											<em class="tit_txt">부르조아 루즈에대션 수플레드 수플레드 수플레드</em>
+											<i class="date">2016-07-08 ~ 2016-07-17</i>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="item_box">
+										<span class="img_area">
+											<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										</span>
+										<a href="#3">
+											<span class="flag"><em>체험단</em><i class="fc_red">10명 모집</i></span>
+											<strong class="tit">루즈에디션 수플레 드 벨벳 벨벳 벨벳 </strong>
+											<em class="tit_txt">부르조아 루즈에대션 수플레드 수플레드 수플레드</em>
+											<i class="date">2016-07-08 ~ 2016-07-17</i>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="item_box">
+										<span class="img_area">
+											<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										</span>
+										<a href="#3">
+											<span class="flag"><em>체험단</em><i class="fc_red">10명 모집</i></span>
+											<strong class="tit">루즈에디션 수플레 드 벨벳 벨벳 벨벳 </strong>
+											<em class="tit_txt">부르조아 루즈에대션 수플레드 수플레드 수플레드</em>
+											<i class="date">2016-07-08 ~ 2016-07-17</i>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="item_box">
+										<span class="img_area">
+											<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										</span>
+										<a href="#3">
+											<span class="flag"><em>체험단</em><i class="fc_red">10명 모집</i></span>
+											<strong class="tit">루즈에디션 수플레 드 벨벳 벨벳 벨벳 </strong>
+											<em class="tit_txt">부르조아 루즈에대션 수플레드 수플레드 수플레드</em>
+											<i class="date">2016-07-08 ~ 2016-07-17</i>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="item_box">
+										<span class="img_area">
+											<a href="#1"><img src="../resources/images/search/test_img3.png" alt=""></a>
+										</span>
+										<a href="#3">
+											<span class="flag"><em>체험단</em><i class="fc_red">10명 모집</i></span>
+											<strong class="tit">루즈에디션 수플레 드 벨벳 벨벳 벨벳 </strong>
+											<em class="tit_txt">부르조아 루즈에대션 수플레드 수플레드 수플레드</em>
+											<i class="date">2016-07-08 ~ 2016-07-17</i>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //진행중인 체험단 -->
+
+					<!-- banner [D] 2016.11.20 제거
+					<div class="sbanner2 line">
+						<a href=""><img src="../resources/images/main/test_img78.png" alt=""></a>
+					</div>
+					 //benner -->
+
+					<!-- 목록 -->
+					<div class="tap_list">
+						
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						<div class="cate_main_tab_fix">
+							<ul class="tab_beauty">
+								<li class="active"><a href="#">백화점 명품화장품</a></li>
+								<li><a href="#">화장품/뷰티</a></li>
+							</ul>
+						</div>
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						
+						<!-- 탭 내용 -->
+						<div class="tab_beauty_con">
+							<div class="sorting_btn_new swiper-event swiper-event1">
+								<ul class="inner swiper-wrapper">
+									<li class="swiper-slide">
+										<span>기획세트</span>
+									</li>
+									<li class="swiper-slide">
+										<span>스킨케어</span>
+									</li>
+									<li class="swiper-slide">
+										<span>메이크업</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">바디<br>&amp;헤어</span>
+									</li>
+									<li class="swiper-slide">
+										<span>향수</span>
+									</li>
+									<li class="swiper-slide active">
+										<span>남성화장품</span>
+									</li>
+								</ul>
+								<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+								<div class="arrow"></div><!-- [D] 2016.12.27  arrow클래스 및 마크업 추가 -->
+							</div>
+						</div>
+						<!-- //탭 내용 -->
+
+						<!-- 탭 내용2 -->
+						<div class="tab_beauty_con last_tab_beauty_con">
+							<div class="sorting_btn_new swiper-event swiper-event2">
+								<ul class="inner swiper-wrapper">
+									<li class="swiper-slide">
+										<span>기획세트</span>
+									</li>
+									<li class="swiper-slide">
+										<span>스킨케어</span>
+									</li>
+									<li class="swiper-slide">
+										<span>메이크업</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">바디<br>&amp;헤어</span>
+									</li>
+									<li class="swiper-slide">
+										<span>향수</span>
+									</li>
+									<li class="swiper-slide">
+										<span>남성화장품</span>
+									</li>
+								</ul>
+								<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+								<div class="arrow"></div><!-- [D] 2016.12.27  arrow클래스 및 마크업 추가 -->
+							</div>
+						</div>
+						<!-- //탭 내용2 -->
+
+						<!-- 이미지형 -->
+						<div class="cate_img_type">
+							<ul>
+								<li>
+									<a href="#1" class="inner">
+										<span>
+											<img src="../resources/images/search/test_img3.png" alt="">
+										</span>
+										<div class="area">
+											<span class="flag">
+												<em class="akplaza">AK 분당</em><em class="pick"></em>
+											</span>
+											<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+											<span class="sale">15<i>%</i></span>
+											<span class="price">
+												<del>72,100원</del><br><em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+									</span>
+									<button class="btn_open"><em class="blind">메뉴</em></button>
+									<span class="icon">
+										<button class="btn_close"><em class="blind">닫기</em></button>
+										<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+										<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+										<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+									</span>
+								</li>
+								<li>
+									<a href="#1" class="inner">
+										<span>
+											<img src="../resources/images/search/test_img3.png" alt="">
+										</span>
+										<div class="area">
+											<span class="flag">
+												<em class="akplaza">AK 분당</em><em class="pick"></em>
+											</span>
+											<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+											<span class="sale">15<i>%</i></span>
+											<span class="price">
+												<del>72,100원</del><br><em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+									</span>
+									<button class="btn_open"><em class="blind">메뉴</em></button>
+									<span class="icon">
+										<button class="btn_close"><em class="blind">닫기</em></button>
+										<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+										<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+										<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+									</span>
+								</li>
+								<li>
+									<a href="#1" class="inner">
+										<span>
+											<img src="../resources/images/search/test_img3.png" alt="">
+										</span>
+										<div class="area">
+											<span class="flag">
+												<em class="selectshop"></em>
+											</span>
+											<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+											<span class="price">
+												<br><em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+									</span>
+									<button class="btn_open"><em class="blind">메뉴</em></button>
+									<span class="icon">
+										<button class="btn_close"><em class="blind">닫기</em></button>
+										<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+										<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+										<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+									</span>
+								</li>
+								<li>
+									<a href="#1" class="inner">
+										<span>
+											<img src="../resources/images/search/test_img3.png" alt="">
+										</span>
+										<div class="area">
+											<span class="flag">
+												<em class="selectshop"></em>
+											</span>
+											<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+											<span class="sale">15<i>%</i></span>
+											<span class="price">
+												<br><em>125,100<i>원</i></em>
+											</span>
+										</div>
+									</a>
+									<span class="offer">
+										<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+									</span>
+									<button class="btn_open"><em class="blind">메뉴</em></button>
+									<span class="icon">
+										<button class="btn_close"><em class="blind">닫기</em></button>
+										<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+										<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+										<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<!-- //이미지형 -->
+
+					</div>
+					<!-- //목록 -->
+				</div>
+			</div>
+			<!--// theme 2 뷰티 -->
+
+			<!-- theme 3 키즈 -->
+			<div class="category_wrap main_wrap swiper-slide">
+				<div class="height_check">
+					
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129_____.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img129_____.png" alt="">
+									<strong>AK와 함께 하는 뷰티상품 대잔치</strong>
+									<span><em>최고 30% 할인 특가와 함께 무료 배송 혜택!</em></span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+
+					<!-- banner -->
+					<div class="sbanner3 mt25 line mb5"></div>
+					<!-- //benner -->
+
+					<!-- 키즈 핫키워드 -->
+					<div><!-- [D] 2016.12.27 수정 div 클래스 boxline 삭제 -->
+						<h1>
+							<strong>키즈 핫키워드</strong>
+						</h1>
+						<div class="keyword_list keyword_list2">
+							<a href="#">#블라우스</a>
+							<a href="#" class="hot">#원피스</a>
+							<a href="#">#명품화장품</a>
+							<a href="#">#크로스백</a>
+							<a href="#">#래쉬가드</a>
+							<a href="#">#아디다스</a>
+							<a href="#" class="hot">#크로스백</a>
+							<a href="#">#크라운 로브</a>
+							<a href="#">#팬츠</a>
+							<a href="#" class="hot">#와이드팬츠</a>
+							<a href="#">#슈즈</a>
+						</div>
+					</div>
+					<!-- //키즈 핫키워드 -->
+
+					<!-- 추천 브랜드 -->
+					<div class="brand_push">
+						<h1>
+							<strong class="sp_main_title title_img08">추천 브랜드</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="swipe swiper-deal">
+							<div class="swiper-wrapper"><!-- [D] 2016.11.21 수정 -->
+								<ul class="swiper-slide">
+									<li><a href="#"><span>CHANEL</span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span>프라다프라다프라다프라다프라다</span></a></li>
+									<li><a href="#"><span>스타일난다</span></a></li>
+								</ul>
+								<ul class="swiper-slide">
+									<li><a href="#"><span>CHANEL</span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span><img src="../resources/images/category/test_img2.png" alt=""></span></a></li>
+									<li><a href="#"><span>프라다프라다프라다프라다프라다</span></a></li>
+									<li><a href="#"><span>스타일난다</span></a></li>
+								</ul>
+							</div><!-- //[D] 2016.11.21 수정 -->
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+					</div>
+					<!-- //추천 브랜드 -->
+
+					<!-- 파워딜 -->
+					<div class="powerdeal deal_push brbn pb0">
+						<h1>
+							<strong class="mt30 sp_main_title title_img09">추천 파워딜</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="deal_banner swiper-deal">
+							<div class="swiper-wrapper">
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img1.jpg" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+												<strong>오늘마감</strong>
+												<em>10:36:16</em>
+											</span>
+											<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+										</a>
+									</dd>
+								</dl>
+								<dl class="deal_list swiper-slide">
+									<dt>
+										<a href="#">
+											<img src="../resources/images/main/test_img1.jpg" alt="">
+											<span class="info time remaintime opened saletime" data-endtime="09/05/2016 16:49:00">
+												<strong>오늘마감</strong>
+												<em>10:36:16</em>
+											</span>
+											<!-- i class="flag_akplaza"><em class="blind">ak플라자</em></i --> <!-- [D] 2016.12.13 플래그 제거 -->
+										</a>
+									</dt>
+									<dd>
+										<a href="#">
+											<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+											<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+										</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="swiper-page dot"></div>
+							<!--span class="dot">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</span-->
+						</div>
+					</div>
+					<!-- //파워딜 -->
+					
+					<!-- 테마 기획전 -->
+					<div class="theme_exhibit2 ">  
+						<h1>
+							<strong class="mt30 sp_main_title title_img12">테마 기획전</strong><!-- [D] 2016.12.28 이미지 타이틀 변경 -->
+						</h1>
+						<div class="add_txt">
+							<strong>최대 15% SALE + 무료배송 혜택</strong>
+							<em>AK독점, 단 일주일단 혜택</em>
+						</div>	
+						<ul>
+							<li><a href="#"><img src="../resources/images/main/test_img119.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img120.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img121.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img123.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img124.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img125.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img126.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img127.png" alt=""></a></li>
+						</ul>
+						<div class="add_txt2">
+							<a href="#"><em>상품 더 보기<i>(20)</i></em></a><!-- [D]2016.12.02 <em>상품 더 보기<i>(20)</i></em> a태그 추가 -->
+						</div>	
+					
+						<div class="add_txt mt15">
+							<strong>최대 15% SALE + 무료배송 혜택</strong>
+							<em>AK독점, 단 일주일단 혜택</em>
+						</div>	
+						<ul>
+							<li><a href="#"><img src="../resources/images/main/test_img119.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img120.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img121.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img123.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img124.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img125.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img126.png" alt=""></a></li>
+							<li><a href="#"><img src="../resources/images/main/test_img127.png" alt=""></a></li>
+						</ul>
+						<div class="add_txt2">
+							<a href="#"><em>상품 더 보기<i>(20)</i></em></a><!-- [D]2016.12.02 <em>상품 더 보기<i>(20)</i></em> a태그 추가 -->
+						</div>	
+					</div>
+					<!-- //테마 기획전 -->
+					
+					<!-- 바로가기 -->
+					<ul class="shortcuts_link">
+						<li><a href="#">출산준비</a></li>
+						<li><a href="#">백일/돌잔치</a></li>
+						<li><a href="#">체험단</a></li>
+					</ul>
+					<!-- //바로가기 -->
+
+					<!-- 목록 -->
+					<div class="tap_list">
+
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						<div class="cate_main_tab_fix">
+							<ul class="line_tab tab_kid">
+								<li class="active"><a href="#">카테고리별 보기</a></li>
+								<li><a href="#">아이템별 보기</a></li>
+								<li><a href="#">MOMS</a></li>
+							</ul>
+						</div>
+						<!-- [D] 2016.12.27  카테고리 요소 변경 -->
+						
+						<!-- 카테고리별 보기 -->
+						<div class="tab_kid_con">
+							<div class="sorting_btn_new swiper-event swiper-event3">
+								<ul class="inner swiper-wrapper">
+									<li class="swiper-slide">
+										<span class="pt8">분유/기저귀/<br />물티슈/생리대</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">유아동<br />용품</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">유아동<br /> 완구/도서</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">바디<br>&amp;헤어</span>
+									</li>
+									<li class="swiper-slide active">
+										<span class="on">향수</span>
+									</li>
+									<li class="swiper-slide">
+										<span>남성화장품</span>
+									</li>
+								</ul>
+								<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+								<div class="arrow"></div><!-- [D] 2016.12.27  arrow클래스 및 마크업 추가 -->
+							</div>
+
+							<!-- 이미지형 -->
+							<div class="cate_img_type">
+								<ul>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="akplaza">AK 분당</em><em class="pick"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="sale">15<i>%</i></span>
+												<span class="price">
+													<del>72,100원</del><br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="sale">15<i>%</i></span>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<!-- //이미지형 -->
+						</div>
+						<!-- //카테고리별 보기 -->
+
+						<!-- 아이템별 보기 -->
+						<div class="tab_kid_con last_tab_kid_con">
+							<div class="sorting_btn_new swiper-event swiper-event4">
+								<ul class="inner swiper-wrapper">
+									<li class="swiper-slide">
+										<span class="pt8">분유/기저귀/<br />물티슈/생리대</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">유아동<br />용품</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">유아동<br /> 완구/도서</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">바디<br>&amp;헤어</span>
+									</li>
+									<li class="swiper-slide active">
+										<span class="on">향수</span>
+									</li>
+									<li class="swiper-slide">
+										<span>남성화장품</span>
+									</li>
+								</ul>
+								<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+								<div class="arrow"></div><!-- [D] 2016.12.27  arrow클래스 및 마크업 추가 -->
+							</div>
+
+							<!-- 이미지형 -->
+							<div class="cate_img_type">
+								<ul>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="akplaza">AK 분당</em><em class="pick"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="sale">15<i>%</i></span>
+												<span class="price">
+													<del>72,100원</del><br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<div class="rental">
+													<p><span class="sbj">할인가 54,500원</span> <br> <span>(최초 1회차 결제)</span></p>
+													<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+													<p><span class="sbj">약정개월</span><span>39개월</span></p>
+												</div> 
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="sale">15<i>%</i></span>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<!-- //이미지형 -->
+						</div>
+						<!-- //아이템별 보기 -->
+
+						<!-- MOMS -->
+						<div class="tab_kid_con last_tab_kid_con">
+							<div class="sorting_btn_new swiper-event swiper-event5">
+								<ul class="inner swiper-wrapper">
+									<li class="swiper-slide">
+										<span class="pt8">분유/기저귀/<br />물티슈/생리대</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">유아동<br />용품</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">유아동<br /> 완구/도서</span>
+									</li>
+									<li class="swiper-slide">
+										<span class="pt8">바디<br>&amp;헤어</span>
+									</li>
+									<li class="swiper-slide active">
+										<span class="on">향수</span>
+									</li>
+									<li class="swiper-slide">
+										<span>남성화장품</span>
+									</li>
+								</ul>
+								<div class="arrows"></div><!-- [D]2017.1.13 추가 -->
+								<div class="arrow"></div><!-- [D] 2016.12.27  arrow클래스 및 마크업 추가 -->
+							</div>
+
+							<!-- 이미지형 -->
+							<div class="cate_img_type">
+								<ul>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="akplaza">AK 분당</em><em class="pick"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="sale">15<i>%</i></span>
+												<span class="price">
+													<del>72,100원</del><br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<div class="rental">
+													<p><span class="sbj">할인가 54,500원</span> <br> <span>(최초 1회차 결제)</span></p>
+													<p><span class="sbj">렌탈료</span><span>54,500원(/월)</span></p>
+													<p><span class="sbj">약정개월</span><span>39개월</span></p>
+												</div> 
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+									<li>
+										<a href="#1" class="inner">
+											<span>
+												<img src="../resources/images/search/test_img3.png" alt="">
+											</span>
+											<div class="area">
+												<span class="flag">
+													<em class="selectshop"></em>
+												</span>
+												<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+												<span class="sale">15<i>%</i></span>
+												<span class="price">
+													<br><em>125,100<i>원</i></em>
+												</span>
+											</div>
+										</a>
+										<span class="offer">
+											<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+										</span>
+										<button class="btn_open"><em class="blind">메뉴</em></button>
+										<span class="icon">
+											<button class="btn_close"><em class="blind">닫기</em></button>
+											<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+											<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+											<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<!-- //이미지형 -->
+						</div>
+						<!-- //MOMS -->
+					</div>
+					<!-- //목록 -->
+				</div>
+			</div>
+			<!--// theme 3 키즈 -->
+			
+			<!-- theme 4 트랜드픽 -->
+			<div class="category_wrap main_wrap swiper-slide">
+				<div class="height_check">
+					
+					<!-- main_banner -->
+					<div class="main_banner swiper-visual">
+						<ul class="main_slide swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img15___.png" alt="">
+									<div></div>
+									<strong>AK 단독 영유아동복 브랜드 대전</strong>
+									<span>여름시즌 전브랜드 신상품 오픈 및 사은품 증정</span>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="../resources/images/main/test_img15___.png" alt="">
+									<strong>AK 단독 영유아동복 브랜드 대전</strong>
+									<span>여름시즌 전브랜드 신상품 오픈 및 사은품 증정</span>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-page dot"></div>
+					</div>
+					<!-- //main_banner -->
+
+					<!-- banner -->
+					<div class="sbanner3 mt25 line"></div>
+					<!-- //benner -->
+
+					<!-- 요즘뜨는 키워드 -->
+					<div class="float_keyword">
+						<div class="keyword_tab">
+							<button class="active">잇걸</button>
+							<button>우먼</button>
+							<button>맨즈</button>
+						</div>
+						<div class="keyword_list keyword_list2">
+							<a href="#">#블라우스</a>
+							<a href="#" class="hot">#원피스</a>
+							<a href="#">#명품화장품</a>
+							<a href="#">#크로스백</a>
+							<a href="#">#래쉬가드</a>
+							<a href="#">#아디다스</a>
+							<a href="#" class="hot">#크로스백</a>
+							<a href="#">#크라운 로브</a>
+							<a href="#">#팬츠</a>
+							<a href="#" class="hot">#와이드팬츠</a>
+							<a href="#">#슈즈</a>
+						</div>
+					</div>
+					<!-- //요즘뜨는 키워드 -->
+					<!-- 요즘뜨는 키워드 -->
+					<div class="float_keyword tit_none">
+						<div class="keyword_list keyword_list2">
+							<a href="#">#블라우스</a>
+							<a href="#" class="hot">#원피스</a>
+							<a href="#">#명품화장품</a>
+							<a href="#">#크로스백</a>
+							<a href="#">#래쉬가드</a>
+							<a href="#">#아디다스</a>
+							<a href="#" class="hot">#크로스백</a>
+							<a href="#">#크라운 로브</a>
+							<a href="#">#팬츠</a>
+							<a href="#" class="hot">#와이드팬츠</a>
+							<a href="#">#슈즈</a>
+						</div>
+					</div>
+					<!-- //요즘뜨는 키워드 -->
+
+					<!-- 동영상 추가 -->
+					<div class="theme_exhibit ">
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img20.png" alt="">
+									</a>
+									<div class="movie_btn">
+										<div class="deem"></div>
+										<div class="btn_area">
+											<button class="btn_play"><i></i>재생</button>
+											<button class="btn_list"><i></i>상품보기</button>
+										</div>
+									</div>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>쟈니마르켈 실버 프리사이즈반지 GIFT 추천</strong>
+										<span>여름시즌 92.5 신상품 오픈 및 사은품 증정!</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //동영상 추가 -->
+					
+					<!-- 하태핫태 요즘 뜨는 PICK! -->
+					<div class="brand_banner brbn">
+						<h1><strong class="mt30">하태핫태 요즘 뜨는 PICK!</strong></h1>
+						<div class="banner swiper-deal">
+							<ul class="cate_slide swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img62.png" alt="">
+										<span class="txt_box">
+											<span class="txt">
+												<strong>설화수 스테디셀러 라인 한정판매</strong>
+												<em>여름시즌 92.5 신상품 오픈 및 사은품 증정!</em>
+											</span>
+										</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img62.png" alt="">
+										<span class="txt_box">
+											<span class="txt">
+												<strong>설화수 스테디셀러 라인 한정판매</strong>
+												<em>여름시즌 92.5 신상품 오픈 및 사은품 증정!</em>
+											</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="swiper-page dot"></div>
+						</div>
+					</div>
+					<div class="cate_img_type">
+						<ul>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<ul class="pick_cate boxline">
+						<li><a href="#">계절/주방/소형가전</a></li>
+						<li><a href="#">언더웨어</a></li>
+						<li><a href="#">여성의류</a></li>
+						<li><a href="#">유니섹스/캐주얼</a></li>
+						<li><a href="#">트렌드패션</a></li>
+						<li><a href="#">이용권/취미/문구/꽃</a></li>
+					</ul>
+					<!-- //하태핫태 요즘 뜨는 PICK! -->
+
+					<!-- 세련된 남자의 스타일링! -->
+					<div class="brand_banner brbn">
+						<h1><strong class="mt30">세련된 남자의 스타일링!</strong></h1>
+						<div class="banner swiper-deal">
+							<ul class="cate_slide swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img62.png" alt="">
+										<span class="txt_box">
+											<span class="txt">
+												<strong>설화수 스테디셀러 라인 한정판매</strong>
+												<em>여름시즌 92.5 신상품 오픈 및 사은품 증정!</em>
+											</span>
+										</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="#">
+										<img src="../resources/images/main/test_img62.png" alt="">
+										<span class="txt_box">
+											<span class="txt">
+												<strong>설화수 스테디셀러 라인 한정판매</strong>
+												<em>여름시즌 92.5 신상품 오픈 및 사은품 증정!</em>
+											</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="swiper-page dot"></div>
+						</div>
+					</div>
+					<div class="cate_img_type">
+						<ul>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+							<li>
+								<a href="#1" class="inner">
+									<span>
+										<img src="../resources/images/search/test_img3.png" alt="">
+									</span>
+									<div class="area">
+										<span class="flag">
+											<em class="akplaza">AK 분당</em><em class="pick"></em>
+										</span>
+										<strong>[이솝]파슬리 씨드 안티 옥시 씨드 안티 옥시옥시 씨드 안티 옥시옥시 씨드 안티 옥시</strong>
+										<span class="sale">15<i>%</i></span>
+										<span class="price">
+											<del>72,100원</del><br><em>125,100<i>원</i></em>
+										</span>
+									</div>
+								</a>
+								<span class="offer">
+									<i class="free">무료배송</i> <em>|</em> <i class="free">상품평(100)</i>
+								</span>
+								<button class="btn_open"><em class="blind">메뉴</em></button>
+								<span class="icon">
+									<button class="btn_close"><em class="blind">닫기</em></button>
+									<button class="btn_share btn_layer_share"><em class="blind">공유하기</em></button>
+									<button class="btn_pick btn_wish_open"><em class="blind">찜</em></button>
+									<button class="btn_cart"><em class="blind">장바구니담기</em></button>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<ul class="pick_cate  boxline"><!-- [D] 2016.12.27 brbn 클래스 삭제 -->
+						<li><a href="#">계절/주방/소형가전</a></li>
+						<li><a href="#">언더웨어</a></li>
+						<li><a href="#">여성의류</a></li>
+						<li><a href="#">유니섹스/캐주얼</a></li>
+						<li><a href="#">트렌드패션</a></li>
+						<li><a href="#">이용권/취미/문구/꽃</a></li>
+						<li><a href="#">이용권/취미/문구/꽃</a></li>
+						<li class="space"></li><!-- [D] 2017.01.04 홀수 노출시 추가 -->
+					</ul>
+					<!-- //세련된 남자의 스타일링! -->
+				</div>
+			</div>
+			<!--// theme 4 트랜드픽 -->
+
+			<!-- 기획전상세 -->
+			<div class="main_wrap swiper-slide">
+				<div class="height_check">
+
+					<!-- 기획전 대표이미지 -->
+					<div class="rep_img">
+						<img src="../resources/images/main/test_img91.png" alt="">
+						<!-- 대체 이미지 -->
+						<img src="../resources/images/main/temporary_img.png" alt="">
+						<!-- //대체 이미지 -->
+					</div>
+					<!-- //기획전 대표이미지 -->
+
+					<!-- 템플릿1 - 파워딜,혼합형 포함 -->
+					<div class="template_type1">
+						<!-- banner -->
+						<div class="sbanner2">
+							<a href="#1"><img src="../resources/images/main/test_img92.png" alt=""></a>
+						</div>
+						<!-- //benner -->
+						<!-- 이미지 없을때 -->
+						<div class="no_img_text">
+							<p style="font-size:25px;font-weight:bold;color:#ffbe00">발렌타인데이 특가전</p>
+						</div>
+						<!-- //이미지 없을때 -->
+						<ul>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img93.png" alt="">
+										<em class="flag">36<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img93.png" alt="">
+										<em class="flag">17<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img93.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //템플릿1 -->
+
+					<!-- 템플릿2 -->
+					<div class="template_type2">
+						<ul>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img96.png" alt="">
+										<em class="flag"><span>32<i>%</i></span></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img96.png" alt="">
+										<em class="flag"><span>32<i>%</i></span></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img96.png" alt="">
+										<em class="flag"><span>32<i>%</i></span></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img96.png" alt="">
+										<em class="flag"><span>32<i>%</i></span></em>
+									</span>
+									<span class="tit_area">
+										<strong>조르지오 아르마니 코스메틱</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //템플릿2 -->
+						
+					<!-- 템플릿3 -->
+					<div class="template_type3">
+						<ul>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img99.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img99.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img99.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img99.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- 템플릿3 -->
+
+					<!-- 템플릿4 -->
+					<div class="template_type4 boxline">
+						<ul>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img102.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img102.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="img_area">
+										<img src="../resources/images/main/test_img102.png" alt="">
+										<em class="flag">32<i>%</i></em>
+									</span>
+									<span class="tit_area">
+										<strong>유아동 다이노솔즈</strong>
+										<em>36,400<i>원</i></em>
+										<del>72,100원</del>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //템플릿4 -->
+
+					<!-- 파워딜 -->
+					<div class="powerdeal boxline">
+						<h3 class="sub_tit mt15 text_arr"><img src="../resources/images/main/test_img107.png" alt="" usemap="#eventMap"></h3>
+						<map name="eventMap" id="eventMap">
+						    <area shape="rect" coords="0,0, 40, 20" href="http://www.naver.com" />
+						</map>
+						<div class="deal_list_wrap">
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img21.png" alt="">
+										<span class="info time remaintime opened saletime" data-endtime="07/12/2017 11:35:00">
+											<strong>오늘마감</strong>
+											<em>3500개</em>
+										</span>
+										<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img22.png" alt="">
+										<span class="info">
+											<strong>오늘오픈</strong>
+										</span>
+										<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- //파워딜 -->
+					<div class="category_chioce_wrap">
+						<div>
+							<button class="goods1 sel_shape btn_sel_dr" data-class="goods1">카테고리 선택</button>
+							<select id="s111" class="hid_goods1 selectdata" style="display: none;">
+								<option value="기초 세트1">기초 세트1</option>
+							</select>
+
+							<button class="img_type goods_type"><em class="blind">img type</em></button><!-- 이미지형 -->
+							<!-- <button class="list_type goods_type"><em class="blind">list type</em></button> --><!-- 리스트형 -->
+							<!-- <button class="thumb_type goods_type"><em class="blind">thumb type</em></button> --><!-- 큰이미지형 -->
+						</div>
+					</div>
+
+					<!-- 파워딜 -->
+					<div class="powerdeal tem_type">
+						<h3 class="sub_tit mt15 text_arr"><img src="../resources/images/main/test_img107.png" alt=""></h3>
+						<h3 class="sub_tit mt15 text_arr first_tit">
+							<span>페이지플린 BEST 특가상품2</span>
+							<i>(30)</i>
+						</h3>
+						<div class="deal_list_wrap"><!-- [D] 2016.11.19 수정 -->
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img21.png" alt="">
+										<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img22.png" alt="">
+										<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+							<dl class="deal_list">
+								<dt>
+									<a href="#">
+										<img src="../resources/images/main/test_img23.png" alt="">
+										<i class="flag_akplaza"><em class="blind">ak플라자</em></i>
+									</a>
+								</dt>
+								<dd>
+									<a href="#">
+										<strong>[헤르매리스] 남여 신사복 여름 맞이 긴급공수</strong>
+										<span>54,200<i>원~</i></span><em>2003개 판매중</em>
+									</a>
+								</dd>
+							</dl>
+						</div><!-- //[D] 2016.11.19 수정 -->
+					</div>
+					<!-- //파워딜 -->
+
+				</div>
+			</div>
+			<!-- 기획전상세 -->
+
+		</div>
+	</div>
+	<!-- 조건검색 -->
+	<!-- <div class="layer_menu layer_filter" style="display:;">
+		<div class="deem"></div>
+		<div class="layer_area">
+
+			<div class="p_head3">
+				<h1 class="title">카테고리 선택</h1>
+				<a href="#" class="btn_pop_close btn_close"><span class="blind">닫기</span></a>					
+			</div>
+
+			<div class="depth_type2">
+				<dl>
+					<dt>AK PLAZA<button><em>열기/닫기</em></button></dt>
+					<dd style="display: none;">
+						<a href="#">백화점 명품 화장품</a>
+						<a href="#">백화점 여성의류</a>
+						<a href="#">백화점 언더웨어</a>
+						<a href="#">백화점 남성의류</a>
+						<a href="#">백화점 진/유니섹스</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>AK MALL<button><em>열기/닫기</em></button></dt>
+					<dd style="display: none;">
+						<a href="#">여성의류</a>
+						<a href="#">트렌드패션</a>
+						<a href="#">언더웨어</a>
+						<a href="#">남성의류</a>
+						<a href="#">유니섹스/캐주얼</a>
+					</dd>
+				</dl>
+			</div>
+
+			<div class="depth_type1">
+				<ul>
+					<li><a href="#">전체보기</a></li>
+					<li><a href="#">명품화장품</a></li>
+					<li><a href="#">패션잡화</a></li>
+					<li><a href="#">여성의류</a></li>
+					<li><a href="#">언더웨어</a></li>
+					<li><a href="#">진/유니섹스</a></li>
+					<li><a href="#">남성의류</a></li>
+					<li><a href="#">슈즈</a></li>
+					<li><a href="#">스포츠/레저</a></li>
+					<li><a href="#">유아동</a></li>
+					<li><a href="#">홈/리빙</a></li>
+					<li><a href="#">식품</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> -->
+	<!-- //조건검색 -->
+
+	<!-- layer_popup 카테고리 --><!-- [D] 2016.11.30 수정 -->
+	<div class="layer_popup layer_full layer_cate_wrap" style="display:none;">
+		<div class="deem"></div>
+		<div class="popup_wrap bg_white">
+			<div class="p_head3">
+				<h1 class="title">카테고리 선택</h1>
+				<a href="#" class="btn_pop_close btn_close_link"><span class="blind">닫기</span></a>					
+			</div>
+			<div class="depth_type1">
+				<ul>
+					<li><a href="#">백화점 여성의류</a></li>
+					<li><a href="#">백화점 언더웨어</a></li>
+					<li><a href="#">백화점 남성의류</a></li>
+					<li><a href="#">백화점 진/유니섹스</a></li>
+					<li><a href="#">여성의류</a></li>
+					<li><a href="#">트렌드 패션</a></li>
+					<li><a href="#">언더웨어</a></li>
+					<li><a href="#">남성의류</a></li>
+					<li><a href="#">유니섹스캐주얼</a></li>
+				</ul>
+			</div>
+			<div class="depth_type2">
+				<dl>
+					<dt class="active">AK PLAZA<button><em>열기/닫기</em></button></dt>
+					<dd>
+						<a href="#">백화점 명품 화장품</a>
+						<a href="#">백화점 여성의류</a>
+						<a href="#">백화점 언더웨어</a>
+						<a href="#">백화점 남성의류</a>
+						<a href="#">백화점 진/유니섹스</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="active">AK MALL<button><em>열기/닫기</em></button></dt>
+					<dd>
+						<a href="#">여성의류</a>
+						<a href="#">트렌드패션</a>
+						<a href="#">언더웨어</a>
+						<a href="#">남성의류</a>
+						<a href="#">유니섹스/캐주얼</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<!-- //layer_popup 카테고리 --><!-- [D] 2016.11.30 수정 -->
+
+	<!-- layer_popup -->
+	<div class="layer_popup default_wish_prod" style="display:none;">
+		<div class="deem"></div>
+		<div class="popup_wrap">
+			<!-- 폴더 선택 -->
+			<div class="inner" style="display:;">
+				<div class="p_head mb0"><strong class="title">상품 라이크잇</strong><button class="btn_pop_close pop_close" style="background-color:#fff"><span class="blind">닫기</span></button></div>
+				<ul class="btn_layer2">
+					<li><button>기본폴더</button></li>
+					<li><button>사용자 설정 폴더 1</button></li>
+					<li><button>사용자 설정 폴더 2</button></li>
+					<li><button>사용자 설정 폴더 3</button></li>
+					<li><button>사용자 설정 폴더 4</button></li>
+				</ul>
+				<button class="pop_close">취소</button>
+			</div>
+			<!-- //폴더 선택 -->
+		</div>
+	</div>
+	<!-- //layer_popup -->
+	<!-- layer_popup 연관상품 -->
+	<div class="layer_popup layer_full layer_link_wrap" style="display:none;">
+		<div class="deem"></div>
+		<div class="popup_wrap bg_white">
+			<div class="p_head3">
+				<h1 class="title">연관상품</h1>
+				<a href="#" class="btn_pop_close btn_close_link"><span class="blind">닫기</span></a>					
+			</div>
+			<div class="mostview_list_new">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더킹스톤 레더킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../resources/images/main/test_img4.jpg" alt="">
+							<span>2016년 신상품 킹스톤 레더</span>
+							<del>405,000원</del>
+							<strong>365,000<i>원</i></strong>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //layer_popup 연관상품 -->
+	<!-- layer_popup sns 공유 -->
+	<div class="layer_popup layer_pop_share" style="display:none;">
+		<div class="deem"></div>
+		<div class="popup_wrap">
+			<div class="inner">
+				<div class="p_head"><strong class="title">SNS 공유</strong><button class="btn_pop_close" style="background-color:#fff"><span class="blind">닫기</span></button></div>
+				<div class="share_top">
+					<ul>
+						<li><button>카카오톡</button></li>
+						<li><button>SMS메세지</button></li>
+						<li><button>페이스북</button></li>
+						<li><button>카카오스토리</button></li>
+					</ul>
+					<span><input type="text" title="url"><button>복사</button></span>
+					<!-- [D] 2016.10.24 추가 -->
+					<span class="web_use"><input type="text" title="url"></span>
+					<!-- [D] 2016.10.24 추가 -->
+				</div>
+				<div class="btn_black_one lh40 m0">
+					<button class="bttn btn_pop_close">닫기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //layer_popup sns 공유 -->
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_main.js" src="../resources/js/lib/require.js"></script>	
+
+	<!--// [D]2016.11.18 수정 -->
+    <!-- ak mall 쇼핑 히스토리 -->
+	<div class="layer_menu layer_history" style="display:none;">
+		<div class="deem"></div>
+		<div class="layer_area">
+			<div class="history_wrap">
+				<div class="his_head">
+					<h1>쇼핑 히스토리</h1>
+					<a href="#" class="btn_close"><span class="blind">닫기</span></a>
+				</div>
+				<ul class="line_tap his_tab_filter">
+					<li class="active"><a href="#"><em>최근 본 상품</em></a></li>
+					<li><a href="#"><em>히스토리</em></a></li>
+				</ul>
+				<div class="tap_area his_tab_filter_con" style="display:;">
+					<ul class="act_list2">
+						<li>
+							<a href="#">
+								<em><img src="../resources/images/main/test_img17.png" alt=""></em> 
+								<p class="tit">[페레가모]여성 플래슈즈 전사이즈전사이즈전사이즈</p>
+								<span class="price">180,000<i>원</i></span>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+						</li>
+						<li>
+							<a href="#">
+								<em><img src="../resources/images/main/test_img17.png" alt=""></em> 
+								<p class="tit">[페레가모]여성 플래슈즈 전사이즈전사이즈전사이즈</p>
+								<span class="price">180,000<i>원</i></span>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+						</li>
+						<li>
+							<a href="#">
+								<em><img src="../resources/images/main/test_img17.png" alt=""></em> 
+								<p class="tit">[페레가모]여성 플래슈즈 전사이즈전사이즈전사이즈</p>
+								<span class="price">180,000<i>원</i></span>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+						</li>
+						<li>
+							<a href="#">
+								<em><img src="../resources/images/main/test_img17.png" alt=""></em> 
+								<p class="tit">[페레가모]여성 플래슈즈 전사이즈전사이즈전사이즈</p>
+								<span class="price">180,000<i>원</i></span>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+						</li>
+						<li>
+							<a href="#">
+								<em><img src="../resources/images/main/test_img17.png" alt=""></em> 
+								<p class="tit">[페레가모]여성 플래슈즈 전사이즈전사이즈전사이즈</p>
+								<span class="price">180,000<i>원</i></span>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+						</li>
+						<li>
+							<a href="#">
+								<em><img src="../resources/images/main/test_img17.png" alt=""></em> 
+								<p class="tit">[페레가모]여성 플래슈즈 전사이즈전사이즈전사이즈</p>
+								<span class="price">180,000<i>원</i></span>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+						</li>
+					</ul>
+					<!--button class="all_del">전체삭제</button-->
+				</div>
+				<div class="tap_area his_tab_filter_con" style="display:none;">
+					<ul class="act_list">
+						<li>
+							<a href="#">
+								<em class="brand"><i>브랜드</i></em> 
+								<p class="tit">톰보이(TOMBOY)</p>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="cate"><i>기획전</i></em> 
+								<p class="tit">아이크림<i>화장품/향수 &gt; 스킨케어</i></p>
+							</a>
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="event"><i>이벤트</i></em> 
+								<p class="tit">페라가모_핫브랜드 페페페페<i>2016-06-27~2016-07-03</i></p>
+							</a>
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="brand"><i>브랜드</i></em> 
+								<p class="tit">해피바드(HAPPYBATH)</p>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="cate"><i>카테<br>고리</i></em> 
+								<p class="tit">아이크림<i>화장품/향수 &gt; 스킨케어</i></p>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="event"><i>이벤트</i></em> 
+								<p class="tit">페라가모_핫브랜드 페페페페<i>2016-06-27~2016-07-03</i></p>
+							</a>
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="brand"><i>브랜드</i></em> 
+								<p class="tit">해피바드(HAPPYBATH)</p>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="cate"><i>카테<br>고리</i></em> 
+								<p class="tit">아이크림<i>화장품/향수 &gt; 스킨케어</i></p>
+							</a>
+							<button class="btn_heart"><i class="blind">하트</i></button> 
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+						<li>
+							<a href="#">
+								<em class="event"><i>이벤트</i></em> 
+								<p class="tit">페라가모_핫브랜드 페페페페<i>2016-06-27~2016-07-03</i></p>
+							</a>
+							<button class="btn_trash"><i class="blind">삭제</i></button>
+						</li>
+					</ul>
+					<!--button class="all_del">전체삭제</button-->
+				</div>
+				
+				<div class="no_info">AK MAll 히스토리 내용이 없습니다.</div>
+			</div>
+
+		</div>
+		<div class="serach_area area2 btn_reset_wrap" style="display: none;">
+			<button class="del">전체삭제 <em></em></button>
+		</div>
+
+	</div>
+	<!-- //ak mall 쇼핑 히스토리 -->
+	
+	<!-- [D] 2017.1.07 바 통합수정 -->
+	<div class="bot_btn_area">
+		<button class="btn_back_only"><em class="blind">뒤로가기</em></button>
+	    <div class="foot_btn_ara">
+			<button class="btn_history"><em class="blind">최근본상품</em></button>
+			<button class="btn_top">TOP</button>
+		</div>
+		<div class="quick_link_area_new">
+			<ul class="quick_link">
+				<li><a href="#"><em class="blind">쇼핑알림</em></a></li>
+				<li><a href="#"><em class="blind">라이크잇</em></a></li>
+				<li><a href="#"><em class="blind">홈</em></a></li>
+				<li><a href="#"><em class="blind">장바구니</em></a></li>
+				<li><a href="#"><em class="blind">마이페이지</em></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- [D] 2017.1.07 바 통합수정 -->
+	
+    <!--// container -->
+	<!-- footer -->
+	<footer class="footer_common"><!-- [D]2016.12.26 footer 개선 -->
+		<ul class="footer_menu">
+			<li><a href="#">로그아웃</a></li>
+			<li><a href="#">PC버전보기</a></li>
+			<li><a href="#">고객센터</a></li>
+		</ul>
+		<div class="footer_appdown">
+			<!-- [D] 2017.01.10 텍스트 변경 -->
+			<a href="#">AK mall 앱 다운로드</a>
+			<a href="#">AK PLAZA 앱 다운로드</a><!-- // [D] 2017.01.10 텍스트 변경 -->
+		</div>
+		<address>
+			에이케이 에스앤디(주) AK인터넷 쇼핑몰 <i>대표이사 정일채</i><br>
+			경기도 성남시 분당구 황새울로 326 서현빌딩 3층 <i>고객센터 1588-2055</i><br>
+			사업자등록번호 129-85-42351 <i>통신판매법신고 경기성남 2007-350</i><br>
+			개인정보관리 및 청소년 보호책임자 백만석<i>Friendly@akmall.com</i>
+		</address>
+		<ul class="footer_menu2">
+			<li><a href="#">이용약관</a></li>
+			<li><a href="#"><strong>개인정보처리방침</strong></a></li><!--  [D] 2017.01.19 텍스트 변경 -->
+			<li><a href="#">사업자정보확인</a></li>
+		</ul>
+		<i class="copyright">Copyright ⓒ S&amp;D INC.</i>
+	</footer><!-- //[D]2016.12.26 footer 개선 -->
+	<!--// footer -->
+	<!-- footer -->
+	<footer class="footer_common">
+		<ul class="footer_menu">
+			<li><a href="#">로그아웃</a></li>
+			<li><a href="#">PC버전보기</a></li>
+			<li><a href="#">고객센터</a></li>
+		</ul>
+		<div class="footer_appdown">
+			<!-- [D] 2017.01.10 텍스트 변경 -->
+			<a href="#">AK mall 앱 다운로드</a>
+			<a href="#">AK PLAZA 앱 다운로드</a>
+		</div>
+		<address>
+			에이케이 에스앤디(주) AK인터넷 쇼핑몰 <i>대표이사 정일채</i><br>
+			경기도 성남시 분당구 황새울로 326 서현빌딩 3층 <i>고객센터 1588-2077</i><br>
+			사업자등록번호 129-85-42351 <i>통신판매법신고 경기성남 2007-350</i><br>
+			개인정보관리 및 청소년 보호책임자 김신덕<i>Friendly@akmall.com</i>
+		</address>
+		<ul class="footer_menu2">
+			<li><a href="#">이용약관</a></li>
+			<li><a href="#"><strong>개인정보처리방침</strong></a></li>
+			<li><a href="#">사업자정보확인</a></li>
+		</ul>
+		<i class="copyright">Copyright ⓒ S&amp;D INC.</i>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

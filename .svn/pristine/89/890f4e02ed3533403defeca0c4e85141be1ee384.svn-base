@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>마이파우치 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb typeLink">
+		<div class="gnbHeader">
+			<a href="#" class="cateLink">
+				<em class="blind">카테고리</em>
+			</a>
+			<h1 class="logoSha">
+				<a href="#link"><span class="blind">샤샤뷰</span></a>
+				<button type="button" class="appOpenBtn"><span class="blind">메뉴 보기</span></button>
+			</h1>
+			<ul class="appList">
+				<li><a href="#link"><span class="img"><img src="../resources/images/common/logo_app_ak.png" alt=""></span>AK몰</a></li>
+				<li class="on"><a href="#link"><span class="img"><img src="../resources/images/common/logo_app_shasha.png" alt=""></span>뷰티 전문관</a></li>
+			</ul>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+					<span class="num">9</span>
+				</a>
+			</div>
+		</div>
+		<div class="titArea">
+			<h2 class="titH2">마이파우치</h2>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+
+		<section class="pouchProfileWrap">
+			<div class="profileArea elem mt10">
+				<div class="userWrap clearFix">
+					<div class="profileImg">
+						<div class="img">
+							<img src="../resources/images/temp/img_user_profile.png" alt="">
+						</div>
+					</div>
+					<div class="profileInfo">
+						<div class="userID">
+							가나다라가나다라가
+						</div>
+						<p class="profileElement">
+							<em>여자</em><em>24세</em>
+						</p>
+					</div>
+					<div class="profileBtn">
+						<!-- <button type="button" class="btn_l s mini">프로필 수정</button> -->
+						<!-- 뷰티프로필 미입력 고객  -->
+						<button type="button" class="btn_l s mini">프로필 입력</button>
+						<!-- //뷰티프로필 미입력 고객 -->
+					</div>
+				</div>
+			</div>
+
+			<div class="skinTypeWrap">
+				<div class="skinType">
+					<div class="lcont">
+						<span class="img">
+							<!-- 웜톤 -->
+							<img src="../resources/images/content/img_face_character01.png" alt="">
+							<!-- //웜톤 -->
+
+							<!-- 쿨톤 
+							<img src="../resources/images/content/img_face_character02.png" alt="">
+							<!-- //쿨톤 -->
+
+							<!-- 뉴트럴톤 
+							<img src="../resources/images/content/img_face_character03.png" alt="">
+							<!-- //뉴트럴톤 -->
+
+							<!-- 모름 
+							<img src="../resources/images/content/img_face_character04.png" alt="">
+							<!-- //모름 -->
+							
+							<span class="img skin">
+								<!-- 건성 -->
+								<img src="../resources/images/content/img_skin_dry.png" alt="">
+								<!-- //건성 -->
+
+								<!-- 지성 
+								<img src="../resources/images/content/img_skin_oil.png" alt="">
+								<!-- //지성 -->
+
+								<!-- 중성 
+								<img src="../resources/images/content/img_skin_normal.png" alt="">
+								<!-- //중성 -->
+
+								<!-- 복합성 
+								<img src="../resources/images/content/img_skin_comb.png" alt="">
+								<!-- //복합성 -->
+
+								<!-- 민감성 
+								<img src="../resources/images/content/img_skin_sensitive.png" alt="">
+								<!-- //민감성 -->
+							</span>
+						</span>
+					</div>
+					<div class="rcont">
+						<ul class="icoSkin">
+							<li class="ico_skin01">#건성</li>
+							<!-- <li class="ico_skin02">#지성</li>
+							<li class="ico_skin03">#중성</li>
+							<li class="ico_skin04">#복합성</li>
+							<li class="ico_skin05">#민감성</li> -->
+							
+							<!-- 20.12.16 : 컬러 수정 -->
+							<li class="skinTone"><span class="color" style="background-color:#ffe9db;"><span class="blind">웜톤</span></span>#웜톤</li>
+							<!-- <li class="skinTone"><span class="color" style="background-color:#ffe7f3;"><span class="blind">쿨톤</span></span>#쿨톤</li>
+							<li class="skinTone"><span class="color" style="background-color:#ffddd3;"><span class="blind">뉴트럴톤</span></span>#뉴트럴톤</li>
+							<li class="skinTone"><span class="color"><span class="blind">모름</span></span>#모름</li> -->
+							<!-- //20.12.16 : 컬러 수정 -->
+						</ul>
+					</div>
+				</div>
+				<div class="attBtnWrap">
+					<span class="btn_l m mini">다크닝</span>
+					<span class="btn_l m mini">홍조</span>
+					<span class="btn_l m mini">블랙헤드</span>
+					<span class="btn_l m mini">립</span>
+					<span class="btn_l m mini">건성</span>
+					<span class="btn_l m mini">과즙팡팡</span>
+					<span class="btn_l m mini">트러블피부</span>
+				</div>
+			</div>
+		</section>
+			
+		<section class="full pd20">
+			<!-- 비로그인시 -->
+			<div class="noLogin">
+				<div class="loginWrap">
+					<p class="tit">로그인이 필요합니다.</p>
+					<span class="btn_l xs colorRoundA">로그인</span>
+				</div>
+
+				<div class="msgBox p">
+					<div class="inner">
+						<p class="tit">뷰티 클럽이란?</p>
+						<p class="desc">쿠폰/추가 적립 등 최대 혜택을 받을 수 있는  누구나 가입 가능한 유용한 쇼핑 클럽입니다.</p>
+					</div>
+					
+					<div class="btnArea">
+						<button type="button" class="btn_l m">가입하기</button>
+					</div>
+				</div>
+			</div>
+			<!-- //비로그인시 -->
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2">적립금 달성 현황</h2>
+				<a href="#" class="links underline pointC4 bold txtS ar">이번달 뷰티클럽 혜택</a>
+			</div>
+
+			<div class="objGraphBox">
+				<div class="limitGraph">
+					<div class="graphBar"><!-- 100%가 되면/ .graphBar "full" 클래스 추가 -->
+						<span class="bar" style="width: 33%;"></span>
+					</div>
+					<div class="graphIcon">
+						<span class="icon" style="left: 33%;">
+							<span class="img"><img src="../resources/images/icon/ico_obj_graph.png" alt=""></span>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="reviewPrdOpBox mt30">
+				<dl>
+					<dt>구매 기간</dt>
+					<dd>2020.08.01 ~ 2020.08.31</dd>
+					<dt>구매 상품 수</dt>
+					<dd>2개</dd>
+					<dt>구매 금액</dt>
+					<dd>120,000원</dd>
+				</dl>
+			</div>
+			<p class="txtS mt10">
+				<em class="pointC1">뷰티클럽 가입 시</em> 적립금 혜택까지 구매 상품 수 <em class="pointC1">1개</em>, 구매금액 <em class="pointC1">30,000원</em> 남았습니다.
+			</p>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2"><em>$고객명$</em>님의 구매 상품</h2>
+				 <span class="txtXS normal">(최근 3개월 기준)</span>
+			</div>
+
+			<div class="sliderNewWrap btn2 mt30 mb0">
+				<ul class="cateImg_slide">
+					<li>
+						<div class="pieGraphBox">
+							<div class="pieChart"></div>
+							<div class="pieInfo ac">
+								<span class="categoryIco_01"></span>
+								<span class="tit">클렌징</span>
+								<span class="rate block">60%</span>
+							</div>
+						</div>
+						<div class="ac mt20">
+							<span class="pieGraphTxt">클렌징 <em class="pointC1">6개</em> 구입</span>
+						</div>
+						<div class="ac mt20">
+							<span class="btn_l s mini">약산성</span>
+							<span class="btn_l s mini">모든피부용</span>
+							<span class="btn_l s mini">산뜻함</span>
+						</div>
+					</li>
+					<li>
+						<div class="pieGraphBox">
+							<div class="pieChart"></div>
+							<div class="pieInfo ac">
+								<span class="categoryIco_01"></span>
+								<span class="tit">선크림</span>
+								<span class="rate block">60%</span>
+							</div>
+						</div>
+						<div class="ac mt20">
+							<span class="pieGraphTxt">클렌징 <em class="pointC1">6개</em> 구입</span>
+						</div>
+						<div class="ac mt20">
+							<span class="btn_l s mini">중성</span>
+							<span class="btn_l s mini">모든피부용</span>
+							<span class="btn_l s mini">산뜻함</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="full">
+			<div class="prdImgSwipe attTxt m swiperMenu mt0">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on">
+						<a href="#link">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+							<p class="txt">라운드랩</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+							<p class="txt">라운드랩</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+							<p class="txt">라운드랩</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+							<p class="txt">라운드랩</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2"><em>$고객명$</em>님의 구매 브랜드 랭킹</h2>
+			</div>
+			
+			<!-- 20.11.20 : 브랜드 로고 이미지영역 코딩 수정 -->
+			<ul class="bestReviewer RnkList">
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num first montBold">1</p>
+						</div>
+						<div class="profileImg brandImg">
+							<img src="../resources/images/content/img_brand_default.png" alt="">
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name">Ddoa22</p>
+							</div>
+							<div class="reviewInfo">
+								<span class="txtXS">9회 구매</span>
+							</div>
+						</div>
+						<button type="button" class="btnPic btnZzim typeB off"><span class="blind">찜하기</span></button>				
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num Second montBold">2</p>
+						</div>
+						<div class="profileImg brandImg">
+							<img src="../resources/images/content/img_brand_default.png" alt="">
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name">빠오링</p>
+							</div>
+							<div class="reviewInfo">
+								<span class="txtXS">9회 구매</span>
+							</div>
+						</div>
+						<button type="button" class="btnPic btnZzim typeB off"><span class="blind">찜하기</span></button>								
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="reviewerRnk">
+							<p class="num third montBold">3</p>
+						</div>
+						<div class="profileImg brandImg">
+							<img src="../resources/images/content/img_brand_default.png" alt="">
+						</div>
+						<div class="reviewer">
+							<div class="reviewerInfo">
+								<p class="name">미쥬</p>
+							</div>
+							<div class="reviewInfo">
+								<span class="txtXS">9회 구매</span>
+							</div>
+						</div>	
+						<button type="button" class="btnPic btnZzim typeB off"><span class="blind">찜하기</span></button>							
+					</div>
+				</li>
+			</ul>
+			<!-- // 20.11.20 : 브랜드 로고 이미지영역 코딩 수정 -->
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2"><em>$고객명$</em>님, 이건 어때요?</h2>
+			</div>
+
+			<div class="swipeMenuTabB swiperMenu clerFix">
+				<ul class="swiper-wrapper al">
+					<li class="swiper-slide on"><a href="#link">톤떡궁합</a></li>
+					<li class="swiper-slide"><a href="#link">기초탄탄</a></li>
+				</ul>
+				<button type="button" class="btn_reflesh ar"><span class="blind">새로고침</span></button>
+			</div>
+
+			<div class="prdCategory_list s tyB mt20">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2 al">이런 스타일로 반전 매력 도전?!</h2>
+				<button type="button" class="btn_reflesh ar"><span class="blind">새로고침</span></button>
+			</div>
+
+			<div class="pouchPrdColumn">
+				<div class="lcont">
+					<div class="inner">
+						<a href="#link">
+							<div class="img">
+								<img src="../resources/images/temp/img_prd_01.png" alt="">
+							</div>
+							<div class="row">
+								<div class="tit ellipsis"><em>[나스]</em>웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</div>
+								<span class="price">99,999원</span>
+							</div>
+						</a>
+						<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+					</div>
+				</div>
+				<div class="rcont">
+					<div class="inner">
+						<a href="#link">
+							<div class="img">
+								<img src="../resources/images/temp/img_prd_01.png" alt="">
+							</div>
+							<div class="row">
+								<div class="tit ellipsis"><em>[나스]</em>웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</div>
+								<span class="price">99,999원</span>
+							</div>
+						</a>
+						<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+					</div>
+					<div class="inner">
+						<a href="#link">
+							<div class="img">
+								<img src="../resources/images/temp/img_prd_01.png" alt="">
+							</div>
+							<div class="row">
+								<div class="tit ellipsis"><em>[나스]</em>웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</div>
+								<span class="price">99,999원</span>
+							</div>
+						</a>
+						<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2">최근 본 상품</h2>
+				<a href="#" class="links ar">더보기</a>
+			</div>
+
+			<div class="prdCategory_list s tyB">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2">찜한 상품</h2>
+				<a href="#" class="links ar">더보기</a>
+			</div>
+
+			<div class="prdCategory_list s tyB">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<span class="delPrice">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>		
+
+	</div>
+
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0;-webkit-tap-highlight-color: rgba(0,0,0,0);word-break: break-all;}
+body,h1,h2,h3,h4,th,td,input,select,textarea,button {font-size:12px;line-height:1.5;font-family:'Roboto','Droid Sans','Helvetica','Apple-Gothic','애플고딕','Tahoma',dotum,'돋움',gulim,'굴림',sans-serif;color:#000} 
+body {-webkit-text-size-adjust:none}
+button{-webkit-appearance: none;border: none;outline: none}
+img,fieldset,iframe{border:0 none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+dl,ul,ol,menu,li {list-style:none}
+input,select,button{vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+img{vertical-align:top}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+a{color:#000;text-decoration:none;word-break: break-all;}
+a:active{color:#000;text-decoration:underline} 
+i,em,address{font-style:normal}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+legend,caption{display: block;overflow: hidden;visibility: hidden;width: 0 !important;height: 0 !important;line-height: 0 !important;font-size: 0 !important}
+::-webkit-scrollbar{height: 0;width:0;}
+u {text-decoration:none;}
+
+/* input type 정의 */
+input[type='text'],input[type='date'], input[type='password'],input[type='tel'],input[type='email']{position: relative;-webkit-appearance:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input[type="text"],input[type='date'],input[type="password"],input[type='tel'],input[type='email']{border:1px solid #bbbbbb;color:#000;font-size:13px;height: 34px;text-indent: 10px}
+input[type="radio"],input:checked[type="radio"],input[type="checkbox"],input:checked[type="checkbox"],input[type="checkbox"].ck,input:checked[type="checkbox"].ck,input[type="radio"].ck,input:checked[type="radio"].ck{-webkit-appearance:none;appearance:none;border:none !important;outline:none !important;background-image:url(../images/order/order_sp.png);background-repeat: no-repeat;background-size:150px 200px;}
+input[type="radio"]{width:25px;height:25px;background-position:-25px 0; } 
+input:checked[type="radio"]{width:25px;height:25px;background-position:-25px -25px;} 
+input[type="radio"].ck{width:25px;height:25px;border-radius:0;background-position:0 -126px;}
+input:checked[type="radio"].ck{width:25px;height:25px;border-radius:0;background-position:-25px -126px;}
+input[type="checkbox"]{width:25px;height:25px;border-radius:0;background-position:0 0;}
+input:checked[type="checkbox"]{width:25px;height:25px;border-radius:0;background-position:0 -25px;}
+input[type="checkbox"].ck{width:25px;height:25px;border-radius:0;background-position:0 -126px;}
+input:checked[type="checkbox"].ck{width:25px;height:25px;border-radius:0;background-position:-25px -126px;}
+
+select {overflow: hidden;position: relative;width: 100%;text-align:left;-webkit-appearance: none;text-indent: 12px;height: 35px;border: 1px solid #bbb;font-size: 13px;color:#000;background-color:#f4f4f4;position:relative;}
+select:after {content:"";display:block;width: 11px;height:7px;position:absolute;right:10px;top:50%;margin-top:-3px; background-image: url(../images/common/header_sp.png);background-repeat: no-repeat;background-size:150px 150px;background-position:-129px 0; vertical-align: middle;}
+textarea{width: 100%;border:1px solid #bbbbbb;}
+
+::-webkit-input-placeholder {color: #aaa;letter-spacing: 0px;text-indent: 10px;}
+::-moz-placeholder {color: #aaa;letter-spacing: 0px;text-indent: 10px;}
+:-ms-input-placeholder {color: #aaa;letter-spacing: 0px;text-indent: 10px;}
+:-moz-placeholder {color: #aaa;letter-spacing: 0px;text-indent: 10px;}
+placeholder {color: #aaa;letter-spacing: 0px;text-indent: 10px;}
+
+/* blind */
+.blind{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}
+
+/* 테스트용 나중에 삭제예정 */
+.db{display: block !important;}
+
+/* layout */
+header{position:relative;}
+header .title {height:45px;line-height:45px;padding:0 30px; text-align:center;font-size:18px;font-weight:bold;color:#000;position:relative;border-bottom: 1px solid #ccc;letter-spacing: -1px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+header .title.chanel {height:45px;line-height:45px;padding:0 30px; text-align:center;font-size:18px;font-weight:bold;color:#fff;position:relative;background-color:#000; border-bottom: 1px solid #000;letter-spacing: -1px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+header .title.depart {height:45px;line-height:45px;padding:0 30px; text-align:center;font-size:18px;font-weight:bold;color:#000;position:relative;border-bottom: 1px solid #ccc;letter-spacing: -1px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+header .title.depart a {position:inherit;background-image: none;display: inline-block;right:0;top:0;margin-left:-112px; }
+header .title.depart i {display: inline-block;margin-left: 8px; width:15px;height: 9px;background-image: url(../images/order/cart_sp.png);background-repeat: no-repeat;background-size:150px 275px;background-position:-122px -45px;vertical-align: middle;}
+header .brbn {border-bottom: none;}
+header .btn_back{display:block;position:absolute;top:15px;left:10px;width:17px;height:15px;background-image: url(../images/common/header_sp.png);background-repeat: no-repeat;background-size:150px 150px;background-position: 0px -20px;}
+header .chanel .btn_back{display:block;position:absolute;top:15px;left:10px;width:17px;height:15px;background-image: url(../images/common/header_sp.png);background-repeat: no-repeat;background-size:150px 150px;background-position: 0px -20px;background-position: -20px -20px;}
+header .btn_wish{display:block;position:absolute;top:15px;right:10px;color: #666;}
+header .btn_wish span{display: inline-block;margin-left:5px; width: 6px;height: 11px;background-image: url(../images/order/cart_sp.png);background-repeat: no-repeat;background-size:150px 275px;background-position:-125px -53px;vertical-align: middle;}
+header .btn_wish2 {display:block;position:absolute;top:15px;right:10px;color: #666;width:20px;height: 18px;background-image: url(../images/main/main_sp.png);background-repeat: no-repeat;background-size:200px 206px;background-position: -100px -55px;}
+header .btn_wish2.on {background-position: -120px -55px;}
+header .btn_pop_close{display:block;position:absolute;top:15px;right:10px;width:14px;height:14px;background-image: url(../images/common/header_sp.png);background-repeat: no-repeat;background-size:150px 150px;background-position:-9px 0;}
+header .btn_pop_close_new{display:block;position:absolute;top:15px;right:10px;width:14px;height:14px;background-image: url(../images/common/header_sp.png);background-repeat: no-repeat;background-size:150px 150px;background-position:-20px -38px;}
+header .btn_voice {display:block;width:14px;height:19px;position:absolute;right:15px;top:15px; background-image: url(../images/customer/customer_sp.png);background-repeat: no-repeat;background-size:150px 170px;background-position: 0px -30px;}
+header .btn_sns{display:block;position:absolute;top:13px;right:10px;color: #666;width:18px;height: 19px;background-image: url(../images/common/header_sp.png);background-repeat: no-repeat;background-size:150px 155px;background-position: 0 -60px;}
+
+header .serach_area .serach_txt {margin:0 auto;height:29px;position:relative;}
+/*header .serach_area .serach_txt:before {content:"";display:block;position:absolute;left:11px;top:7px;z-index: 10; width:16px;height:16px;background-image: url(../images/member/member_sp.png);background-repeat: no-repeat;background-size:300px 450px;background-position: -215px -260px;}*/
+header .serach_area .serach_txt .sec_btn {display:block;position:absolute;right:10px;top:7px;z-index: 20;background-color:transparent; width:17px;height:17px;background-image: url(../images/member/member_sp.png);background-repeat: no-repeat;background-size:300px 450px;background-position: -115px -353px;}
+header .serach_area .serach_txt .sec_btn:before {content:"";display:block;position:absolute;right:25px;top:0px;width: 1px;height:15px;background-color:#e1e1e1;}
+header .serach_area .serach_txt .del_btn {width:14px;height:14px;position:absolute;right:45px;top:9px;background-color:transparent; background-image: url(../images/order/order_sp.png);background-repeat: no-repeat;background-size:150px 200px;background-position: -55px -75px;}
+header .serach_area .serach_txt span {display:block;height:29px;padding:0 60px 0 10px; height:29px;background-color:#f6f6f6;border:1px solid #e5e5e5;}
+header .serach_area .serach_txt span input[type="text"]{background-color:transparent;border:none;width: 100%;height:29px;text-indent:0px;}
+header .serach_area .serach_txt ::-webkit-input-placeholder {text-indent:0px;}
+header .serach_area .serach_txt ::-moz-placeholder {text-indent:0px;}
+header .serach_area .serach_txt :-ms-input-placeholder {text-indent:0px;}
+header .serach_area .serach_txt :-moz-placeholder {text-indent:0px;}
+header .serach_area .serach_txt placeholder {text-indent:0px;}
+
+/* jQuery UI Datepicker */
+.ui-datepicker {width: 100%; display: none;background: #fff;left: 0 !important}
+.ui-datepicker .ui-datepicker-header {position:relative; padding:5px;background: #333;border: 1px solid #000;border-bottom: none;color:#fff;height: 25px;}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 30px; height: 30px;color: #fff;}
+.ui-datepicker .ui-datepicker-prev {left:2px;}
+.ui-datepicker .ui-datepicker-prev:after{content: "◁";display: block;width: 30px;height: 25px;text-align: center;padding-top: 5px;}
+.ui-datepicker .ui-datepicker-next {right:2px;}
+.ui-datepicker .ui-datepicker-next:after {content: "▷";display: block;width: 30px;height: 25px;text-align: center;padding-top: 5px;}
+.ui-datepicker .ui-datepicker-prev-hover {}
+.ui-datepicker .ui-datepicker-next-hover {}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.ui-datepicker .ui-datepicker-title {text-align: center;font-size: 16px;padding-top: 3px;}
+.ui-datepicker table {width: 100%;border: 1px solid #000;border-top: none; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+.ui-datepicker th { padding: 5px; text-align: center; font-weight: bold; border: 0;background: #eee;}
+.ui-datepicker td { padding: 1px;}
+.ui-datepicker td a { display: block; padding: .2em; text-align: center; text-decoration: none; }
+.ui-datepicker table tr th:first-child{color: #e51c5e;}
+.ui-datepicker table tr td:first-child a{color: #e51c5e;}
+.ui-datepicker table tr th:last-child{color: #0066ff;}
+.ui-datepicker table tr td:last-child a{color: #0066ff;}
+.ui-datepicker-today a{background: #ccc;}
+.ui-datepicker td a.ui-state-active{background: #333;color: #fff !important;}
+.ui-datepicker .ui-icon{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}

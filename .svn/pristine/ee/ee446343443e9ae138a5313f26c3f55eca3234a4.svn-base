@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>마이파우치 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">뷰티프로필</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+        </div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		 <!-- progress bar -->
+        <div class="progressBarHolder">
+            <div class="progressBar">
+                33.3%
+            </div>
+        </div>
+		 <!-- // progress bar -->
+
+        <section>
+            <div class="clearFix">
+                <span class="discAr ar txtXS pointC2"><span class="required"></span>표시 필수값</span>
+            </div>
+
+            <div class="profileRegis">
+                <div class="profileImg">
+                    <img src="https://img.sbs.co.kr/newsnet/etv/upload/2020/11/04/30000655198_1280.jpg" alt="">
+                    <button type="button" class="btnProfileImg"><span class="blind">프로필 사진 등록</span></button>
+                </div>
+            </div>
+
+            <div class="formArea">
+                <span class="label">닉네임 <span class="required"><span class="blind">필수</span></span>
+                <div class="toolTip col_10">
+                    한글, 영문, 숫자 사용 가능하며, 최대 10자 이내로 입력해주세요.
+                </div>
+                </span>
+                <div class="iptWrap">
+					<input type="text" class="ipt" placeholder="닉네임 입력" title="닉네임 입력" id="" name="" value="">
+					<button type="button" class="links underline">랜덤생성</button>
+                <button class="deleteBtn"><span class="blind">해당 필드 입력값 삭제</span></button></div>
+                <!-- 닉네임 사용 가능한 경우 / 닉네임 랜덤 생성한 경우 -->
+                <p class="formMsg">사용 가능한 닉네임 입니다.</p>
+                <!-- //닉네임 사용 가능한 경우 / 닉네임 랜덤 생성한 경우 -->
+
+                <!-- 닉네임 사용 불가능한 경우 -->
+                <p class="formMsg error">이미 사용 중인 닉네임 입니다.</p>
+                <p class="formMsg error">닉네임은 최대 10자까지 입력 가능합니다.</p>
+                <!-- //닉네임 사용 불가능한 경우 -->
+
+				<!-- 피부타입 -->
+				<span class="label">피부타입 <span class="required"><span class="blind">필수</span></span>
+					<a href="MA_PR_08.html" class="tipPop" title="피부타입 설명 팝업 열기">
+						<img src="../resources/images_new/common/ico_tip.png" alt="">
+					</a>
+				</span>
+				<div class="iptGroup txtCheck">
+					<ul>
+						<li>
+							<input type="radio" name="chk1" id="chk1_1">
+							<label for="chk1_1">건성</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_2">
+							<label for="chk1_2">지성</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_3">
+							<label for="chk1_3">중성</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_4">
+							<label for="chk1_4">복합성</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_5">
+							<label for="chk1_5">민감성</label>
+						</li>
+					</ul>
+				</div>
+				<!-- // 피부타입 -->
+
+				<!-- 피부톤 -->
+				<span class="label">
+					피부톤
+					<span class="required"><span class="blind">필수</span></span>
+					<span class="txtXS">(중복선택가능)</span>
+				</span>
+				<div class="iptGroup txtCheck">
+					<ul>
+						<li>
+							<input type="radio" name="chk2" id="chk2_1">
+							<label for="chk2_1">붉은편</label>
+						</li>
+						<li>
+							<input type="radio" name="chk2" id="chk2_2">
+							<label for="chk2_2">노란편</label>
+						</li>
+						<li>
+							<input type="radio" name="chk2" id="chk2_3">
+							<label for="chk2_3">보통</label>
+						</li>
+						<li>
+							<input type="radio" name="chk2" id="chk2_4">
+							<label for="chk2_4">까만편</label>
+						</li>
+					</ul>
+				</div>
+				<!-- // 피부톤 -->
+
+				<!-- 피부고민 -->
+				<span class="label">
+					피부고민
+					<span class="required"><span class="blind">필수</span></span>
+					<span class="txtXS">(중복선택가능)</span>
+				</span>
+				<div class="iptGroup txtCheck">
+					<ul>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_1">
+							<label for="chk3_1">트러블</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_2">
+							<label for="chk3_2">미백</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_3">
+							<label for="chk3_3">탄력</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_4">
+							<label for="chk3_4">블랙헤드</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_5">
+							<label for="chk3_5">각질</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_6">
+							<label for="chk3_6">잡티</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_7">
+							<label for="chk3_7">홍조</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_8">
+							<label for="chk3_8">유분/피지</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_9">
+							<label for="chk3_9">피부톤</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_10">
+							<label for="chk3_10">주름</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_11">
+							<label for="chk3_11">다크써클</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_12">
+							<label for="chk3_12">악건성</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_13">
+							<label for="chk3_13">색소침착</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_14">
+							<label for="chk3_14">수염자국</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk3" id="chk3_15">
+							<label for="chk3_15">모낭염</label>
+						</li>
+					</ul>
+				</div>
+				<!-- // 피부고민 -->
+
+				<!-- 퍼스널컬러 -->
+				<span class="label">
+					퍼스널컬러
+					<span class="required"><span class="blind">필수</span></span>
+					<div class="toolTip col_10 perToolTip">
+						<ul class="colorList">
+							<li>
+								<p class="tit">봄웜톤</p>
+								<ul class="color">
+									<li class="fc8c81"><span class="blind">fc8c81</span></li>
+									<li class="ff6c5c"><span class="blind">ff6c5c</span></li>
+									<li class="ff9d9e"><span class="blind">ff9d9e</span></li>
+									<li class="f2a4b4"><span class="blind">f2a4b4</span></li>
+								</ul>
+							</li>
+							<li>
+								<p class="tit">여름 쿨톤</p>
+								<ul class="color">
+									<li class="fdb9c8"><span class="blind">fdb9c8</span></li>
+									<li class="f08aaa"><span class="blind">f08aaa</span></li>
+									<li class="d183b3"><span class="blind">d183b3</span></li>
+									<li class="b84888"><span class="blind">b84888</span></li>
+								</ul>
+							</li>
+							<li>
+								<p class="tit">가을 웜톤</p>
+								<ul class="color">
+									<li class="e05526"><span class="blind">e05526</span></li>
+									<li class="cd4547"><span class="blind">cd4547</span></li>
+									<li class="ac413b"><span class="blind">ac413b</span></li>
+									<li class="b0e1a"><span class="blind">6b0e1a</span></li>
+								</ul>
+							</li>
+							<li>
+								<p class="tit">겨울 쿨톤</p>
+								<ul class="color">
+									<li class="df658c"><span class="blind">df658c</span></li>
+									<li class="b9001f"><span class="blind">b9001f</span></li>
+									<li class="e4208d"><span class="blind">e4208d</span></li>
+									<li class="ed2d5c"><span class="blind">ed2d5c</span></li>
+								</ul>
+							</li>	
+						</ul>
+					</div>
+				</span>
+				<div class="iptGroup txtCheck">
+					<ul>
+						<li>
+							<input type="radio" name="chk1" id="chk1_1">
+							<label for="chk1_1">봄웜톤</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_2">
+							<label for="chk1_2">여름쿨톤</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_3">
+							<label for="chk1_3">가을웜톤</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_4">
+							<label for="chk1_4">겨울쿨톤</label>
+						</li>
+						<li>
+							<input type="radio" name="chk1" id="chk1_5">
+							<label for="chk1_5">해당없음</label>
+						</li>
+					</ul>
+				</div>
+				<!-- // 퍼스널컬러 -->
+
+				<!-- 관심있는 카테고리 -->
+				<span class="label">
+					관심있는 카테고리
+					<span class="txtXS">(중복선택가능)</span>
+				</span>
+				<div class="iptGroup txtCheck icon div_2">
+					<ul>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_1">
+							<label for="chk7_1" class="categoryico_skin">스킨케어</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_2">
+							<label for="chk7_2" class="categoryico_mask">마스크팩</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_3">
+							<label for="chk7_3" class="categoryico_clean">클랜징</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_4">
+							<label for="chk7_4" class="categoryico_sun">선케어</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_5">
+							<label for="chk7_5" class="categoryico_base">베이스메이크업</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_6">
+							<label for="chk7_6" class="categoryico_point">포인트메이크업</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_7">
+							<label for="chk7_7" class="categoryico_hair">헤어케어</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_8">
+							<label for="chk7_8" class="categoryico_body">바디케어</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_9">
+							<label for="chk7_9" class="categoryico_nail">네일케어</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_10">
+							<label for="chk7_10" class="categoryico_perfume">향수/디퓨저</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_11">
+							<label for="chk7_11" class="categoryico_beauty">미용기기/소품</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_12">
+							<label for="chk7_12" class="categoryico_food">뷰티푸드</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_13">
+							<label for="chk7_13" class="categoryico_men">남성화장품</label>
+						</li>
+						<li>
+							<input type="checkbox" name="chk7" id="chk7_14">
+							<label for="chk7_14" class="categoryico_baby">베이비케어</label>
+						</li>
+					</ul>
+				</div>
+				<!-- // 관심있는 카테고리 -->
+			</div>
+		</section>
+
+		<section>
+			<div class="termsArea mt0">
+				<div class="termsAll">
+					<input type="checkbox" name="terms1" id="terms1_all">
+					<label for="terms1_all">전체 동의</label>
+				</div>
+				<div class="termsCont">
+					<ul class="check">
+						<li>
+							<div class="block">
+								<input type="checkbox" class="" name="terms1" id="terms1_2">
+								<label for="terms1_2"><span>(선택)</span> 민감정보 수집 및 이용 동의</label>
+							</div>
+						</li>
+						<li>
+							<ul class="detailBox">
+								<li>
+									<span class="tit">구분</span>
+									<span class="desc">선택</span>
+								</li>
+								<li>
+									<span class="tit">항목</span>
+									<span class="desc">피부타입, 피부톤, 피부고민, 퍼스널컬러, 관심카테고리</span>
+								</li>
+								<li>
+									<span class="tit">목적</span>
+									<span class="desc">피부정보 분석 및 맞춤 정보 제공</span>
+								</li>
+								<li>
+									<span class="tit">보유기간</span>
+									<span class="desc">탈퇴 후 즉시 또는 법정의무 보유기간까지</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="txtList_disc mb0">
+						<li>선택 항목 수집 및 이용에 대한 동의를 거부하시더라도 기본 서비스는 이용 가능합니다.</li>
+						<li>뷰티 프로필 입력 시 고객님이 입력하신 정보를 기반으로 더 다양하고 고객님에게 잘 맞는 상품을 추천해드릴 수 있습니다.</li>
+						<li>입력하신 정보는 뷰티 클럽 가입 시 사용됩니다.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="btnArea">
+				<button type="button" class="btn_p">수정완료</button>
+			</div>
+		</section>
+
+	</div>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_common.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+</div>
+<!--// wrap -->
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>나만의 공간 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1>내 정보 관리</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<ul class="pageLinkBox">
+				<li>
+					<a href="#link">개인정보 수정</a>
+				</li>
+				<li>
+					<a href="#link">비밀번호 변경</a>
+				</li>
+				<li>
+					<a href="#link">SNS 연결설정</a>
+				</li>
+				<li>
+					<a href="#link">배송지 관리</a>
+				</li>
+				<li>
+					<a href="#link">환불계좌 관리</a>
+				</li>
+				<li>
+					<a href="#link">AK Pay 계좌관리</a>
+				</li>
+				<li>
+					<a href="#link">회원탈퇴</a>
+				</li>
+			</ul>
+	</div>
+	<!-- //container -->
+</div>
+<!--// wrap -->
+</body>
+</html>

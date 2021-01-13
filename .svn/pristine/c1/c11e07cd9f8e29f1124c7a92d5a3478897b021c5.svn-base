@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>마이파우치 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">뷰티클럽</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<div class="msgBox p beautyClub">
+				<div class="inner">
+					<div class="beautyClubInfo">
+						<div class="beautyClubImg">
+							<img src="../resources/images/content/img_beautyclub1.png" alt="">
+							<span class="blind">혜택 팡팡! 상품 빵빵! 뷰티 클럽이란?</span>
+						</div>
+						<p class="desc">지금부터 다른 뷰티 클럽 회원들과 함께<br>코스미끄에서 사용 가능한 클럽 전용 쿠폰/추가<br>적립 등 뷰티 최대 혜택을 누려보세요!</p>
+					</div>
+					<!-- 가입전 -->
+					<div class="reviewPrdOpBox">
+						<dl>
+							<dt>가입조건</dt>
+							<dd>뷰티 프로필 입력</dd>
+							<dt>혜택기간</dt>
+							<dd>가입시점 ~ YYYY.MM.DD</dd>
+						</dl>
+					</div>	
+					<!-- //가입전 -->			
+				</div>
+			</div>  
+		</section>
+
+		<section class="full">
+			<div class="benefitArea">
+				<ul class="benefitList">
+					<li class="benefit1">
+						<div class="msgBox w">
+							<div class="benefitInfo">
+								<span class="benefit">혜택 01</span>
+								<div class="beautyClubImg">
+									<img src="../resources/images/content/img_beautyclub2.png" alt="뷰티 상품 3개 이상 구매 시 5,000원 추가 적립!">
+								</div>
+								<p class="desc">뷰티 상품 3개, 15만원 이상 구매 시 적립<br>매월 	1일~말일까지 구매 건 익월 14일 자동 적립</p>
+							</div>
+
+							<!-- 가입 후 -->
+							<div class="SaveMoneyWrap">
+								<div class="titleArea borderT mt30">
+									<h2 class="titH3"><em>$고객명$</em>님의 적립금 달성 현황</h2>
+								</div>
+								<div class="objGraphBox">
+									<div class="limitGraph">
+										<div class="graphBar"><!-- 100%가 되면/ .graphBar "full" 클래스 추가 -->
+											<span class="bar" style="width: 33%;"></span>
+										</div>
+										<div class="graphIcon">
+											<span class="icon" style="left: 33%;">
+												<span class="img"><img src="../resources/images/icon/ico_obj_graph.png" alt=""></span>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="reviewPrdOpBox mt30">
+									<dl>
+										<dt>구매 기간</dt>
+										<dd>2020.08.01 ~ 2020.08.31</dd>
+										<dt>구매 상품 수</dt>
+										<dd>2개</dd>
+										<dt>구매 금액</dt>
+										<dd>120,000원</dd>
+									</dl>
+								</div>
+								<p class="txtS mt10">
+									<em class="pointC1">뷰티클럽 가입 시</em> 적립금 혜택까지 구매 상품 수 <em class="pointC1">1개</em>, 구매금액 <em class="pointC1">30,000원</em> 남았습니다.
+								</p>
+							</div>
+							<!-- //가입후 -->
+						</div>
+					</li>
+					<li class="benefit2">
+						<div class="msgBox hP">
+							<div class="benefitInfo">
+								<span class="benefit">혜택 02</span>
+								<div class="beautyClubImg">
+									<img src="../resources/images/content/img_beautyclub3.png" alt="뷰티 클럽 전용 뷰티 4종 쿠폰">
+								</div>
+								<p class="desc">매월 자동 지급<br>쿠폰별 1인 1회 사용 가능</p>
+							</div>
+
+							<div class="benefitCoupon">
+								<ul>
+									<li>
+										<div class="couponInfo">
+											<div class="inner">
+												<p class="sale"><em class="montBold pointC1">20%</em></p>
+												<p class="tit">뷰티 클럽 할인 쿠폰</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="couponInfo">
+											<div class="inner">
+												<p class="sale"><em class="montBold pointC3">5%</em></p>
+												<p class="tit">뷰티 클럽 중복 쿠폰</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="couponInfo">
+											<div class="inner">
+												<p class="sale pointC3"><em class="montBold ">1000</em>원</p>
+												<p class="tit">뷰티 클럽 슈퍼 쿠폰</p>
+											</div>
+										</div>
+										
+									</li>
+									<li>
+										<div class="couponInfo">
+											<div class="inner">
+												<p class="sale bold pointC1"><em>무료배송</em></p>
+												<p class="tit">뷰티 클럽 슈퍼 쿠폰</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="benefit3"> 
+						<div class="msgBox w">
+							<div class="benefitInfo">
+								<span class="benefit">혜택 03</span>
+								<div class="beautyClubImg">
+									<img src="../resources/images/content/img_beautyclub4.png" alt="뷰티 클럽 전용 뷰티 체험단">
+								</div>
+								<p class="desc">클럽 가입 고객만 신청 가능<br>체험단 진행 시 뷰티 클럽 페이지 안내</p>
+							</div>
+						</div>
+
+						<div class="sliderNewWrap bullet mt20">
+							<ul class="cate_slide">
+								<li>
+									<div class="prdCategory_list s">
+										<ul>
+											<li>
+												<div class="inner">
+													<div class="prdImg">
+														<a href="#link">
+															<div class="img">
+																<img src="../resources/images/temp/img_prd_01.png" alt="">
+															</div>
+														</a>
+													</div>
+													<div class="prdInfo">
+														<p class="winner bold"><em class="montBold">40</em>명 추첨</p>
+														<div class="prdTitle ellipsis"><a href="#link"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+													</div>
+												</div>	
+											</li>
+											<li>
+												<div class="inner">
+													<div class="prdImg">
+														<a href="#link">
+															<div class="img">
+																<img src="../resources/images/temp/img_prd_01.png" alt="">
+															</div>
+														</a>
+													</div>
+													<div class="prdInfo">
+														<p class="winner bold"><em class="montBold">40</em>명 추첨</p>
+														<div class="prdTitle ellipsis"><a href="#link"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="inner">
+													<div class="prdImg">
+														<a href="#link">
+															<div class="img">
+																<img src="../resources/images/temp/img_prd_01.png" alt="">
+															</div>
+														</a>
+													</div>
+													<div class="prdInfo">
+														<p class="winner bold"><em class="montBold">40</em>명 추첨</p>
+														<div class="prdTitle ellipsis"><a href="#link"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="prdCategory_list s">
+										<ul>
+											<li>
+												<div class="inner">
+													<div class="prdImg">
+														<a href="#link">
+															<div class="img">
+																<img src="../resources/images/temp/img_prd_01.png" alt="">
+															</div>
+														</a>
+													</div>
+													<div class="prdInfo">
+														<p class="winner bold"><em class="montBold">40</em>명 추첨</p>
+														<div class="prdTitle ellipsis"><a href="#link"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+													</div>
+												</div>	
+											</li>
+											<li>
+												<div class="inner">
+													<div class="prdImg">
+														<a href="#link">
+															<div class="img">
+																<img src="../resources/images/temp/img_prd_01.png" alt="">
+															</div>
+														</a>
+													</div>
+													<div class="prdInfo">
+														<p class="winner bold"><em class="montBold">40</em>명 추첨</p>
+														<div class="prdTitle ellipsis"><a href="#link"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="inner">
+													<div class="prdImg">
+														<a href="#link">
+															<div class="img">
+																<img src="../resources/images/temp/img_prd_01.png" alt="">
+															</div>
+														</a>
+													</div>
+													<div class="prdInfo">
+														<p class="winner bold"><em class="montBold">40</em>명 추첨</p>
+														<div class="prdTitle ellipsis"><a href="#link"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+				
+						<ul class="txtList_remark mt60">
+							<li>추가 적립/쿠폰 혜택은 일부 상품 제외될 수 있습니다.</li>
+							<li>당사 사정으로 인하여 혜택 내용 및 기간이 변경될 수 있습니다.</li>
+							<li>유사 ID(ex. AKM1/AKM2/AKM3) 동일 고객정보 등 재판매가 의심되는 신청자는 별도의 통보 없이 클럽 회원에서 제외됩니다.</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="hr">
+			<div class="titleArea">
+				<h2 class="titH3">뷰티 클럽 전용 이벤트</h2>
+				<a href="#" class="links ar">더보기</a>
+			</div>
+			<div class="eventList">
+				<div class="inner">
+					<a href="#none">
+						<div class="img">
+							<!-- <img src="../resources/images/content/img_event1.png" alt=""> -->
+							<img src="https://photo.akmall.com/image0/banner/43/36/94/98/43369498.jpg" alt="">
+						</div>
+					</a>
+					<div class="eventInfo mt10">
+						<p class="eventDday montBold">D-5</p>
+						<span class="category">뷰티 클럽 전용</span>
+						<p class="tit"><a href="#none">이달의 신상품을 Get~!</a></p>
+						<p class="desc">이달의 신상품 구매 시 최대 5만원 할인 쿠폰 혜택!</p>
+						<p class="date">2020.08.07 ~ 2020.08.16</p>
+					</div>
+				</div>
+				<div class="inner mt40">
+					<a href="#none">
+						<div class="img">
+							<img src="../resources/images/content/img_event2.png" alt="">
+						</div>
+					</a>
+					<div class="eventInfo mt10">
+						<p class="eventDday montBold">D-7</p>
+						<span class="category">뷰티 클럽 전용</span>
+						<p class="tit"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+						<p class="desc">뷰티 클럽 회원이라면 누구나 100% 당첨!</p>
+						<p class="date">2020.08.07 ~ 2020.08.16</p>
+					</div>
+				</div>
+				<div class="inner mt40">
+					<a href="#none">
+						<div class="img">
+							<img src="../resources/images/content/img_event1.png" alt="">
+						</div>
+					</a>
+					<div class="eventInfo mt10">
+						<p class="eventDday montBold">D-5</p>
+						<span class="category">뷰티 클럽 전용</span>
+						<p class="tit"><a href="#none">이달의 신상품을 Get~!</a></p>
+						<p class="desc">이달의 신상품 구매 시 최대 5만원 할인 쿠폰 혜택!</p>
+						<p class="date">2020.08.07 ~ 2020.08.16</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hr">
+			<div class="titleArea">
+				<h2 class="titH3">뷰티 클럽 전용 상품</h2>
+			</div>
+
+			<div class="prdCategory_columnB">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="../resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+							</div>
+							<div class="prdInfo">
+								<div class="prdBadge">
+									<span class="branch">AK수원</span>
+									<span class="pic">&PICK</span>
+								</div>
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="starWrap">
+									<span class="starRating">
+										<span style="width:70%"></span>
+									</span>
+									<span class="num">(15)</span>
+								</div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_cart ar"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="btnArea sticky tyB">
+			<button type="button" class="btn_p">뷰티클럽 가입하기</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+
+	<!-- quickLink -->
+	<div class="quickLinkArea botBtnArea">
+		<!-- floating button -->
+		<div class="chatbotWrap">
+			<a href="#" target="_self" class="chaBtn_myPouch"><span class="blind">마이파우치 페이지로 이동</span></a>
+			<!-- <a href="#" target="_self" class="chaBtn_ReviewWrite"><span class="blind">리뷰작성 페이지로 이동</span></a> -->
+			<!-- <a href="#" target="_self" class="chaBtn_vContent"><span class="blind">V-콘텐츠 보기</span></a> -->
+			<a href="#" class="chaBtn_GoTop"><span class="blind">페이지 최상단으로 이동</span></a>
+		</div>
+		<!-- // floating button -->
+		<!-- bottom menu -->
+		<div class="quickBtnArea">
+			<ul class="quickBtn">
+				<li><a href="#">메뉴</a></li>
+				<li><a href="#">리뷰</a></li>
+				<li><a href="#" class="on">홈</a></li>
+				<li><a href="#">MY</a></li>
+				<li class="historyBtn"><a href="#">히스토리<span class="historyOn"><em class="blind">최근본상품</em></span></a></li> <!-- 최근본상품이 있을 경우 "historyOn"영역 show/hidden -->
+			</ul>
+		</div>
+		<!-- // bottom menu -->
+	</div>
+	<!-- // quickLink -->
+
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

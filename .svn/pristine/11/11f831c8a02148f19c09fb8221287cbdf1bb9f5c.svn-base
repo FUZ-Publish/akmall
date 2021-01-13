@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>회원가입 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont full hasBtn"><!-- class :: full -->
+					<div class="popHead">
+						<h1 class="titH3">아이디 찾기</h1>
+					</div>
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<div class="finishBox fail">
+								<div class="inner">
+									<p class="copy">아이디 찾기에 실패하였습니다.</p>
+									<p class="desc">
+										입력하신 정보와 일치하는 회원 정보가 없습니다. <br>확인 후 정확한 정보를 입력해주세요.
+									</p>
+								</div>
+							</div>
+							<ul class="txtList_remark remark">
+								<li>AK뷰티에서 제공드리는 방법으로 아이디를 찾으실 수 없는 고객님께서는 AK MALL 고객센터 1588-2055로 문의해주시기 바랍니다</li>
+							</ul>
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					<div class="btnArea sticky half">
+						<button type="button" class="btn_l">다시입력</button>
+						<button type="button" class="btn_p">회원가입</button>
+					</div>
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

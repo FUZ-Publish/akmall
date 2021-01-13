@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>header &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap mainWrap">
+	<!-- header -->
+	<header class="header type_nb typeLink headerScroll">
+		<div class="gnbHeader">
+			<a href="#" class="cateLink on">
+				<em class="blind">카테고리</em>
+			</a>
+			<h1 class="logoAk">
+				<a href="#link"><span class="blind">AK</span></a>
+				<button type="button" class="appOpenBtn"><span class="blind">메뉴 보기</span></button>
+			</h1>
+			<ul class="appList">
+				<li class="on"><a href="#link"><span class="img"><img src="/beautyapp/resources/images/common/logo_app_ak.png" alt=""></span>AK몰</a></li>
+				<li><a href="#link"><span class="img"><img src="/beautyapp/resources/images/common/logo_app_shasha.png" alt=""></span>뷰티 전문관</a></li>
+			</ul>
+			<div class="ar">
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+					<span class="num">9</span>
+				</a>
+			</div>
+		</div>
+		<div class="iptWrap schWrap">
+			<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+			<button type="button" class="schBtn"><span class="blind">검색</span></button>
+		</div>
+		<!-- menu -->
+		<div class="swipeMenuTabA swiperMenu akMenu">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide on"><a href="#">코스미끄ON</a></li>
+				<li class="swiper-slide"><a href="#">V라이브</a></li>
+				<li class="swiper-slide alarm"><a href="#">쇼핑</a></li>
+				<li class="swiper-slide"><a href="#">뷰티랭킹</a></li>
+				<li class="swiper-slide"><a href="#">이벤트</a></li>
+				<li class="swiper-slide"><a href="#">이벤트</a></li>
+			</ul>
+		</div>
+		<!-- // menu -->
+	</header>
+	<!--// header -->
+
+	<!-- container -->
+	<div class="container">
+		<section class="full pt30 pb30">
+			<div class="titleArea pd20">
+				<h2 class="titH2 more"><a href="#link">지난번 구매하신 상품 어때요?<br>리뷰 작성하고 <em class="highlight">베스트리뷰어</em>에 도전!</a></h2>
+			</div>
+
+			<div class="prdImgSwipe attTxt m swiperMenu">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on">
+						<a href="#link">
+							<span class="img"><img src="/beautyapp/resources/images/temp/img_prd_01.png" alt=""></span>
+						</a>
+						<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+						<p class="txt">라운드랩</p>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img"><img src="/beautyapp/resources/images/temp/img_prd_01.png" alt=""></span>
+						</a>
+						<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+						<p class="txt">라운드랩</p>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img"><img src="/beautyapp/resources/images/temp/img_prd_01.png" alt=""></span>
+						</a>
+						<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+						<p class="txt">라운드랩</p>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img"><img src="/beautyapp/resources/images/temp/img_prd_01.png" alt=""></span>
+						</a>
+						<p class="tit ellipsis">웨이트리스 모이스쳐</p>
+						<p class="txt">라운드랩</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="full mt20 pb30">
+			<div class="prodAuto_slide"><!-- 20.11.23 : 자동롤링 영역 코딩 및 style 수정 -->
+				<ul class="slider ">
+					<li>
+						<div class="prdEventArea md20">
+							<div class="img">
+								<img src="/beautyapp/resources/images/temp/img_prd_main.png" alt="">
+							</div>
+							<div class="prdEventInfo">
+								<a href="#">
+									<p class="tit blur">NARS 2020 NEW<br>에어 매트 립 컬러</p>
+									<p class="desc">랜덤테스트1 나스코리아 10주년 기념 글로벌 한정판 출시!</p>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="prdEventArea md20">
+							<div class="img">
+								<img src="/beautyapp/resources/images/temp/img_prd_main.png" alt="">
+							</div>
+							<div class="prdEventInfo">
+								<a href="#">
+									<p class="tit blur">NARS 2020 NEW<br>에어 매트 립 컬러</p>
+									<p class="desc">랜덤테스트2 나스코리아 10주년 기념 글로벌 한정판 출시!</p>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="prdEventArea md20">
+							<div class="img">
+								<img src="/beautyapp/resources/images/temp/img_prd_main.png" alt="">
+							</div>
+							<div class="prdEventInfo">
+								<a href="#">
+									<p class="tit blur">NARS 2020 NEW<br>에어 매트 립 컬러</p>
+									<p class="desc">랜덤테스트3 나스코리아 10주년 기념 글로벌 한정판 출시!</p>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<div class="controlWrap" style="bottom:91px;right:35px;">
+					<div class="autoControl">
+						<!-- <span class="prev"></span> -->
+						<span class="stop"></span>
+					</div>
+					<div class="autoCounter">
+						<span class="current">1</span><span class="sign">/</span><span class="total"></span>
+						<a href="#" class="totalView"><span class="blind">전체보기</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="prdCategory_list xs pd20 mt30">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo pr0">
+								<div class="prdTitle"><a href="#link" class="ellipsis txtL bold">초콜릿 만큼 달달한 남자 향수 BEST 10</a></div>
+								<span class="txtS">좀 더 센스있는 선물을 원한다면!</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo pr0">
+								<div class="prdTitle"><a href="#link" class="ellipsis txtL bold">로맨틱 무드를 만드는 촉촉 립밤 TOP 5</a></div>
+								<span class="txtS">연인을 위한 선물 겸 날 위한 선물까지!</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="pt15 mt20">
+			<div class="titleArea">
+				<h2 class="titH2">오늘의 ㅊㅅㅋㅈ</h2>
+			</div>
+
+			<div class="quizBox">
+				<p class="quiz">르테휘테르의 포티샤 샴푸가 <br>두피 에너지를 충전해주는 비밀은?</p>
+				<div class="iptWrap">
+					<div class="inner">
+						<input type="text" maxlength="1" value="ㄱ" readonly="readonly">
+						<input type="text" maxlength="1" value="ㄹ" readonly="readonly">
+						<input type="text" maxlength="1" value="ㅋ" readonly="readonly">
+						<input type="text" maxlength="1" value="ㅅ" readonly="readonly">
+					</div>
+				</div>
+
+				<div class="btnArea">
+					<button type="button" class="btn_p">이벤트 참여하기</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="bgBlack mt10">
+			<div class="titleArea mt10">
+				<h2 class="titH2">코스미끄 라이브</h2>
+			</div>
+			<ul class="shopLiveList">
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<a href="#link">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_vod7.png" alt="">
+								</div>
+							</a>
+							<div class="liveBox">
+								<span class="live">LIVE</span>
+							</div>
+							<div class="prdInfo">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_prd1.png" alt="">
+								</div>
+								<div class="info">
+									<p class="tit"><a href="#link">[베네피트]웨이트리 어쩌고 저쩌고</a></p>
+									<p class="price"><span class="montBold">15,000</span>원</p>
+								</div>
+							</div>
+						</div>
+						<p class="tit"><a href="#">커버력 끝장! 봄웜톤을 위한 파운데이션</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<a href="#link">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_vod8.png" alt="">
+								</div>
+							</a>
+							<span class="liveTime">12:37</span>
+							<div class="prdInfo">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_prd2.png" alt="">
+								</div>
+								<div class="info">
+									<p class="tit"><a href="#link">[베네피트]웨이트리 어쩌고 저쩌고</a></p>
+									<p class="price"><span class="montBold">15,000</span>원</p>
+								</div>
+							</div>
+						</div>
+						<p class="tit"><a href="#">커버력 끝장! 봄웜톤을 위한 파운데이션</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<a href="#link">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_vod7.png" alt="">
+								</div>
+							</a>
+							<div class="liveBox">
+								<span class="live">LIVE</span>
+							</div>
+							<div class="prdInfo">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_prd1.png" alt="">
+								</div>
+								<div class="info">
+									<p class="tit"><a href="#link">[베네피트]웨이트리 어쩌고 저쩌고</a></p>
+									<p class="price"><span class="montBold">15,000</span>원</p>
+								</div>
+							</div>
+						</div>
+						<p class="tit"><a href="#">커버력 끝장! 봄웜톤을 위한 파운데이션</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<a href="#link">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_vod8.png" alt="">
+								</div>
+							</a>
+							<span class="liveTime">12:37</span>
+							<div class="prdInfo">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_prd2.png" alt="">
+								</div>
+								<div class="info">
+									<p class="tit"><a href="#link">[베네피트]웨이트리 어쩌고 저쩌고</a></p>
+									<p class="price"><span class="montBold">15,000</span>원</p>
+								</div>
+							</div>
+						</div>
+						<p class="tit"><a href="#">커버력 끝장! 봄웜톤을 위한 파운데이션</a></p>
+					</div>
+				</li>
+			</ul>
+
+			<div class="btnArea ac mb10">
+				<button type="button" class="btn_l tyB mini">전체보기</button>
+			</div>
+		</section>
+
+		<section class="mt10">
+			<div class="titleArea">
+				<h2 class="titH2">요즘 관심 키워드</h2>
+			</div>
+
+			<div class="attBtnWrap">
+				<span class="btn_tag normal">#태그</span>
+				<span class="btn_tag normal">#태그</span>
+				<span class="btn_tag normal">#태그</span>
+				<span class="btn_tag normal">#태그</span>
+				<span class="btn_tag normal">#태그</span>
+				<span class="btn_tag normal">#태그</span>
+			</div>
+		</section>
+
+		<section class="full mt10">
+			<a href="#link">	
+				<div class="mainBanner">
+					<p class="tit">뷰티정보 등록하고<br><em class="bold">찰떡궁합 취향차트 추천받기!</em></p>
+				</div>
+			</a>
+		</section>
+
+		<section class="full pt30 mt10">
+			<div class="titleArea pd20">
+				<h2 class="titH2">찰떡궁합 취향차트</h2>
+			</div>
+
+			<div class="categoryTab swiperMenu pd20">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on">
+						<a href="#link">
+							<span class="categoryico_skin"></span>
+							<p class="txt ellipsis">스킨케어</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_mask"></span>
+							<p class="txt ellipsis">마스크/팩</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_clean"></span>
+							<p class="txt ellipsis">클렌징</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_sun"></span>
+							<p class="txt ellipsis">선케어</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_base"></span>
+							<p class="txt ellipsis">베이스메이크업</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_point"></span>
+							<p class="txt ellipsis">포인트메이크업</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_hair"></span>
+							<p class="txt ellipsis">헤어케어</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_body"></span>
+							<p class="txt ellipsis">바디케어</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_nail"></span>
+							<p class="txt ellipsis">네일케어</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_perfume"></span>
+							<p class="txt ellipsis">향수/디퓨저</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_beauty"></span>
+							<p class="txt ellipsis">미용기기/소품</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_food"></span>
+							<p class="txt ellipsis">뷰티푸드</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_men"></span>
+							<p class="txt ellipsis">남성화장품</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="categoryico_baby"></span>
+							<p class="txt ellipsis">베이비케어</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="prdCategory_columnA pd20">
+				<ul class="chartList">
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="https://photo.akmall.com/image2/goods/90/95/00/62/90950062_M_500.jpg" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+								<span class="bestNumBadge first">1</span>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis2">루나 프로 커버풀 파운데이션</a></div>
+								<span class="txt">
+									커버력이 엄청 만족스러워요. 색도 보통 나스에서 나오는것보다 더 화사하고, 촉촉하면서 커버력이 있으면 너무 이기적인 거 아닙니까!
+								</span>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+								<div class="reviewPrd_Luv">
+									<em class="luv">LUV</em>
+									<span class="luvTime">2시간전 </span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_prd_chart2.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+								<span class="bestNumBadge second">2</span>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis2">루나 프로 커버풀 파운데이션</a></div>
+								<span class="txt">
+									커버력이 엄청 만족스러워요. 색도 보통 나스에서 나오는것보다 더 화사하고, 촉촉하면서 커버력이 있으면 너무 이기적인 거 아닙니까!
+								</span>
+
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+								<div class="reviewPrd_Luv">
+									<em class="luv">LUV</em>
+									<span class="luvTime">2시간전 </span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_prd_chart3.png" alt="">
+									</div>
+								</a>
+								<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+								<span class="bestNumBadge third">3</span>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis2">루나 프로 커버풀 파운데이션</a></div>
+								<span class="txt">
+									커버력이 엄청 만족스러워요. 색도 보통 나스에서 나오는것보다 더 화사하고, 촉촉하면서 커버력이 있으면 너무 이기적인 거 아닙니까!
+								</span>
+
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+								<div class="reviewPrd_Luv">
+									<em class="luv">LUV</em>
+									<span class="luvTime">2시간전 </span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="btnArea mainBtn">
+				<button type="button" class="btn_p">다른 제품도 궁금하니? </button>
+			</div>
+		</section>
+
+		<section class="full mt20 pd15 pb30">
+			<div class="titleArea pd20">
+				<h2 class="titH2">Time Special</h2>
+			</div>
+
+			<div class="bestSlide pd0 mt20">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div class="prdCategory_columnA">
+							<div class="inner">
+								<div class="prdImg">
+									<a href="#link">
+										<div class="img">
+											<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+										</div>
+									</a>
+									<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+									<span class="timeSpecial">
+										<em>09:12:10</em>남음
+									</span>
+								</div>
+								<div class="prdInfo">
+									<div class="prdBadge">
+										<span class="branch">AK수원</span>
+										<span class="pic">&PICK</span>
+									</div>
+									<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>20.11.25 : "normal txtM" 클래스 삭제
+									<div class="prdPrice">
+										<div class="row">
+											<span class="sale montBold">62%</span>
+											<span class="price"><span class="montBold">9,999,999</span>원</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div class="prdCategory_columnA">
+							<div class="inner">
+								<div class="prdImg">
+									<a href="#link">
+										<div class="img">
+											<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+										</div>
+									</a>
+									<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+									<span class="timeSpecial">
+										<em>09:12:10</em>남음
+									</span>
+								</div>
+								<div class="prdInfo">
+									<div class="prdBadge">
+										<span class="branch">AK수원</span>
+										<span class="pic">&PICK</span>
+									</div>
+									<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+									<div class="prdPrice">
+										<div class="row">
+											<span class="sale montBold">62%</span>
+											<span class="price"><span class="montBold">9,999,999</span>원</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div class="prdCategory_columnA">
+							<div class="inner">
+								<div class="prdImg">
+									<a href="#link">
+										<div class="img">
+											<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+										</div>
+									</a>
+									<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+									<span class="timeSpecial">
+										<em>09:12:10</em>남음
+									</span>
+								</div>
+								<div class="prdInfo">
+									<div class="prdBadge">
+										<span class="branch">AK수원</span>
+										<span class="pic">&PICK</span>
+									</div>
+									<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+									<div class="prdPrice">
+										<div class="row">
+											<span class="sale montBold">62%</span>
+											<span class="price"><span class="montBold">9,999,999</span>원</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- 20.12.14 : 배너이미지 영역 추가 -->
+		<div class="bannerArea mt10">
+			<a href="#link" class="img">
+				<img src="/beautyapp/resources/images/temp/temp_banner_01.png" alt="">
+			</a>
+		</div>
+		<!-- // 20.12.14 : 배너이미지 영역 추가 -->
+
+		<section class="full">
+			<div class="lvuHateArea">
+				<div class="titleArea">
+					<h2 class="titH2">Luv & Hate</h2>
+					<p class="desc">좋아하는 제품에 참여해주세요!</p>
+				</div>
+
+				<div class="prdImg">
+					<div class="inner">
+						<span class="img"><!-- 20.11.25 : bgimg에서 img로 변경 -->
+							<img src="https://photo.akmall.com/image2/goods/90/95/00/62/90950062_M_500.jpg" alt="">
+						</span>
+						<p class="tit">루나 에센스<br>센서티브 팩트</p>
+					</div>
+				</div>
+
+				<div class="luvHate">
+					<div class="luvArea">
+						<p class="reviewPrd_Luv">
+							<em>Luv</em>
+						</p>
+	
+						<ul class="luvList">
+							<li>
+								<div class="heartWrap">
+									<span class="heartRating">
+										<span style="width:70%"></span>
+									</span>
+								</div>
+								<p class="desc ellipsis2">피부톤도 딱이고 발림성도 완전 제 스타일이에요!!<br> 오늘 득템했어요♡</p>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="heartWrap">
+									<span class="heartRating">
+										<span style="width:70%"></span>
+									</span>
+								</div>
+								<p class="desc ellipsis2">좋아요. 제 피부톤에 딱 맞아요.</p>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="heartWrap">
+									<span class="heartRating">
+										<span style="width:70%"></span>
+									</span>
+								</div>
+								<p class="desc ellipsis2">유분감이 적당해여!</p>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="hateArea">
+						<p class="reviewPrd_Hate"><em>Hate</em></p>
+						<ul class="hateList">
+							<li>
+								<div class="heartWrap">
+									<span class="heartRating">
+										<span style="width:70%"></span>
+									</span>
+								</div>
+								<p class="desc ellipsis2">피부톤도 딱이고 발림성도 완전 제 스타일이에요!!<br> 오늘 득템했어요♡</p>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="heartWrap">
+									<span class="heartRating">
+										<span style="width:70%"></span>
+									</span>
+								</div>
+								<p class="desc ellipsis2">좋아요. 제 피부톤에 딱 맞아요.</p>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="heartWrap">
+									<span class="heartRating">
+										<span style="width:70%"></span>
+									</span>
+								</div>
+								<p class="desc ellipsis2">유분감이 적당해여!</p>
+								<div class="revUser">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_youtuber.png" alt="">
+									</div>
+									<span class="userInfo">
+										<em>아이유</em>
+										<em>복합성</em>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<p class="txtL mt20">퍼블 문의 사항 : 하트색상 표시는 각 개별로 1개씩인가요, 컨테츠의 별점과 동일하게 왼쪽부터 색상 차오르는 %로 구현되나요?</p>
+
+				<div class="btnArea mainBtn">
+					<button type="button" class="btn_p">더 많은 정보 보러가기</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="full pt30 pb30 mt10">
+			<div class="titleArea pd20">
+				<h2 class="titH2">AK돈AK산 체험단</h2>
+			</div>
+
+			<div class="grab_slide akExpList">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div class="eventList">
+							<div class="eventImg">
+								<a href="#none">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_event1.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="eventInfo">
+								<div class="recruit mt10">
+									<span><em>20</em>명 모집</span>
+									<span class="pointC1 bold"><em>10:21:12</em> 남음</span>
+								</div>
+								<p class="tit ellipsis"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+							</div>
+						</div>    
+					</li>
+					<li class="swiper-slide">
+						<div class="eventList">
+							<div class="eventImg">
+								<a href="#none">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_event2.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="eventInfo pd0">
+								<div class="recruit mt10">
+									<span><em>20</em>명 모집</span>
+									<span class="pointC1 bold"><em>10:21:12</em> 남음</span>
+								</div>
+								<p class="tit"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+							</div>
+						</div>  
+					</li>
+					<li class="swiper-slide">
+						<div class="eventList">
+							<div class="eventImg">
+								<a href="#none">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_event1.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="eventInfo pd0">
+								<div class="recruit mt10">
+									<span><em>20</em>명 모집</span>
+									<span class="pointC1 bold"><em>10:21:12</em> 남음</span>
+								</div>
+								<p class="tit"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+							</div>
+						</div>  
+					</li>
+				</ul>
+			</div>
+
+			<div class="btnArea mainBtn">
+				<button type="button" class="btn_p">전체보기</button>
+			</div>
+		</section>
+
+		<section class="full pb30 mt20 pt15">
+			<div class="titleArea pd20">
+				<h2 class="titH2">이벤트</h2>
+			</div>
+			
+			<div class="grab_slide akExpList">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div class="eventList">
+							<div class="eventImg">
+								<a href="#none">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_event1.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="eventInfo">
+								<p class="tit mt10"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+								<p class="desc">뷰티 클럽 회원이라면 누구나 100% 당첨!</p>
+								<p class="date">2020.08.07 ~ 2020.08.16</p>
+							</div>
+						</div>    
+					</li>
+					<li class="swiper-slide">
+						<div class="eventList">
+							<div class="eventImg">
+								<a href="#none">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_event2.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="eventInfo">
+								<p class="tit mt10"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+								<p class="desc">뷰티 클럽 회원이라면 누구나 100% 당첨!</p>
+								<p class="date">2020.08.07 ~ 2020.08.16</p>
+							</div>
+						</div>  
+					</li>
+					<li class="swiper-slide">
+						<div class="eventList">
+							<div class="eventImg">
+								<a href="#none">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_event1.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="eventInfo">
+								<p class="tit mt10"><a href="#none">상품평 작성하고 룰렛 돌리세요!</a></p>
+								<p class="desc">뷰티 클럽 회원이라면 누구나 100% 당첨!</p>
+								<p class="date">2020.08.07 ~ 2020.08.16</p>
+							</div>
+						</div>  
+					</li>
+				</ul>
+			</div>
+
+			<div class="btnArea mainBtn">
+				<button type="button" class="btn_p">전체보기</button>
+			</div>
+		</section>
+		
+	</div>
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+
+	<!-- quickLink -->
+	<div class="quickLinkArea botBtnArea">
+		<!-- floating button -->
+		<div class="chatbotWrap">
+			<a href="#" target="_self" class="chaBtn_myPouch"><span class="blind">마이파우치 페이지로 이동</span></a>
+			<!-- <a href="#" target="_self" class="chaBtn_ReviewWrite"><span class="blind">리뷰작성 페이지로 이동</span></a> -->
+			<!-- <a href="#" target="_self" class="chaBtn_vContent"><span class="blind">V-콘텐츠 보기</span></a> -->
+			<a href="#" class="chaBtn_GoTop"><span class="blind">페이지 최상단으로 이동</span></a>
+		</div>
+		<!-- // floating button -->
+		<!-- bottom menu -->
+		<div class="quickBtnArea">
+			<ul class="quickBtn">
+				<li><a href="#">메뉴</a></li>
+				<li><a href="#">리뷰</a></li>
+				<li><a href="#" class="on">홈</a></li>
+				<li><a href="#">MY</a></li>
+				<li class="historyBtn"><a href="#">히스토리<span class="historyOn"><em class="blind">최근본상품</em></span></a></li> <!-- 최근본상품이 있을 경우 "historyOn"영역 show/hidden -->
+			</ul>
+		</div>
+		<!-- // bottom menu -->
+	</div>
+	<!-- // quickLink -->
+
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>리뷰 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">리뷰라운지</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- menu -->
+	<div class="tabDropWrap scrollFixed_2">
+		<div class="swipeMenuTabC tabBar tabMenuAcc swiperMenu">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide on"><a href="#link">전체</a></li>
+				<li class="swiper-slide"><a href="#link">스킨/토너</a></li>
+				<li class="swiper-slide"><a href="#link">에센스/앰플/세럼</a></li>
+				<li class="swiper-slide"><a href="#link">페이스오일</a></li>
+				<li class="swiper-slide"><a href="#link">로션/에멀전</a></li>
+				<li class="swiper-slide"><a href="#link">크림</a></li>
+				<li class="swiper-slide"><a href="#link">아이케어</a></li>
+				<li class="swiper-slide"><a href="#link">미스트</a></li>
+				<li class="swiper-slide"><a href="#link">젤</a></li>
+				<li class="swiper-slide"><a href="#link">립케어</a></li>
+				<li class="swiper-slide"><a href="#link">스킨케어세트</a></li>
+			</ul>
+			<button type="button" class="openBtn"><span class="blind">메뉴 보기</span></button>
+		</div>
+		<div class="tabMenuCont">
+			<ul>
+				<li><a href="#link">스킨/토너</a></li>
+				<li><a href="#link">에센스/앰플/세럼</a></li>
+				<li><a href="#link">페이스오일</a></li>
+				<li><a href="#link">로션/에멀전</a></li>
+				<li><a href="#link">크림</a></li>
+				<li><a href="#link">아이케어</a></li>
+				<li><a href="#link">미스트</a></li>
+				<li><a href="#link">젤</a></li>
+				<li><a href="#link">립케어</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- // menu -->
+
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<div class="totalTxt mt30 pd20">
+				총 <em>1,000,000</em>개 리뷰
+			</div>
+			<div class="iptWrap schWrap tyB">
+				<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+				<button type="button" class="schBtn"><span class="blind">검색</span></button>
+			</div>
+			<div class="sortArea filter mt20 pd20">
+				<div class="lcont">
+					<div class="iptGroup">
+						<input type="checkbox" name="chk1" id="chk1_1">
+						<label for="chk1_1">내 타입</label>
+					</div>
+				</div>
+				<div class="rcont">
+					<button type="button" class="btn_filter">필터</button>
+					<div class="sltWrap mini">
+						<select name="" id="">
+							<option value="">인기순</option>
+							<option value="">추천순</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<article id="review">
+			<section>
+				<div class="prdCategory_list s">
+					<div class="inner">
+						<div class="prdImg">
+							<a href="#link">
+								<div class="img">
+									<img src="../resources/images/temp/img_prd_01.png" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="prdInfo">
+							<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+							<div class="starWrap">
+								<span class="starRating">
+									<span style="width:100%"></span>
+								</span>
+								<span class="num">(15)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profileArea elem mt10">
+					<div class="userWrap clearFix">
+						<div class="profileImg">
+							<a href="#">
+								<div class="img">
+									<img src="../resources/images/temp/img_user_profile.png" alt="">
+									<!-- <img src="../resources/images/content/img_user_profile_default.png" alt=""> -->
+								</div>
+							</a>
+						</div>
+						<div class="profileInfo">
+							<div class="userID">
+								<a href="#">닉네임자리</a>
+							</div>
+							<div class="disc">
+								<span class="txtS">2020.09.12</span>
+								<span class="icoProfile_buy">구매자</span>
+								<span class="icoProfile_top">TOP<em>100</em></span>
+								<span class="icoProfile_exp">체험단</span>
+							</div>
+						</div>
+					</div>
+					<p class="profileElement">
+						<em>여자</em><em>24세</em><em>건성</em><em>붉은편</em><em>트러블</em><em>블랙헤드</em>
+					</p>
+				</div>
+
+				<div class="reviewPrdOpBox">
+					<dl>
+						<dt>구매옵션</dt>
+						<dd>212 루쥬 레벨</dd>
+						<dt>커버력</dt>
+						<dd>보통이예요</dd>
+						<dt>배송</dt>
+						<dd>빨라요</dd>
+					</dl>
+				</div>
+
+				<p class="review txtM">좋아요 추천합니다.</p>
+
+				<div class="reviewPrd_Luv">
+					<em>LUV</em>
+					<p>상품케이스가 세련되고 예뻐서 특히 선물용으로 좋을 것이라고 생각합니다!</p>
+				</div>
+				<div class="reviewPrd_Hate">
+					<em>HATE</em>
+					<p>바르고 나면 약간의 트러블이 나올 수 있으니 매장에서 테스트 해보고 구매하셔야 할거 같아요ㅠㅠ</p>
+				</div>
+			</section>		
+			
+			<section class="full pb30">
+				<!-- <div class="prdImgSwipe attBtn m swiperMenu mt0">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide on">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<a href="#" class="video"><span class="blind">영상 보기</span></a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+					</ul>
+				</div> -->
+				<div class="prdImgSwipe attBtn m mt0 scrollX">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide on">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<a href="#" class="video"><span class="blind">영상 보기</span></a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="reviewPrdAid pd20">
+					<button class="btn_aid off">도움이 돼요</button>
+					<span class="txtS"><em class="pointC1">999</em>명에게 도움이 되었습니다.</span>
+				</div>
+			</section>
+		</article>
+
+		<div class="rankBanner">
+			<a href="#link" class="rankToday">
+				오늘의 베스트 리뷰어는 누구?<br>
+				<span class="bold">베스트 리뷰어</span> 확인하세요!
+			</a>
+		</div>
+
+		<article id="review">
+			<section>
+				<div class="prdCategory_list s">
+					<div class="inner">
+						<div class="prdImg">
+							<a href="#link">
+								<div class="img">
+									<img src="../resources/images/temp/img_prd_01.png" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="prdInfo">
+							<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+							<div class="starWrap">
+								<span class="starRating">
+									<span style="width:100%"></span>
+								</span>
+								<span class="num">(15)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profileArea elem mt10">
+					<div class="userWrap clearFix">
+						<div class="profileImg">
+							<a href="#">
+								<div class="img">
+									<!-- <img src="../resources/images/temp/img_user_profile.png" alt=""> -->
+									<img src="../resources/images/content/img_user_profile_default.png" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="profileInfo">
+							<div class="userID">
+								<a href="#">홍*동</a>
+							</div>
+							<div class="disc">
+								<span class="txtS">2020.09.12</span>
+								<span class="icoProfile_buy">비구매자</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<p class="review txtM">좋아요 추천합니다.</p>
+			</section>
+
+			<section class="full pb30">
+				<div class="reviewPrdAid pd20">
+					<button class="btn_aid off">도움이 돼요</button>
+					<span class="txtS"><em class="pointC1">999</em>명에게 도움이 되었습니다.</span>
+				</div>
+			</section>
+		</article>
+		
+		<article id="review" class="hr">
+			<section>
+				<div class="prdCategory_list s">
+					<div class="inner">
+						<div class="prdImg">
+							<a href="#link">
+								<div class="img">
+									<img src="../resources/images/temp/img_prd_01.png" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="prdInfo">
+							<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+							<div class="starWrap">
+								<span class="starRating">
+									<span style="width:100%"></span>
+								</span>
+								<span class="num">(15)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profileArea elem mt10">
+					<div class="userWrap clearFix">
+						<div class="profileImg">
+							<a href="#">
+								<div class="img">
+									<!--<img src="../resources/images/temp/img_user_profile.png" alt=""> -->
+									<img src="../resources/images/content/img_user_profile_default.png" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="profileInfo">
+							<div class="userID">
+								<a href="#">선**녀</a>
+							</div>
+							<div class="disc">
+								<span class="txtS">2020.09.12</span>
+								<span class="icoProfile_buy">구매자</span>
+								<span class="icoProfile_top">TOP<em>100</em></span>
+								<span class="icoProfile_exp">체험단</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="reviewPrdOpBox">
+					<dl>
+						<dt>구매옵션</dt>
+						<dd>212 루쥬 레벨</dd>
+						<dt>커버력</dt>
+						<dd>보통이예요</dd>
+						<dt>배송</dt>
+						<dd>빨라요</dd>
+					</dl>
+				</div>
+
+				<p class="review txtM">좋아요 추천합니다.</p>
+
+				<div class="reviewPrd_Luv">
+					<em>LUV</em>
+					<p>상품케이스가 세련되고 예뻐서 특히 선물용으로 좋을 것이라고 생각합니다!</p>
+				</div>
+				<div class="reviewPrd_Hate">
+					<em>HATE</em>
+					<p>바르고 나면 약간의 트러블이 나올 수 있으니 매장에서 테스트 해보고 구매하셔야 할거 같아요ㅠㅠ</p>
+				</div>
+			</section>
+		
+			<section class="full pb30">
+				<div class="prdImgSwipe attBtn m swiperMenu mt0">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide on">
+							<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							<a href="#" class="video"><span class="blind">영상 보기</span></a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#link">
+								<span class="img"><img src="../resources/images/temp/img_prd_01.png" alt=""></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="reviewPrdAid pd20">
+					<button class="btn_aid off">도움이 돼요</button>
+					<span class="txtS"><em class="pointC1">999</em>명에게 도움이 되었습니다.</span>
+				</div>
+			</section>
+		</article>
+	
+	</div>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+
+	<!-- quickLink -->
+	<div class="quickLinkArea botBtnArea">
+		<!-- floating button -->
+		<div class="chatbotWrap">
+			<!-- <a href="#" target="_self" class="chaBtn_myPouch"><span class="blind">마이파우치 페이지로 이동</span></a> -->
+			<a href="#" target="_self" class="chaBtn_ReviewWrite"><span class="blind">리뷰작성 페이지로 이동</span></a>
+			<!-- <a href="#" target="_self" class="chaBtn_vContent"><span class="blind">V-콘텐츠 보기</span></a> -->
+			<a href="#" class="chaBtn_GoTop"><span class="blind">페이지 최상단으로 이동</span></a>
+		</div>
+		<!-- // floating button -->
+		<!-- bottom menu -->
+		<div class="quickBtnArea">
+			<ul class="quickBtn">
+				<li><a href="#">메뉴</a></li>
+				<li><a href="#">리뷰</a></li>
+				<li><a href="#" class="on">홈</a></li>
+				<li><a href="#">MY</a></li>
+				<li class="historyBtn"><a href="#">히스토리<span class="historyOn"><em class="blind">최근본상품</em></span></a></li> <!-- 최근본상품이 있을 경우 "historyOn"영역 show/hidden -->
+			</ul>
+		</div>
+		<!-- // bottom menu -->
+	</div>
+	<!-- // quickLink -->
+
+	<!-- footer -->
+	<footer></footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

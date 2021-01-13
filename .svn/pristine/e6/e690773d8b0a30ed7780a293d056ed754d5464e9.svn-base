@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont"><!-- class ::  -->
+					<div class="popHead">
+						<h1 class="titH3">혜택내역</h1>
+					</div>
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<table class="tableY">
+								<colgroup>
+									<col style="width:106px" span="1">
+									<col style="width:auto" span="1">
+								</colgroup>
+								<tbody>
+									<tr>
+										<th class="th">정상가</th>
+										<td>70,000원</td>
+									</tr>
+									<tr>
+										<th class="th">쿠폰 할인가</th>
+										<td>-8,400원 <em class="pointC1">(12% 쿠폰 적용)</em></td>
+									</tr>
+									<tr>
+										<th class="th">적립금 즉시할인</th>
+										<td>-2,100원</td>
+									</tr>
+									<tr>
+										<th class="th pointC1">할인 적용가</th>
+										<td class="pointC1">59,400원</td>
+									</tr>
+								</tbody>
+							</table>
+							
+							<ul class="txtList_disc">
+								<li>할인적용가는 쿠폰할인, 적립금 즉시할인이 모두 포함된 금액입니다.</li>
+								<li>할인쿠폰은 회원의 경우 결제시 자동 적용됩니다. </li>
+							</ul>
+							<!-- 본문 (e) -->
+						</div>
+
+					</div>
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

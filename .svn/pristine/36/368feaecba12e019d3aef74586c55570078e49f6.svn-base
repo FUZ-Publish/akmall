@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>코스미끄 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<div class="iptWrap schWrap">
+				<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+				<button type="button" class="schBtn"><span class="blind">검색</span></button>
+			</div>
+			<div class="ar">
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- menu -->
+	<div class="MenuTabCosmic">
+		<ul class="">
+			<li><a href="#">코스미끄ON</a></li>
+			<li class="on"><a href="#">V-라이브</a></li>
+			<li><a href="#">쇼핑</a></li>
+			<li><a href="#">뷰티랭킹</a></li>
+			<li><a href="#">이벤트</a></li>
+		</ul>
+	</div>
+	<!-- // menu -->
+	
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<div class="prodAuto_slide"><!-- 20.11.23 : 자동롤링 영역 코딩 및 style 수정 -->
+				<ul class="slider">
+					<li>
+						<div class="prdCosmicArea">
+							<div class="img">
+								<img src="/beautyapp/resources/images/content/img_prd_cosmic1.png" alt="">
+							</div>
+							<div class="prdCosmicInfo">
+								<p class="tit">수분크림 세트<br>단독 사은품 구성!</p>
+								<p class="txt">1수요일 오후 8:00 LIVE 진행</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="prdCosmicArea">
+							<div class="img">
+								<img src="/beautyapp/resources/images/content/img_prd_cosmic1.png" alt="">
+							</div>
+							<div class="prdCosmicInfo">
+								<p class="tit">수분크림 세트<br>단독 사은품 구성!</p>
+								<p class="txt">2수요일 오후 8:00 LIVE 진행</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<div class="controlWrap" style="bottom:15px;">
+					<div class="autoControl">
+						<!-- <span class="prev"></span> -->
+						<span class="stop"></span>
+					</div>
+					<div class="autoCounter">
+						<span class="current">1</span><span class="sign">/</span><span class="total"></span>
+						<a href="#" class="totalView"><span class="blind">전체보기</span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bgBlack">
+			<div class="titleArea">
+				<h2 class="titH2">Now! Live!</h2>
+				<a href="#link" class="links ar">모두보기</a>
+			</div>
+			<ul class="shopLiveList">
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<a href="#link">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_vod7.png" alt="">
+								</div>
+							</a>
+							<div class="liveBox">
+								<span class="live">LIVE</span>
+							</div>
+							<div class="prdInfo">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_prd1.png" alt="">
+								</div>
+								<div class="info">
+									<p class="tit"><a href="#link">[베네피트]웨이트리 어쩌고 저쩌고</a></p>
+									<p class="price"><span class="montBold">15,000</span>원</p>
+								</div>
+							</div>
+						</div>
+						<p class="tit"><a href="#">커버력 끝장! 봄웜톤을 위한 파운데이션</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<a href="#link">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_vod8.png" alt="">
+								</div>
+							</a>
+							<span class="liveTime">12:37</span>
+							<div class="prdInfo">
+								<div class="img">
+									<img src="/beautyapp/resources/images/content/img_prd2.png" alt="">
+								</div>
+								<div class="info">
+									<p class="tit"><a href="#link">[베네피트]웨이트리 어쩌고 저쩌고</a></p>
+									<p class="price"><span class="montBold">15,000</span>원</p>
+								</div>
+							</div>
+						</div>
+						<p class="tit"><a href="#">커버력 끝장! 봄웜톤을 위한 파운데이션</a></p>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section class="bgBlack full pb30">
+			<div class="titleArea pd20">
+				<h2 class="titH2">라이브 예고</h2>
+				<a href="#link" class="links ar">모두보기</a>
+			</div>	
+			
+			<div class="sliderNewWrap bullet liveSlideBot">
+				<ul class="cate_slide">
+					<li>
+						<div class="vodScheList">
+							<div class="vodImg">
+								<a href="#">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod6.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="info">
+								<span class="date txtM block">12월10일</span>
+								<p class="time">AM 11:00</p>
+								<p class="tit"><a href="#link">선런칭 완판 더쿠션!<br>밀착력 끝판왕 묻어남 NO</a></p>
+							</div>
+							<button type="button" class="btnPic btnZzim alarm off"><span class="blind">방송 알람 받기</span></button>
+						</div>
+						<div class="vodScheList">
+							<div class="vodImg">
+								<a href="#">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod6.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="info">
+								<span class="date txtM block">12월10일</span>
+								<p class="time">AM 11:00</p>
+								<p class="tit"><a href="#link">선런칭 완판 더쿠션!<br>밀착력 끝판왕 묻어남 NO</a></p>
+							</div>
+							<button type="button" class="btnPic btnZzim alarm off"><span class="blind">방송 알람 받기</span></button>
+						</div>
+						<div class="vodScheList">
+							<div class="vodImg">
+								<a href="#">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod6.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="info">
+								<span class="date txtM block">12월10일</span>
+								<p class="time">AM 11:00</p>
+								<p class="tit"><a href="#link">선런칭 완판 더쿠션!<br>밀착력 끝판왕 묻어남 NO</a></p>
+							</div>
+							<button type="button" class="btnPic btnZzim alarm off"><span class="blind">방송 알람 받기</span></button>
+						</div>
+					</li>
+					<li>
+						<div class="vodScheList">
+							<div class="vodImg">
+								<a href="#">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod6.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="info">
+								<span class="date txtM block">12월10일</span>
+								<p class="time">AM 11:00</p>
+								<p class="tit"><a href="#link">선런칭 완판 더쿠션!<br>밀착력 끝판왕 묻어남 NO</a></p>
+							</div>
+							<button type="button" class="btnPic btnZzim alarm off"><span class="blind">방송 알람 받기</span></button>
+						</div>
+						<div class="vodScheList">
+							<div class="vodImg">
+								<a href="#">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod6.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="info">
+								<span class="date txtM block">12월10일</span>
+								<p class="time">AM 11:00</p>
+								<p class="tit"><a href="#link">선런칭 완판 더쿠션!<br>밀착력 끝판왕 묻어남 NO</a></p>
+							</div>
+							<button type="button" class="btnPic btnZzim alarm off"><span class="blind">방송 알람 받기</span></button>
+						</div>
+						<div class="vodScheList">
+							<div class="vodImg">
+								<a href="#">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod6.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="info">
+								<span class="date txtM block">12월10일</span>
+								<p class="time">AM 11:00</p>
+								<p class="tit"><a href="#link">선런칭 완판 더쿠션!<br>밀착력 끝판왕 묻어남 NO</a></p>
+							</div>
+							<button type="button" class="btnPic btnZzim alarm off"><span class="blind">방송 알람 받기</span></button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="bgBlack">
+			<div class="titleArea">
+				<h2 class="titH2">코스미끄&rsquo;s Pick</h2>
+			</div>	
+
+			<div class="prdCategoryVOD">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod1.png" alt="">
+									</div>
+								</a>
+								<span class="liveTime">12:37</span>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle ellipsis2">
+									<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+								</div>
+								<div class="prdLikeit">
+									<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+								</div>
+								<div class="vodWatchNum">
+									<em>1,567</em>명 시청
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod2.png" alt="">
+									</div>
+								</a>
+								<span class="liveTime">12:37</span>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle ellipsis2">
+									<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+								</div>
+								<div class="prdLikeit">
+									<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+								</div>
+								<div class="vodWatchNum">
+									<em>1,567</em>명 시청
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/content/img_vod3.png" alt="">
+									</div>
+								</a>
+								<span class="liveTime">12:37</span>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle ellipsis2">
+									<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+								</div>
+								<div class="prdLikeit">
+									<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+								</div>
+								<div class="vodWatchNum">
+									<em>1,567</em>명 시청
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea clearFix">
+				<h2 class="titH2">홈쇼핑</h2>
+				<button type="button" class="btn_l xs colorRoundA ar txtS">편성표</button>
+			</div>
+
+			<ul class="liveList">
+				<li>
+					<div class="inner">
+						<div class="vodImg">
+							<div class="img">
+								<img src="/beautyapp/resources/images/content/img_live_vod2.png" alt="">
+								<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+							</div>
+							<div class="onAirBox">
+								<span class="onAir">ON-AIR</span>
+								<span class="onAirTime">02:27:23</span>
+							</div>
+						</div>
+						<div class="liveVodInfo">
+							<div class="vodTitle"><a href="#link">[배네피트]웨이트리스 모이스쳐 페이스 모이스</a></div>
+							<div class="prdPrice">
+								<div class="row">
+									<span class="delPrice"><em class="mont">9,999,999</em>원</span>
+									<span class="price"><em class="montBold">9,999,999</em>원</span>
+									<span class="sale montBold">62%</span>
+									<button type="button" class="btn_l s mini earlyBuy">구매</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2">홈쇼핑 상품 추천</h2>
+			</div>
+
+			<div class="prdCategory_columnB">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="vodImg">
+								<div class="img">
+									<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+									<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+								</div>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<div class="vodImg">
+								<div class="img">
+									<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+									<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+								</div>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="delPrice">9,999,999원</span>
+										<span class="sale">62%</span>
+										<span class="price">9,999,999원</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="titleArea pd20">
+			<h2 class="titH2">인기 VOD</h2>
+		</div>
+
+		<div class="tabDropWrap scrollFixed_2">
+			<div class="swipeMenuTabA tabBar tabMenuAcc swiperMenu">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on"><a href="#link">전체</a></li>
+					<li class="swiper-slide"><a href="#link">마스크/팩</a></li>
+					<li class="swiper-slide"><a href="#link">클렌징</a></li>
+					<li class="swiper-slide"><a href="#link">선케어</a></li>
+					<li class="swiper-slide"><a href="#link">스킨케어센터</a></li>
+					<li class="swiper-slide"><a href="#link">스킨케어센터</a></li>
+				</ul>
+				<button type="button" class="openBtn"><span class="blind">메뉴 보기</span></button>
+			</div>
+			<div class="tabMenuCont">
+				<ul>
+					<li><a href="#link">스킨/토너</a></li>
+					<li><a href="#link">에센스/앰플/세럼</a></li>
+					<li><a href="#link">페이스오일</a></li>
+					<li><a href="#link">로션/에멀전</a></li>
+					<li><a href="#link">크림</a></li>
+					<li><a href="#link">아이케어</a></li>
+					<li><a href="#link">미스트</a></li>
+					<li><a href="#link">젤</a></li>
+					<li><a href="#link">립케어</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="pt0">
+			<div class="iptWrap schWrap fullNone">
+				<input type="text" name="" value="" class="delete sch" placeholder="찾으시는 방송을 검색하세요">
+				<button type="button" class="schBtn"><span class="blind">검색</span></button>
+			</div>
+
+			<div class="sortArea filter">
+				<div class="rcont">
+					<div class="sltWrap mini">
+						<select name="" id="">
+							<option value="">인기순</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="vodLiveArea mt20">
+				<div class="vodImg">
+					<div class="img br20">
+						<img src="/beautyapp/resources/images/content/img_vod_live1.png" alt="">
+						<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+					</div>
+					<span class="liveTime">12:37</span>
+				</div>		
+				<div class="liveVodInfo">
+					<div class="vodTitle"><a href="#link">[베네피트] 세라마이드 캡슐로 자극받은 피부 진정 보습, 캡슐진정크림!</a></div>
+					<div class="info">
+						<span class="view"><span class="blind">조회수</span>1,567</span>
+						<span class="heart">
+							<button type="button" class="btnPic btnZzim typeC off"><span class="blind">좋아요</span><em>251</em></button>
+						</span>
+					</div>
+				</div>						
+			</div>
+			<div class="prdCategory_list xs mt20">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle pr10"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+										<button type="button" class="btn_l m mini buy ar">구매</button>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="vodLiveArea mt40">
+				<div class="vodImg">
+					<div class="img br20">
+						<img src="/beautyapp/resources/images/content/img_vod_live1.png" alt="">
+						<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+					</div>
+					<span class="liveTime">12:37</span>
+				</div>		
+				<div class="liveVodInfo">
+					<div class="vodTitle"><a href="#link">[베네피트] 세라마이드 캡슐로 자극받은 피부 진정 보습, 캡슐진정크림!</a></div>
+					<div class="info">
+						<span class="view"><span class="blind">조회수</span>1,567</span>
+						<span class="heart">
+							<button type="button" class="btnPic btnZzim typeC off"><span class="blind">좋아요</span><em>251</em></button>
+						</span>
+					</div>
+				</div>						
+			</div>
+			<div class="prdCategory_list xs mt20">
+				<ul>
+					<li>
+						<div class="inner">
+							<div class="prdImg">
+								<a href="#link">
+									<div class="img">
+										<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+									</div>
+								</a>
+							</div>
+							<div class="prdInfo">
+								<div class="prdTitle pr10"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+								<div class="prdPrice">
+									<div class="row">
+										<span class="price">9,999,999원</span>
+									</div>	
+								</div>
+								<button type="button" class="btn_l m mini buy ar">상품보기</button>
+								<span class="buyNum">5</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+
+	<!-- bottom menu -->
+	<!-- // bottom menu -->
+
+	<!-- footer -->
+	<footer class="footer"></footer>
+		<!-- /html/footer.html -->
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

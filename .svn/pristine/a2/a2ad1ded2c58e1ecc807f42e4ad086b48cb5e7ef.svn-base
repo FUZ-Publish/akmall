@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>나만의공간 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">상품평</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container mySpace">
+		<section>
+			<div class="profileArea">
+				<div class="userWrap clearFix">
+					<div class="profileImg">
+						<div class="img">
+							<img src="/beautyapp/resources/images/temp/img_user_profile.png" alt="">
+							<!-- <img src="/beautyapp/resources/images/content/img_user_profile_default.png" alt=""> -->
+						</div>
+					</div>
+					<div class="profileInfo">
+						<div class="userID">
+							AK123
+							<span class="icoProfile_top">TOP<em>100</em></span>
+						</div>
+						<p class="profileElement">
+							<em>여자</em><em>24세</em><em>건성</em><em>붉은편</em><em>트러블</em><em>블랙헤드</em>
+						</p>
+					</div>
+				</div>
+
+				<div class="userRankWrap">
+					<ul>
+						<li>
+							<span class="item">랭킹</span>
+							<span class="val"><em>98</em>위</span>
+						</li>
+						<li>
+							<span class="item">상품평 수</span>
+							<span class="val"><em>41</em>개</span>
+						</li>
+						<li>
+							<span class="item">도움 수</span>
+							<span class="val"><em>12,051</em>회</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="iptGroup">
+					<input type="checkbox" name="chk1" id="chk1_1">
+					<label for="chk1_1">프로필 비공개</label>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="full hr">
+			<div class="MenuTabB">
+				<ul class="">
+					<li><a href="#">미작성 상품평<span class="num">(100)</span></a></li>
+					<li><a href="#">작성한 상품평<span class="num">(100)</span></a></li>
+					<li class="on"><a href="#">뷰티체험단<span class="num">(100)</span></a></li>
+				</ul>
+			</div>
+
+			<div class="swipeMenuTabB swiperMenu mt20 pd20">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on"><a href="#link">미작성 상품평</a></li>
+					<li class="swiper-slide"><a href="#link">작성한 상품평</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="boxMsg">
+				상품평 미작성 시, 추후 체험단 이벤트에서 당첨 제외될 수 있습니다.
+			</div>
+			
+			<!-- orderPrdBox (s) -->
+			<div class="orderPrdBox">
+				<div class="orderArea">
+					<a href="#link" class="orderDateLink">
+						<span class="orderTit">주문일자</span>2020.12.31 (4428741671)<span class="blind">상세보기</span>
+					</a>
+					<div class="prdCategory_list s">
+						<ul>
+							<li>
+								<div class="inner">
+									<div class="prdImg">
+										<a href="#link">
+											<div class="img">
+												<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+											</div>
+										</a>
+									</div>
+									<div class="prdInfo">
+										<div class="prdTitle">
+											<a href="#link" class="ellipsis2"><em>[러쉬]</em> 울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g</a>
+										</div>
+										<p class="txtS">1개</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="orderState">
+						<span class="deadline">작성기한</span>
+						<p class="deadlineDate">~2020.12.41 (D-90)</p>
+						<a href="#link" class="links underline ar">상품평 작성</a>
+					</div>
+				</div>
+			</div>
+			<!-- orderPrdBox (e) -->
+			
+			<!-- orderPrdBox (s) -->
+			<div class="orderPrdBox">
+				<div class="orderArea">
+					<a href="#link" class="orderDateLink">
+						<span class="orderTit">주문일자</span>2020.12.31 (4428741671)<span class="blind">상세보기</span>
+					</a>
+					<div class="prdCategory_list s">
+						<ul>
+							<li>
+								<div class="inner">
+									<div class="prdImg">
+										<a href="#link">
+											<div class="img">
+												<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+											</div>
+										</a>
+									</div>
+									<div class="prdInfo">
+										<div class="prdTitle">
+											<a href="#link" class="ellipsis2"><em>[러쉬]</em> 울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g</a>
+										</div>
+										<p class="txtS">1개</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="orderState">
+						<span class="deadline">작성기한</span>
+						<p class="deadlineDate">~2020.12.41 (D-90)</p>
+						<a href="#link" class="links underline ar">상품평 작성</a>
+					</div>
+				</div>
+			</div>
+			<!-- orderPrdBox (e) -->
+
+			<!-- orderPrdBox (s) -->
+			<div class="orderPrdBox">
+				<div class="orderArea">
+					<a href="#link" class="orderDateLink">
+						<span class="orderTit">주문일자</span>2020.12.31 (4428741671)<span class="blind">상세보기</span>
+					</a>
+					<div class="prdCategory_list s">
+						<ul>
+							<li>
+								<div class="inner">
+									<div class="prdImg">
+										<a href="#link">
+											<div class="img">
+												<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+											</div>
+										</a>
+									</div>
+									<div class="prdInfo">
+										<div class="prdTitle">
+											<a href="#link" class="ellipsis2"><em>[러쉬]</em> 울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g</a>
+										</div>
+										<p class="txtS">1개</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="orderState">
+						<span class="deadline">작성기한</span>
+						<p class="deadlineDate">~2020.12.41 (D-90)</p>
+						<a href="#link" class="links underline ar">상품평 작성</a>
+					</div>
+				</div>
+			</div>
+			<!-- orderPrdBox (e) -->
+		</section>
+
+	</div>
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

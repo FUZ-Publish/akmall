@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>전체메뉴 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap category_full">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<!-- 로그인상태 
+			<p class="headUser"><em>홍길동</em>님 안녕하세요!</p>
+			<!-- //로그인상태 -->
+
+			<!-- 로그아웃상태 -->
+			<div class="headNonLogin">
+				<div class="linkGroup">
+					<a href="#link" class="links line">로그인</a>
+					<a href="#link" class="links line">회원가입</a>
+				</div>
+			</div>
+			<!-- //로그아웃상태 -->
+			<div class="ar">
+				<a href="#" class="setupBtn">
+					<em class="blind">닫기</em>
+				</a>
+				<a href="#" class="closeBtn">
+					<em class="blind">닫기</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- menu -->
+	<div class="MenuTabA">
+		<ul class="">
+			<li class="on"><a href="MA_CM_05.html" target="_self">카테고리</a></li>
+			<li><a href="MA_CM_06.html"  target="_self">브랜드</a></li>
+			<li><a href="MA_CM_07.html" target="_self">히스토리</a></li>
+		</ul>
+	</div>
+	<!-- // menu -->
+
+	<!-- container -->
+	<div class="container">
+		<section>
+			<div class="titleArea">
+				<h2 class="titH3">최근 본 카테고리</h2>
+			</div>
+			<div class="favoriteMenu">
+				<a href="#link">
+					<em>STORE</em>
+					<em>스킨케어</em>
+					<em>페이스오일</em>
+				</a>
+			</div>
+			<div class="favoriteMenu">
+				<a href="#link">
+					<em>STORE</em>
+					<em>향수/디퓨저</em>
+					<em>드레스/패브릭퍼퓸</em>
+				</a>
+			</div>
+			<div class="favoriteMenu">
+				<a href="#link">
+					<em>V-코스미끄</em>
+					<em>MOTD</em>
+				</a>
+			</div>
+		</section>
+		<section class="pd25">
+			<div class="titleArea">
+				<h2 class="titH3">전체 카테고리</h2>
+			</div>
+			<div class="allCategory">
+				<ul>
+					<li class="categoryico_skin">
+						<a href="#link">
+							<p class="tit">스킨케어</p>
+						</a>
+					</li>
+					<li class="categoryico_mask">
+						<a href="#link">
+							<p class="tit">마스크팩</p>
+						</a>
+					</li>
+					<li class="categoryico_clean">
+						<a href="#link">
+							<p class="tit">클랜징</p>
+						</a>
+					</li>
+					<li class="categoryico_sun">
+						<a href="#link">
+							<p class="tit">선케어</p>
+						</a>
+					</li>
+					<li class="categoryico_base">
+						<a href="#link">
+							<p class="tit">베이스메이크업</p>
+						</a>
+					</li>
+					<li class="categoryico_point">
+						<a href="#link">
+							<p class="tit">포인트메이크업</p>
+						</a>
+					</li>
+					<li class="categoryico_hair">
+						<a href="#link">
+							<p class="tit">헤어케어</p>
+						</a>
+					</li>
+					<li class="categoryico_body">
+						<a href="#link">
+							<p class="tit">바디케어</p>
+						</a>
+					</li>
+					<li class="categoryico_nail">
+						<a href="#link">
+							<p class="tit">네일케어</p>
+						</a>
+					</li>
+					<li class="categoryico_perfume">
+						<a href="#link">
+							<p class="tit">향수/디퓨저</p>
+						</a>
+					</li>
+					<li class="categoryico_beauty">
+						<a href="#link">
+							<p class="tit">미용기기/소품</p>
+						</a>
+					</li>
+					<li class="categoryico_food">
+						<a href="#link">
+							<p class="tit">뷰티푸드</p>
+						</a>
+					</li>
+					<li class="categoryico_men">
+						<a href="#link">
+							<p class="tit">남성화장품</p>
+						</a>
+					</li>
+					<li class="categoryico_baby">
+						<a href="#link">
+							<p class="tit">베이비케어</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH3">서비스 추천</h2>
+			</div>
+
+			<div class="bannerArea div_2">
+				<div class="inner">
+					<a href="#link">
+						<div class="img goods">
+							<span class="imgTit">Luxury<br>Goods</span>
+						</div>
+					</a>
+					<p class="tit"><a href="#link">명품화장품</a></p>
+					
+				</div>
+				<div class="inner">
+					<a href="#link">
+						<div class="img gift">
+							<span class="imgTit">GIFT</span>
+						</div>
+					</a>
+					<p class="tit"><a href="#link">선물추천</a></p>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH3">주요 서비스</h2>
+			</div>
+			<div class="attBtnWrap">
+				<span class="btn_l s mini">V-코스미끄</span>
+				<span class="btn_l s mini">리뷰라운지</span>
+				<span class="btn_l s mini">마이파우치</span>
+				<span class="btn_l s mini">나만의 공간</span>
+				<span class="btn_l s mini">이벤트</span>
+				<span class="btn_l s mini">공지사항</span>
+			</div>
+		</section>
+
+		<section>
+			<div class="titleArea">
+				<h2 class="titH3">즐겨찾기한 카테고리</h2>
+			</div>
+			<div class="favoriteMenu">
+				<a href="#link">
+					<em>STORE</em>
+					<em>스킨케어</em>
+					<em>페이스오일</em>
+				</a>
+				<button type="button" class="btn_delM"><span class="blind">카테고리 삭제</span></button>
+			</div>
+			<div class="favoriteMenu">
+				<a href="#link">
+					<em>STORE</em>
+					<em>향수/디퓨저</em>
+					<em>드레스/패브릭퍼퓸</em>
+				</a>
+				<button type="button" class="btn_delM"><span class="blind">카테고리 삭제</span></button>
+			</div>
+			<div class="favoriteMenu">
+				<a href="#link">
+					<em>V-코스미끄</em>
+					<em>MOTD</em>
+				</a>
+				<button type="button" class="btn_delM"><span class="blind">카테고리 삭제</span></button>
+			</div>
+		</section>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer> 
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

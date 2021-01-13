@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">명품화장품 구매시 안내사항</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+			<h3 class="titH3">1) 선물 포장 안내</h3> 
+			<p class="txt mt10">선물포장을 원하시는 고객께서는 배송시 요구사항에 기입해 주시기 바랍니다. </p>
+			<ul class="txtList_disc">
+				<li>일부 브랜드는 본사 정책에 의하여 온라인에서 구매 시 선물 포장이 불가능 할 수 있습니다.</li>
+				<li>선물포장은 이미지와 다를 수 있습니다. 쇼핑백/선물박스는 제공되지 않습니다.</li>
+				<li>별도의 비용을 지불하시더라도 쇼핑백 판매가 어려운 점 양해 바랍니다.</li>
+			</ul>
+
+			<h3 class="titH3 mt20">2) 구매상품/기획세트 및 브랜드 사은 행사 안내</h3> 
+			<p class="txt mt10">온라인 판매 상품은 강기 이미지와 다를 수 있습니다.(상품색상 및 이미지)</p>
+			<ul class="txtList_disc">
+				<li>기획세트는 한정수량으로 조기 품절 될 수 있습니다.</li>
+				<li>구성품은 이미지와 다를 수 있으며, 품절 시 사전 예고 없이 변경되어 발송될 수 있습니다.</li>
+				<li>별도 안내 없을 시 세트 구매금액은 브랜드 사은행사에 제외됩니다.</li>
+				<li>사은품 사용 및 누락시 반품/교환이 불가능 합니다.</li>
+				<li>Ak몰 상품은 구성상품 외의 추가 사은품 증정이 불가능 합니다.</li>
+			</ul>
+
+			<h3 class="titH3 mt20">3) 배송/교환/반품 안내</h3> 
+			<p class="txt mt10">주문하신 상품은 AK플라자 매장에서 직접 수령하실 수 없습니다. </p>
+			<ul class="txtList_disc">
+				<li>피부 트러블로 인한 교환/반품은 의사 소견서를 반드시 첨부하셔야 합니다.</li>
+				<li>제품에 부착되어 있는 스티커를 제거한 상품은 교환/반품이 불가합니다.</li>
+				<li>사용흔적이 있는 상품은 교환/반품이 불가합니다.</li>
+				<li class="bold">1인당 3개로 구매 수량을 제한하며, 상업적 재판매로 판단되는 경우 임의로 구매가 취소 될 수 있습니다.</li>
+				<li>기업 선물용으로 대량 구매를 원하실 경우 AK몰 고객 상담실로 문의바랍니다.</li>
+			</ul>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

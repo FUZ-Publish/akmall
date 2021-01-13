@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">상품고시정보</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+			<table class="tableY">
+				<colgroup>
+					<col style="width:100px" span="1">
+					<col style="width:auto" span="1">
+				</colgroup>
+				<tbody>
+					<tr>
+						<th class="th">상품코드</th>
+						<td>85325336</td>
+					</tr>
+					<tr>
+						<th class="th">제조사/원산지</th>
+						<td>(WN)코스비전/한국</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<ul class="txtList_remark mt40">
+				<li>구매하기 전 꼭 확인하셔야 할 상품/거래정보입니다.</li>
+			</ul>
+
+			<table class="tableY mt10">
+				<colgroup>
+					<col style="width:100px" span="1">
+					<col style="width:auto" span="1">
+				</colgroup>
+				<tbody>
+					<tr>
+						<th class="th">용량 또는 중량</th>
+						<td>60ml</td>
+					</tr>
+					<tr>
+						<th class="th">제품 주요사양</th>
+						<td>모든피부용</td>
+					</tr>
+					<tr>
+						<th class="th">사용기한 또는 개봉 후 사용기간</th>
+						<td>개봉 전 36개월, 개봉 후 12개월 </td>
+					</tr>
+					<tr>
+						<th class="th">사용방법</th>
+						<td>스킨케어 마지막 단계에서 눈 주위를 제외한 얼굴 전체에 부드럽게 펴 바릅니다. 얼굴 뿐 아니라 자외선 차단을 원하는 어느 부위든지 사용할 수 있습니다. </td>
+					</tr>
+					<tr>
+						<th class="th">제조자 및 책임판매업자</th>
+						<td>㈜코스버전 / ㈜에스쁘아</td>
+					</tr>
+					<tr>
+						<th class="th">제조국</th>
+						<td>한국</td>
+					</tr>
+					</tr>
+					<tr>
+						<th class="th">전성분</th>
+						<td>정제수, 부틸렌글라이콜, c12-15 알킬벤조에이트, 에칠헥실메톡시신나메이트, 티타늄디옥사이드, 비스에칠헥실옥시페놀메록시페닐트라이진, 디에칠아미노하이드록시변조일핵실벤조에이트, 사이클로펜타실록산, 실리카, 향료</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

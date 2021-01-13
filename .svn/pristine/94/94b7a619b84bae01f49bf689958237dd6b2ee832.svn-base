@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>header &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb typeLink">
+		<div class="gnbHeader">
+			<a href="#" class="cateLink">
+				<em class="blind">카테고리</em>
+			</a>
+			<h1 class="logoSha">
+				<a href="#link"><span class="blind">샤샤뷰</span></a>
+				<button type="button" class="appOpenBtn"><span class="blind">메뉴 보기</span></button>
+			</h1>
+			<ul class="appList">
+				<li><a href="#link"><span class="img"><img src="../resources/images/common/logo_app_ak.png" alt=""></span>AK몰</a></li>
+				<li class="on"><a href="#link"><span class="img"><img src="../resources/images/common/logo_app_shasha.png" alt=""></span>뷰티 전문관</a></li>
+			</ul>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+					<span class="num">9</span>
+				</a>
+			</div>
+		</div>
+		<div class="titArea headerMenuOp">
+			<h2 class="titH2"><a href="#link" class="dropClick open">스킨케어<i></i></a></h2>
+			<ul class="headerDropWrap">
+				<li><a href="#link">스킨케어</a></li>
+				<li><a href="#link">메이크업</a></li>
+				<li><a href="#link">향수</a></li>
+				<li><a href="#link">헤어/바디</a></li>
+				<li><a href="#link">미용기기/소품</a></li>
+				<li><a href="#link">뷰티푸드</a></li>
+				<li><a href="#link">남성화장품</a></li>
+				<li><a href="#link">베이비케어</a></li>
+			</ul>
+		</div>
+		<div class="titArea">
+			<h2 class="titH2">쇼핑기획전</h2>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<div class="prodAuto_slide"><!-- 20.11.23 : 자동롤링 영역 코딩 및 style 수정 -->
+				<ul class="slider">
+					<li>
+						<div class="prdEventArea">
+							<div class="img">
+								<img src="../resources/images/content/img_timespecial1.png" alt="">
+							</div>
+							<div class="timeInfo">
+								<p class="tit">수분크림 세트<br>단독 사은품 구성!</p>
+								<span class="desc">수요일 오후 8:00 LIVE 진행</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="prdEventArea">
+							<div class="img">
+								<img src="../resources/images/content/img_timespecial1.png" alt="">
+							</div>
+							<div class="timeInfo">
+								<p class="tit">수분크림 세트<br>단독 사은품 구성!</p>
+								<span class="desc">수요일 오후 8:00 LIVE 진행</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="prdEventArea">
+							<div class="img">
+								<img src="../resources/images/content/img_timespecial1.png" alt="">
+							</div>
+							<div class="timeInfo">
+								<p class="tit">수분크림 세트<br>단독 사은품 구성!</p>
+								<span class="desc">수요일 오후 8:00 LIVE 진행</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<div class="controlWrap" style="bottom:15px;">
+					<div class="autoControl">
+						<!-- <span class="prev"></span> -->
+						<span class="stop"></span>
+					</div>
+					<div class="autoCounter">
+						<span class="current">1</span><span class="sign">/</span><span class="total"></span>
+						<a href="#" class="totalView"><span class="blind">전체보기</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="prdImgSwipe attTxt swiperMenu timeMenu"><!-- 20.12.02 : 클래스 수정 및 영역 수정 -->
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide on">
+						<a href="#link">
+							<span class="img">
+								<img src="../resources/images/content/img_time_menu1.png" alt="">
+							</span>
+							<p class="tit ellipsis">전체</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<img src="../resources/images/content/img_time_menu2.png" alt="">
+							</span>
+							<p class="tit ellipsis">추석상품추석상품추석상품</p>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#link">
+							<span class="img">
+								<img src="../resources/images/content/img_time_menu3.png" alt="">
+							</span>
+							<p class="tit ellipsis">추석세트</p>
+						</a>
+					</li>
+					<li class="swiper-slide on">
+						<a href="#link">
+							<span class="img">
+								<img src="../resources/images/content/img_time_menu4.png" alt="">
+							</span>
+							<p class="tit ellipsis">기획세트</p>
+						</a>
+					</li>
+					<li class="swiper-slide on">
+						<a href="#link">
+							<span class="img">
+								<img src="../resources/images/content/img_time_menu5.png" alt="">
+							</span>
+							<p class="tit ellipsis">추가쿠폰</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="full mt20">
+			<div class="tabDropWrap scrollFixed_2">
+				<div class="swipeMenuTabC tabBar tabMenuAcc swiperMenu">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide on"><a href="#link">전체</a></li>
+						<li class="swiper-slide"><a href="#link">마스크/팩</a></li>
+						<li class="swiper-slide"><a href="#link">클렌징</a></li>
+						<li class="swiper-slide"><a href="#link">선케어</a></li>
+						<li class="swiper-slide"><a href="#link">스킨케어센터</a></li>
+						<li class="swiper-slide"><a href="#link">스킨케어센터</a></li>
+					</ul>
+					<button type="button" class="openBtn"><span class="blind">메뉴 보기</span></button>
+				</div>
+				<div class="tabMenuCont">
+					<ul>
+						<li><a href="#link">스킨/토너</a></li>
+						<li><a href="#link">에센스/앰플/세럼</a></li>
+						<li><a href="#link">페이스오일</a></li>
+						<li><a href="#link">로션/에멀전</a></li>
+						<li><a href="#link">크림</a></li>
+						<li><a href="#link">아이케어</a></li>
+						<li><a href="#link">미스트</a></li>
+						<li><a href="#link">젤</a></li>
+						<li><a href="#link">립케어</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="prdCategory_columnA mt40 pd20 mb30 timePrd">
+				<ul>
+					<li class="swiper-slide swiper-slide-active">
+						<div class="prdCategory_columnA">
+							<div class="inner">
+								<div class="prdImg">
+									<a href="#link">
+										<div class="img">
+											<img src="../resources/images/temp/img_prd_01.png" alt="">
+										</div>
+									</a>
+									<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+									<span class="timeSpecial">
+										<em>09:12:10</em>남음
+									</span>
+								</div>
+								<div class="prdInfo mt10">
+									<a href="#link" class="ellipsis2">
+										<div class="prdTitle">설화수/헤라/프리메라</div>
+									</a>
+									<div class="desc">선물하기 좋은 한가위 명품 화장품 기획세트</div>
+									<div class="starWrap">
+										<span class="starRating">
+											<span style="width:70%"></span>
+										</span>
+										<span class="num">(15)</span>
+									</div>
+									<span class="pointC1 txtXS ing">5,000개 판매중</span>
+									<div class="prdPrice mt0">
+										<div class="row">
+											<span class="sale montBold">62%</span>
+											<span class="price"><span class="montBold">9,999,999</span>원</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="prdMore">
+									<div class="prdArea">
+										<div class="prdBox1">
+											<a href="#link">
+												<span class="blind">제품명</span>
+											</a>
+										</div>
+										<div class="prdBox2">
+											<a href="#link">
+												<span class="blind">제품명</span>
+											</a>
+										</div>
+										<div class="prdBox3">
+											<a href="#link">
+												<span class="blind">제품명</span>
+											</a>
+										</div>
+									</div>
+									
+									<button type="button" class="prdMoreBtn"><span class="blind">더보기</span></button>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-active">
+						<div class="prdCategory_columnA">
+							<div class="inner">
+								<div class="prdImg">
+									<a href="#link">
+										<div class="img">
+											<img src="../resources/images/temp/img_prd_01.png" alt="">
+										</div>
+									</a>
+									<button type="button" class="btnPic off"><span class="blind">찜하기</span></button>
+									<span class="timeSpecial">
+										<em>09:12:10</em>남음
+									</span>
+								</div>
+								<div class="prdInfo mt10">
+									<a href="#link" class="ellipsis2">
+										<div class="prdTitle">설화수/헤라/프리메라</div>
+									</a>
+									<div class="desc">선물하기 좋은 한가위 명품 화장품 기획세트</div>
+									<div class="starWrap">
+										<span class="starRating">
+											<span style="width:70%"></span>
+										</span>
+										<span class="num">(15)</span>
+									</div>
+									<span class="pointC1 txtXS ing">5,000개 판매중</span>
+									<div class="prdPrice mt0">
+										<div class="row">
+											<span class="sale montBold">62%</span>
+											<span class="price"><span class="montBold">9,999,999</span>원</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="prdMore">
+									<div class="prdArea">
+										<div class="prdBox1">
+											<a href="#link">
+												<span class="blind">제품명</span>
+											</a>
+										</div>
+										<div class="prdBox2">
+											<a href="#link">
+												<span class="blind">제품명</span>
+											</a>
+										</div>
+										<div class="prdBox3">
+											<a href="#link">
+												<span class="blind">제품명</span>
+											</a>
+										</div>
+									</div>
+									
+									<button type="button" class="prdMoreBtn"><span class="blind">더보기</span></button>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

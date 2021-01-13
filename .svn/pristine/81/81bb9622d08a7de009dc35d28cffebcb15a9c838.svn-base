@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>나만의공간 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">주문/배송조회</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+			<div class="orderArea">
+				<div class="orderStep orderInquiry">
+					<ul>
+						<li>
+							<span class="num">0</span>
+							<p>입금대기</p>
+						</li>
+						<li>
+							<span class="num">0</span>
+							<p>결제왼료</p>
+						</li>
+						<li>
+							<span class="num pointC1">10</span>
+							<p>상품준비중</p>
+						</li>
+						<li>
+							<span class="num">0</span>
+							<p>배송중</p>
+						</li>
+						<li>
+							<span class="num pointC1">2</span>
+							<p>배송완료</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<div class="MenuTabB hr">
+			<ul class="">
+				<li class="on"><a href="#">1주일</a></li>
+				<li><a href="#">1개월</a></li>
+				<li><a href="#">3개월</a></li>
+				<li><a href="#">6개월</a></li>
+				<li><a href="#">기간조회</a></li>
+			</ul>
+		</div>
+		<section>
+			<div class="sortArea">
+				<div class="iptWrap date">
+					<div class="dateBox">
+						<input type="text" class="ipt mini inputDate" placeholder="" title="조회 시작일" id="" name="" value="2020.01.01">
+						<span class="sign" aria-hidden="true">~</span>
+						<input type="text" class="ipt mini inputDate" placeholder="" title="조회 마지막일" id="" name="" value="2020.03.31">
+					</div>
+					<button type="button" class="btnS">검색</button>
+				</div>
+			</div>
+
+			<!-- orderPrdBox (s) -->
+			<div class="orderPrdBox">
+				<div class="orderArea">
+					<div class="titleArea">
+						<h3 class="orderDate">2020.12.31 (4428741671)</h3>
+						<a href="#link" class="links ar">상세보기</a>
+					</div>
+					<div class="prdCategory_list s">
+						<ul>
+							<li>
+								<div class="inner">
+									<div class="prdImg">
+										<a href="#link">
+											<div class="img">
+												<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+											</div>
+										</a>
+									</div>
+									<div class="prdInfo">
+										<div class="prdTitle">
+											<a href="#link" class="ellipsis"><em>[러쉬]</em> 울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g</a>
+										</div>
+										<p class="txtS">201 루쥬 따뚜아쥬 / 1개</p>
+										<div class="prdPrice">
+											<div class="row">
+												<span class="price">84,550원</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="orderState">
+						<span class="item">입금대기중</span>
+						<div class="orderBtnArea">
+							<button type="button" class="btn_l s mini">배송조회</button>
+							<button type="button" class="btn_p s mini">배송확인</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- orderPrdBox (e) -->
+
+			<!-- orderPrdBox (s) -->
+			<div class="orderPrdBox">
+				<div class="orderArea">
+					<div class="titleArea">
+						<h3 class="orderDate">2020.12.31 (4428741671)</h3>
+						<a href="#link" class="links ar">상세보기</a>
+					</div>
+					<div class="prdCategory_list s">
+						<ul>
+							<li>
+								<div class="inner">
+									<div class="prdImg">
+										<a href="#link">
+											<div class="img">
+												<img src="/beautyapp/resources/images/temp/img_prd_01.png" alt="">
+											</div>
+										</a>
+									</div>
+									<div class="prdInfo">
+										<div class="prdTitle">
+											<a href="#link" class="ellipsis"><em>[러쉬]</em> 울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g울트라플랜트 45g</a>
+										</div>
+										<p class="txtS">201 루쥬 따뚜아쥬 / 1개</p>
+										<div class="prdPrice">
+											<div class="row">
+												<span class="price">84,550원</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="orderState">
+						<span class="item">결제완료</span>
+						<div class="orderBtnArea">
+							<button type="button" class="btn_l s mini">상품평쓰기</button>
+							<button type="button" class="btn_l s mini">배송조회</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- orderPrdBox (e) -->
+		</section>
+
+	</div>
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

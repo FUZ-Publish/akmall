@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>마이파우치 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain scrollY">
+				<div class="popCont"><!-- class ::  -->
+					<div class="popHead">
+						<h1 class="titH3">피부타입</h1>
+					</div>
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<ul class="skinTypeList">
+								<li>
+									<div class="skinType dry">
+										<p class="tit">건성</p>
+										<span class="desc">유분과 수분이 모두 부족한 타입</span>
+									</div>
+
+									<ul class="txtList_numS">
+										<li>세안 후 아무것도 바르지 않으면 피부가 당겨요.</li>
+										<li>하얗게 각질이 일어나고, 화장이 들떠요.</li>
+										<li>피부결이 거칠고 윤기가 없어요.</li>
+										<li>군데군데 피부가 붉어져요.</li>
+										<li>입가나 눈 주위에 잔주름이 많아요.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="skinType oily">
+										<p class="tit">지성</p>
+										<span class="desc">피부가 번들거리고 유분기가 많은 타입</span>
+									</div>
+
+									<ul class="txtList_numS">
+										<li>모공이 넓고 피지가 많아 피부결이 거칠어요.</li>
+										<li>유분기로 피부가 늘 번들거려요.</li>
+										<li>여드름이나 뾰루지가 잘 생겨요.</li>
+										<li>화장이 잘 지워져요.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="skinType normal">
+										<p class="tit">중성</p>
+										<span class="desc">건성과 중성의 중간인 이상적인 타입</span>
+									</div>
+
+									<ul class="txtList_numS">
+										<li>피부가 매끄럽고 윤기 있어요.</li>
+										<li>화장이 피부에 찰떡같이 잘 돼요.</li>
+										<li>피부 트러블이 쉽게 올라왔다 쉽게 사라져요.</li>
+										<li>피부가 당기지 않고, 번들거리지도 않아요.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="skinType combination">
+										<p class="tit">복합성</p>
+										<span class="desc">유분과 수분이 공존하는 타입</span>
+									</div>
+
+									<ul class="txtList_numS">
+										<li>부위에 따라 피부 타입이 달라져요.</li>
+										<li>이마와 코는 피부가 거칠고 유분기가 많아요.</li>
+										<li>이마와 코 주변 모공이 넓어요.</li>
+										<li>전체적으로 번들거리고 트러블이 생겨요.</li>
+										<li>계절에 따라 피부가 당기고 각질이 생겨요.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="skinType sensitive">
+										<p class="tit">민감성</p>
+										<span class="desc">환경 변화에 민감하고 예민한 타입</span>
+									</div>
+
+									<ul class="txtList_numS">
+										<li>모공이 작고 피부가 얇아요.</li>
+										<li>피부가 건조하고, 색소 침착이 생기기 쉬워요.</li>
+										<li>온도 변화가 심하면 피부가 붉어지고 가려워요.</li>
+										<li>향이 있는 화장품에 피부가 민감하게 반응해요.</li>
+									</ul>
+								</li>
+							</ul>
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+
+</body>
+</html>

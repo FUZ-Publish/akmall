@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>FAQ 검색결과 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">FAQ</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section class="full">
+			<div class="iptWrap schWrap">
+				<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+				<button type="button" class="schBtn"><span class="blind">검색</span></button>
+			</div>
+			<div class="faqArea">
+				<div class="swipeMenuTabB swiperMenu">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide on"><a href="#link">주문방법</a></li>
+						<li class="swiper-slide"><a href="#link">현금결제</a></li>
+						<li class="swiper-slide"><a href="#link">증빙발급</a></li>
+						<li class="swiper-slide"><a href="#link">기타</a></li>
+						<li class="swiper-slide"><a href="#link">기타</a></li>
+					</ul>
+				</div>
+				<div class="faqList">
+					<div class="list">
+						<a href="#" class="faqHeader faqBtn">
+							질문에 대한 제목이 들어가는 영역입니다. 영역에 제목을 입력하세요.
+						</a>
+						<div id="list1" class="faqBody">
+							해당 질문에 대한 답변이 등록되는 영역입니다. 제목 클릭 또는 탭 시 답변에 대한 내용이 드롭다운 되면서 노출됩니다. 상세한 내용을 보려면 클릭 해 주세요.
+						</div>
+					</div>
+					<div class="list">
+						<a href="#" class="faqHeader faqBtn">
+							질문에 대한 제목이 들어가는 영역입니다. 영역에 제목을 입력하세요.
+						</a>
+						<div id="list2" class="faqBody">
+							해당 질문에 대한 답변이 등록되는 영역입니다. 제목 클릭 또는 탭 시 답변에 대한 내용이 드롭다운 되면서 노출됩니다. 상세한 내용을 보려면 클릭 해 주세요.
+						</div>
+					</div>
+					<div class="list">
+						<a href="#" class="faqHeader faqBtn">
+							질문에 대한 제목이 들어가는 영역입니다. 영역에 제목을 입력하세요.
+						</a>
+						<div id="list3" class="faqBody">
+							해당 질문에 대한 답변이 등록되는 영역입니다. 제목 클릭 또는 탭 시 답변에 대한 내용이 드롭다운 되면서 노출됩니다. 상세한 내용을 보려면 클릭 해 주세요.
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- paging -->
+			<div class="paging">
+				<a href="#link" class="first"><em class="blind">처음 페이지</em></a>
+				<a href="#link" class="prev"><em class="blind">이전 페이지</em></a>
+				<div class="number">
+					<a href="#link">1</a>
+					<b>2</b>
+					<a href="#link">3</a>
+					<a href="#link">4</a>
+					<a href="#link">5</a>
+				</div>
+				<a href="#link" class="next"><em class="blind">다음 페이지</em></a>
+				<a href="#link" class="last"><em class="blind">마지막 페이지</em></a>
+			</div>
+			<!-- // paging -->
+		</section>
+		<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+		<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer class="">
+		
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

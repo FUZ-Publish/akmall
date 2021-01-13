@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*================================================ common :: FOOTER ================================================*/
+footer.footer{background:#f3f5f6;}
+footer.footer .btnArea{margin:0;}
+footer.footer .btnArea .footerBtn{width:50%; box-sizing:border-box; padding:15px 0; color:#474c53; font-size:12px; background:#f3f5f6; border-bottom:1px solid #dbdee3;}
+footer.footer .infoArea{padding:18px 20px;}
+/* .footer .infoArea .btnArea{margin:0 -20px;}
+.footer .infoArea .btnArea .footerBtn:last-child{width:100%;} */
+footer.footer .infoArea .acco .tit{position:relative; color:#080b10; font-size:12px; font-weight:bold;}
+footer.footer .infoArea .acco .openBtn {position:relative; width:20px; height:20px; color:#080b10; font-size:12px; font-weight:bold; background:transparent;}
+footer.footer .infoArea .acco .openBtn:before {content:''; display:inline-block; position:absolute; top:0; right:0; width:20px; height:20px; background:url(../images/common/ico_drop_arrow2.png) no-repeat center center; background-size:8px 5px; transition:all ease-in-out 0.225s; -webkit-transition: all 0.225s ease-in-out; -moz-transition: all 0.225s ease-in-out; -o-transition: all 0.225s ease-in-out;}
+footer.footer .infoArea .acco .openBtn.active:before {background:url(../images/common/ico_drop_arrow2_on_up.png) no-repeat center center; background-size:8px 5px; transform:rotate(180deg);}
+footer.footer .infoArea .acco .comInfoList{display:none; margin-top:10px;}
+footer.footer .infoArea .acco .comInfoList li{color:#080b10; font-size:11px; line-height:19px;}
+
+footer.footer .infoArea .policyList{margin-top:20px; width:85%;}
+footer.footer .infoArea .policyList li{display:inline-block;}
+footer.footer .infoArea .policyList li a.links{width:100%; font-size:11px; letter-spacing:-0.3px;}
+footer.footer .infoArea .policyList li:nth-child(3n+1){width:52px;}
+footer.footer .infoArea .policyList li:nth-child(3n+2){width:90px;}
+footer.footer .infoArea .policyList li:nth-child(3n+3){width:105px;}
+footer.footer .infoArea .copy{margin-top:10px; color:#929699; font-size:10px; font-family:"Montserrat";}
+@media (max-width:320px){
+	footer.footer .infoArea .policyList{width:100%;}
+}
+@media (min-width:414px){
+	footer.footer .infoArea .policyList{width:80%;}
+}
+

@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+
+/*================================================ common :: font ================================================*/
+.header *,
+.footer * {font-family: "Apple SD Gothic Neo", "Apple Gothic", Roboto, "Droid Sans", "Malgun Gothic", Helvetica, Tahoma, Dotum, sans-serif;}
+
+/* KOR */
+@font-face {
+	font-family: 'Apple SD Gothic Neo';
+	src: url('fonts/AppleSDGothicNeoR.eot');
+	src: url('fonts/AppleSDGothicNeoR.woff2') format('woff2');
+	src: url('fonts/AppleSDGothicNeoR.woff') format('woff');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Apple SD Gothic Neo Bold';
+	src: url('fonts/AppleSDGothicNeoB.eot');
+	src: url('fonts/AppleSDGothicNeoB.woff2') format('woff2');
+	src: url('fonts/AppleSDGothicNeoB.woff') format('woff');
+	font-weight: bold;
+}
+/* ENG */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/MontserratR.eot');
+	src: url('fonts/MontserratR.woff2') format('woff2'),
+		 url('fonts/MontserratR.woff') format('woff');
+	font-weight: 300;
+	unicode-range: 
+		U+0030, U+0031, U+0032, U+0033, U+0034, U+0035, U+0036, U+0037, U+0038, U+0039, 
+		U+0041, U+0042, U+0043, U+0044, U+0045, U+0046, U+0047, U+0048, U+0049, U+004A, U+004B, U+004C, U+004D, U+004E, U+004F, U+0050, U+0051, U+0052, U+0053, U+0054, U+0055, U+0056, U+0057, U+0058, U+0059, U+005A,
+		U+0061, U+0062, U+0063, U+0064, U+0065, U+0066, U+0067, U+0068, U+0069, U+006A, U+006B, U+006C, U+006D, U+006E, U+006F, U+0070, U+0071, U+0072, U+0073, U+0074, U+0075, U+0076, U+0077, U+0078, U+0079, U+007A;
+}
+@font-face {
+	font-family: 'Montserrat Bold';
+	src: url('fonts/MontserratB.eot');
+	src: url('fonts/MontserratB.woff2') format('woff2'),
+		 url('fonts/MontserratB.woff') format('woff');
+	font-weight: bold;
+	unicode-range: 
+		U+0030, U+0031, U+0032, U+0033, U+0034, U+0035, U+0036, U+0037, U+0038, U+0039, 
+		U+0041, U+0042, U+0043, U+0044, U+0045, U+0046, U+0047, U+0048, U+0049, U+004A, U+004B, U+004C, U+004D, U+004E, U+004F, U+0050, U+0051, U+0052, U+0053, U+0054, U+0055, U+0056, U+0057, U+0058, U+0059, U+005A,
+		U+0061, U+0062, U+0063, U+0064, U+0065, U+0066, U+0067, U+0068, U+0069, U+006A, U+006B, U+006C, U+006D, U+006E, U+006F, U+0070, U+0071, U+0072, U+0073, U+0074, U+0075, U+0076, U+0077, U+0078, U+0079, U+007A;
+}
+
+
+/*================================================ common :: header ================================================*/
+.header {position:relative; border-bottom:1px solid #dbdee3;}
+.header.type_nb {border-bottom:none;}
+.header.headerScroll {-webkit-transition:all .3s ease-out 0s; transition:all .3s ease-out 0s; -webkit-transform:translate3d(0,0,0); transform:translate3d(0,0,0);}
+.header.headerScroll.on{-webkit-transition:all .3s ease-out 0s;transition:all .3s ease-out 0s;-webkit-transform:translate3d(0,-50px,0);transform:translate3d(0,-50px,0)}
+
+.header .gnbHeader {display:block; position:relative; width:100%; height:55px; background:#fff; z-index:4;}
+.header .gnbHeader h1 {position:absolute; top:0; left:45px; width:calc(100% - 90px); font-size:19px; font-weight:bold; color:#080b10; line-height:55px; text-align:center; margin:0; padding:0; white-space: nowrap; text-overflow:ellipsis; overflow:hidden;}
+.header .gnbHeader .ar {position:absolute; top:0; right:0; height:55px;}
+.header .gnbHeader .logo img {width:auto; height:45px; margin-top:5px;}
+.header .gnbHeader .headUser {font-size:18px; color:#080b10; line-height:55px; padding-left:20px;}
+.header .gnbHeader .headUser > em {font-weight:bold;}
+.header .gnbHeader .pageBack {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_back.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .cateLink {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_cate.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .searchLink {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_search.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .cartLink {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_cart.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .cartLink .num {display:inline-block; position:absolute; top:15px; right:5px; width:16px; height:16px; font-size:10px; color:#fff; font-family: 'Montserrat Bold'; text-align:center; line-height:14px; background-color:#0b0b0b; border-radius:50%;}
+.header .gnbHeader .setupBtn {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_set.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .closeBtn {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_close.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .shareLink {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_share.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .homeLink {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_home.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .alimLink {display:inline-block; position:relative; width:45px; height:55px; background:url(../images/common/ico_header_alim.png) no-repeat 0 5px; background-size:45px 45px; z-index:20;}
+.header .gnbHeader .schWrap {position:absolute; top:0; left:45px; width:calc(100% - 90px); margin:0; padding-top:8px;}
+.header .gnbHeader .schWrap.full {width:calc(100% - 65px);}
+.header .gnbHeader .schWrap .schBtn,
+.header .gnbHeader .schWrap .deleteBtn {top:7px;}
+.header .gnbHeader + .schWrap {margin:5px 20px;}
+
+.headerMenuOp {} 
+.headerMenuOp .dropClick {display:block; position:relative; background-color:#fff; z-index:11; margin:0 -20px; padding:0 20px;}
+.headerMenuOp .dropClick i {display:inline-block; width:7px; height:4px; margin-left:8px; background:url(../images/common/ico_header_drop.png) no-repeat center center; background-size:7px 4px; vertical-align:middle; transition:all ease-in-out 0.225s; -webkit-transition: all 0.225s ease-in-out; -moz-transition: all 0.225s ease-in-out; -o-transition: all 0.225s ease-in-out;}
+.headerMenuOp .dropClick:focus{outline:none;}
+.headerMenuOp .dropClick.close i {transform:rotate(-180deg);}
+.headerDropWrap {display:none; position:absolute; left:0; right:0; width:100%; background-color:#fff; z-index:11; margin-top:-1px;}
+.headerDropWrap li > a {display:block; font-size:18px; color:#1b2026; font-weight:bold; text-align:center; padding:13px 0;}
+
+
+/*================================================ AK / 샤샤뷰 ================================================*/
+.header.typeLink{}
+.header.typeLink .gnbHeader .cateLink.on:after{content:''; position:absolute; top:16px; left:34px; display:inline-block; width:7px; height:7px; background:#ff206c; border-radius:50%;}
+.header.typeLink .cartLink .num{background-color:#ff206c;}
+.header.typeLink .gnbHeader h1{height:55px; font-size:0;}
+.header.typeLink .gnbHeader h1 a{display:inline-block; width:78px; height:22px;}
+.header.typeLink .gnbHeader h1.logoAk a{background:url(../images/common/logo_ak.png) no-repeat center; background-size:78px 22px; vertical-align:middle;}
+.header.typeLink .gnbHeader h1.logoSha a{background:url(../images/common/logo_shasha.png) no-repeat center; background-size:71px 22px; vertical-align:middle;}
+.header.typeLink .gnbHeader h1 .appOpenBtn{width:20px; height:20px; margin-left:7px; background-color:#fff; border:1px solid #1b2026; border-radius:5px; z-index:3;}
+.header.typeLink .gnbHeader h1 .appOpenBtn:before {content:'';display:inline-block;position:absolute;top:50%; width:11px;height:6px;margin:-3px 0 0 -5px;background:url(../images/common/ico_drop_arrow2.png) no-repeat center center;background-size:11px 6px;transition:all ease-in-out 0.225s;-webkit-transition: all 0.225s ease-in-out;-moz-transition: all 0.225s ease-in-out;-o-transition: all 0.225s ease-in-out;}
+.header.typeLink .gnbHeader h1 .appOpenBtn.active:before {background:url(../images/common/ico_drop_arrow2_on_up.png) no-repeat; background-size:11px 6px; transform:rotate(180deg);}
+.header.typeLink .logoImg{width:78px; height:22px; vertical-align:middle;}
+.header.typeLink .appList{position:absolute; top:50px; left:50%; z-index:2; display:none; margin-left:-80px; background-color:#fff; border:1px solid #505050; border-radius:10px;}
+.header.typeLink .appList{width:162px;}
+.header.typeLink .appList li{padding-left:20px; font-size:14px; color:#000;}
+.header.typeLink .appList li.on:after{content:''; width:15px; height:15px; margin:-2px 0 0 6px; display:inline-block; vertical-align:middle; background:url('../images/common/ico_checkbox_checked_4.png') no-repeat; background-size:15px auto;}
+.header.typeLink .appList li + li{border-top:1px solid #d2d2d2;}
+.header.typeLink .appList li a{display:inline-block; line-height:54px;}
+.header.typeLink .appList li .img img{width:30px; height:30px; padding-right:11px; vertical-align:middle;}
+.header.typeLink .swipeMenuTabA.akMenu li.on a{color:#ff206c; border-bottom:2px solid #ff206c;}
+.header.typeLink .swipeMenuTabA li.alarm a:after{content:''; display:inline-block;  width:5px; height:5px; margin:-2px 0 0 2px; background:#ff206c; border-radius:50%; vertical-align:text-top;}
+
+.header.typeLink .titH2{ position:relative; z-index:12; font-size:15px; line-height:47px; letter-spacing:-0.4px; border-top:1px solid #c2c5c9; padding:0px 20px;}

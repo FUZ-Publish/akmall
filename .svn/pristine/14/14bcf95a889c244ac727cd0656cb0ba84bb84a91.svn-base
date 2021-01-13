@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>이벤트 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont alert hasBtn"><!-- class :: alert -->
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<div class="msg">
+								장바구니에 담은 물건을<br>주문하시겠습니까?
+							</div>
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					<div class="btnArea sticky half">
+						<button type="button" class="btn_l">나가기</button>
+						<button type="button" class="btn_p">주문하기</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

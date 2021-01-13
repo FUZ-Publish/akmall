@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>회원가입 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">회원가입</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		 <!-- progress bar -->
+        <div class="progressBarHolder">
+            <div class="progressBar">
+                50%
+            </div>
+        </div>
+		<section>
+			<div class="titleArea">
+				<h2 class="titH2">약관동의</h2>
+				<p class="disc">가입을 위해 약관에 동의해주세요!</p>
+			</div>
+			<div class="termsArea">
+				<div class="termsAll">
+					<input type="checkbox" name="terms1" id="terms1_all">
+					<label for="terms1_all">전체 동의하기</label>
+				</div>
+				<div class="termsCont">
+					<ul class="">
+						<li>
+							<div class="block check">
+								<input type="checkbox" class="" name="terms1" id="terms1_1">
+								<label for="terms1_1"><span>(필수)</span> 이용약관</label>
+								<button type="button" class="links">전문보기</button>
+							</div>
+							<ul class="detailBox">
+								<li>
+									<span class="tit">구분</span>
+									<span class="desc">회원가입 시(필수)</span>
+								</li>
+								<li>
+									<span class="tit">항목</span>
+									<span class="desc">이름, 아이디, 비밀번호, 이메일, 휴대폰번호</span>
+								</li>
+								<li>
+									<span class="tit">목적</span>
+									<span class="desc pointC1">회원식별 및 고지사항 전달</span>
+								</li>
+								<li>
+									<span class="tit">보유기간</span>
+									<span class="desc pointC1">탈퇴 후 즉시 또는 법정의무 보유기간까지</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="block check">
+								<input type="checkbox" class="" name="terms1" id="terms1_2">
+								<label for="terms1_2"><span>(필수)</span> 개인정보취급 및 처리방침</label>
+								<button type="button" class="links">전문보기</button>
+							</div>
+						</li>
+						<li>
+							<div class="block check">
+								<input type="checkbox" class="" name="terms1" id="terms1_3">
+								<label for="terms1_3"><span>(필수)</span> 만 14세 이상</label>
+							</div>
+						</li>
+						<li>
+							<div class="block check">
+								<input type="checkbox" class="" name="terms1" id="terms1_4">
+								<label for="terms1_4"><span>(선택)</span> 생년월일, 성별 수집 및 이용동의</label>
+							</div>
+							<ul class="detailBox">
+								<li>
+									<span class="tit">구분</span>
+									<span class="desc">선택</span>
+								</li>
+								<li>
+									<span class="tit">항목</span>
+									<span class="desc">생년월일, 성별</span>
+								</li>
+								<li>
+									<span class="tit">목적</span>
+									<span class="desc">맞춤 정보 제공, 마케팅 활용</span>
+								</li>
+								<li>
+									<span class="tit">보유기간</span>
+									<span class="desc">탈퇴 후 즉시 또는 법정의무 보유기간까지</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<p class="txtRemark">※ 선택 항목의 경우 입력 없이 가입 가능하나, 생녀월일 및 성별 미 입력 시 이벤트 참여 및 클럽 가입 시 제한 될 수 있습니다.</p>
+				</div>
+			</div>
+			<div class="btnArea half">
+				<button type="button" class="btn_l">이전</button>
+				<button type="button" class="btn_p">다음</button>
+			</div>
+		</section>
+
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>마이파우치 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">뷰티프로필</h1>
+			<div class="ar">
+				<a href="#" class="searchLink">
+					<em class="blind">검색</em>
+				</a>
+				<a href="#" class="cartLink">
+					<em class="blind">장바구니</em>
+				</a>
+			</div>
+        </div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		 <!-- progress bar -->
+        <div class="progressBarHolder">
+            <div class="progressBar">
+                66.6%
+            </div>
+        </div>
+		<!-- // progress bar -->
+
+        <section>
+            <div class="clearFix">
+                <span class="discAr ar txtXS pointC2"><span class="required"></span>표시 필수값</span>
+            </div>
+
+			<div class="titleArea pt0 mb0">
+				<h2 class="titH3">피부타입</h2>
+				<span class="required"><span class="blind">필수</span></span>
+				<a href="MA_PR_08.html" class="tipPop" title="피부타입 설명 팝업 열기">
+					<img src="/beautyapp/resources/images/common/ico_tip.png" alt="">
+				</a>
+			</div>
+			
+			<div class="iptGroup txtCheck">
+				<ul>
+					<li>
+						<input type="radio" name="chk1" id="chk1_1">
+						<label for="chk1_1">건성</label>
+					</li>
+					<li>
+						<input type="radio" name="chk1" id="chk1_2">
+						<label for="chk1_2">지성</label>
+					</li>
+					<li>
+						<input type="radio" name="chk1" id="chk1_3">
+						<label for="chk1_3">중성</label>
+					</li>
+					<li>
+						<input type="radio" name="chk1" id="chk1_4">
+						<label for="chk1_4">복합성</label>
+					</li>
+					<li>
+						<input type="radio" name="chk1" id="chk1_5">
+						<label for="chk1_5">민감성</label>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="titleArea mb0">
+				<h2 class="titH3">피부톤</h2>
+				<span class="required"><span class="blind">필수</span></span>
+			</div>
+			
+			<div class="iptGroup txtCheck">
+				<ul>
+					<li>
+						<input type="radio" name="chk2" id="chk2_1">
+						<label for="chk2_1">붉은편</label>
+					</li>
+					<li>
+						<input type="radio" name="chk2" id="chk2_2">
+						<label for="chk2_2">노란편</label>
+					</li>
+					<li>
+						<input type="radio" name="chk2" id="chk2_3">
+						<label for="chk2_3">보통</label>
+					</li>
+					<li>
+						<input type="radio" name="chk2" id="chk2_4">
+						<label for="chk2_4">까만편</label>
+					</li>
+				</ul>
+			</div>
+
+			<div class="titleArea mb0">
+				<h2 class="titH3">피부고민</h2>
+				<span class="required"><span class="blind">필수</span></span>
+				<span class="txtXS normal">(중복선택가능)</span>
+			</div>
+			
+			<div class="iptGroup txtCheck">
+				<ul>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_1">
+						<label for="chk3_1">트러블</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_2">
+						<label for="chk3_2">미백</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_3">
+						<label for="chk3_3">탄력</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_4">
+						<label for="chk3_4">블랙헤드</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_5">
+						<label for="chk3_5">각질</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_6">
+						<label for="chk3_6">잡티</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_7">
+						<label for="chk3_7">홍조</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_8">
+						<label for="chk3_8">유분/피지</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_9">
+						<label for="chk3_9">피부톤</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_10">
+						<label for="chk3_10">주름</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_11">
+						<label for="chk3_11">다크써클</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_12">
+						<label for="chk3_12">악건성</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_13">
+						<label for="chk3_13">색소침착</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_14">
+						<label for="chk3_14">수염자국</label>
+					</li>
+					<li>
+						<input type="checkbox" name="chk3" id="chk3_15">
+						<label for="chk3_15">모낭염</label>
+					</li>
+				</ul>
+			</div>
+            
+            <div class="btnArea half">
+				<button type="button" class="btn_l">이전</button>
+                <button type="button" class="btn_p">다음</button>
+            </div>
+        </section>
+
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+</div>
+<!--// wrap -->
+</body>
+</html>

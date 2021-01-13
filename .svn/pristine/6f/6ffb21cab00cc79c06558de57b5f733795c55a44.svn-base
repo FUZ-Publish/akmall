@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>나만의공간 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont hasBtn"><!-- class ::  -->
+					<div class="popHead">
+						<h1 class="titH3">프로필 비공개 설정</h1>
+					</div>
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<div class="msg">
+								비공개로 설정하실 경우, 고객님의 프로필 이미지, 랭킹, 누적 리뷰 정보 등이 공개되지 않으며, <span class="bold">베스트 리뷰어 선정에서는 제외</span>됩니다.
+							</div>
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					<div class="btnArea sticky half">
+						<button type="button" class="btn_l">취소</button>
+						<button type="button" class="btn_p">확인</button>
+					</div>
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

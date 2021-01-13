@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="/beautyapp/resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header class="header type_nb">
+		<div class="gnbHeader">
+			<a href="#" class="pageBack">
+				<em class="blind">이전 페이지로 이동</em>
+			</a>
+			<h1 class="">백화점 배송안내</h1>
+		</div>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+		<section>
+			<span class="pointC3">상품설명에 배송/반품/교환/취소 관련 안내가 기재된 경우 다음 안내사항보다 우선 적용됩니다. </span>
+	
+			<div class="titleArea">
+				<h2 class="titH2">배송안내</h2>
+			</div>
+
+			<h3 class="titH3 mt20">1) 반품/교환 안내</h3> 
+			<p class="txt mt10">CJ GLS(1588-5353)</p>
+
+			<h3 class="titH3 mt20">2) 배송방식 </h3> 
+			<p class="txt mt10">AK플라자 직접배송(단, 매장에 상품이 없는 경우 또는 신속한 배달을 위하여 타 백화점 또는 업체에서 배송할 수 있습니다.) AK플라자 상품을 여러 개 주문 시 통합 물류센터에서 묶음 배송</p>
+
+			<h3 class="titH3 mt20">3) 배송기일</h3> 
+			<p class="txt mt10">결제일 다음날부터 3~4일 소요(토/일/공휴일 제외)<br>단, 상품의 재고상황, 개별상품(주문제작 상품 등), 운송업체의 사정에 따라 배송이 지연될 수 있습니다.</p>
+
+			<h3 class="titH3 mt20">4) 주의 사항 </h3> 
+			<ul class="txtList_disc">
+				<li>희망일 배송 등 고객의 별도 요청에 따른 배송 시, 배송기일과 배송비는 변경될 수 있습니다. </li>
+				<li>정확한 배송비는 주문서 작성 시 확인하실 수 있습니다. </li>
+			</ul>
+			<p class="txtS">* 주문하신 상품의 배송단계 및 택배사 배송정보는 <span class="pointC1">[나만의 공간 주문/배송조회]</span>에서 확인하실 수 있습니다.</p>	
+		</section>
+	</div>
+
+	<script type="text/javascript" src="/beautyapp/resources/js/config/config.js"></script>	
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="/beautyapp/resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

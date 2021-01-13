@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/****************************************/
+/*	Name: PUBLISHING GUIDE
+/*	PART: SITE COMMON STYLE
+/*	Version: 1.0
+/*	Author: [써냐]BLUEWEBD™
+/****************************************/
+
+/* basis Selector */
+html {}
+body {}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, thead, tbody, tr, th, td, form, fieldset, legend, input, textarea, button {margin:0; padding:0; font-weight:normal; color:#666; font-family:malgun Gothic;}
+body, input, select, div, textarea, table, button {font-size:12px; color:#666;}
+table {width:100%; border:0; border-spacing:0px; border-collapse:collapse;}
+html:first-child select {padding-right:6px; height:20px;} /* Opera 9 & Below Fix */
+option {vertical-align:middle;  padding:3px 0;} /* Firefox Fix */
+legend {display:none; visibility:hidden;}
+img, fieldset, button {vertical-align:middle; border:0;}
+ul, ol {list-style:none;}
+em, address {font-style:normal;}
+hr {display:none; visibility:hidden;}
+caption  {height: 0; width: 0; font-size: 0; line-height: 0; margin: 0; padding: 0; text-indent:-9999px;}
+input, textarea, button {line-height: 1.2; vertical-align: middle;}
+/*input*/
+.pholder{color:#bbb !important;}
+input[type=text], input[type=password] {background:#ffffff; width:126px; height:19px; padding:3px 1px 2px 1px; color:#444; text-indent:7px; *text-indent:0; vertical-align:middle; border:1px solid #ccc;}
+
+textarea {background:#ffffff; width:100%; height:100px; padding:4px 0 1px 0; color:#454545; vertical-align:middle; border:1px solid #e0e0e0;}
+input[type=text]:hover, input[type=password]:hover, textarea:hover {border:1px solid #89b4d3;}
+select {border:1px solid #ccc; height:26px; padding:2px 2px 2px 4px;  vertical-align:middle; color:#666;}
+input[type="file"] {vertical-align:middle; height:22px; width:80%; margin-right:6px;}
+input[type="checkbox"],input[type="radio"] { margin:0; padding:0; vertical-align:middle; width:13px; height:13px; line-height:13px;}
+label {cursor:pointer;}
+a {text-decoration:none;color:#454545;}
+a:hover, a:active, a:focus{text-decoration:none;}
+
+/* Skip Menu */
+.skipMenu {overflow:hidden; position:relative; width:100%; z-index:2;}
+.skipMenu a {display:block; font-size:0; height: 1px; line-height:0; margin:0 -1px -1px 0; overflow:hidden;text-align:center; width:1px;}
+.skipMenu a:focus, 
+.skipMenu a:hover, 
+.skipMenu a:active {background:#B40000; color:#fff; font-size:12px; font-weight:bold; margin:0; height:20px; line-height:1; margin:0; padding:8px 0 0 15px; width:auto;}
+
+
+/****************************/
+/* Common Style             */
+/****************************/
+.hands {cursor:pointer !important;}
+.hide {display:block; height: 0; width: 0; font-size: 0; line-height: 0; margin: 0; padding: 0; overflow:hidden;}
+
+.fixed {table-layout:fixed;} 
+.txt_break {
+	/* word-break:break-all !important;word-wrap:break-word !important; */
+	word-wrap: break-word !important; /* Internet Explorer 5.5+ */
+	white-space: pre-wrap !important; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap !important; /* Opera 4-6 */
+	white-space: -o-pre-wrap !important; /* Opera 7 */
+	
+	} 
+
+.txt_nowrap {white-space:nowrap;} 
+.ls_m01 {letter-spacing:-1px;}
+.ls_nm {letter-spacing:normal !important;}
+	
+/* clear class */
+.clear {clear:both !important;}
+.clfix:after {content:'.'; display:block; height:0px; clear:both; visibility:hidden;}
+.clfix {display:inline-block;}
+.clfix {display:block;}
+* html .clfix {height:1%;} /* hides from ie-mac */
+.clfix {zoom:1;} /*for ie 5.5-7*/
+
+/* ALIGN */
+.alC {text-align:center !important;}
+.alL {text-align:left !important;}
+.alR {text-align:right !important;}
+.alJ {text-align:justify !important;}
+
+.vaT {vertical-align:top !important;}
+.vaM {vertical-align:middle !important;}
+.vaB {vertical-align:bottom !important;}
+.vapx {vertical-align:-1px !important;}
+
+/* TEXT COLOR*/
+em {color:#800080; font-weight:bold;}
+/* pointBl-blue, pointOr-orange, pointRe-red, pointGn-green, pointGy-gray, pointBk-black, pointWh-white */
+.pointBl {color:#1479c7 !important;}
+.pointOr {color:#ff6000 !important;}
+.pointRe {color:#C00000 !important;}
+.pointGn {color:#61ac1e !important;}
+.pointGy01 {color:#606060 !important;}
+.pointGy02 {color:#666 !important;}
+.pointGy03 {color:#999 !important;}
+.pointBk {color:#000 !important;}
+.pointWh {color:#fff !important;}
+.pointPK {color:#F03D98 !important;}

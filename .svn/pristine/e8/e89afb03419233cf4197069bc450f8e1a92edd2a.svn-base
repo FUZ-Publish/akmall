@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont bottom open hasBtn pd0"><!-- class :: bottom / transform class :: open -->
+					<div class="popBody">
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<div class="optionArea">
+								<div class="optionSelect">
+									<a href="#" class="accBtn">옵션</a>
+								</div>
+								<div class="optionCont">
+									<!-- 옵션이 텍스트인 경우 -->
+									<div class="iptWrap schWrap">
+										<input type="text" name="" value="" class="delete sch" placeholder="검색어를 입력해주세요">
+										<button type="button" class="schBtn"><span class="blind">검색</span></button>
+									</div>
+									<div class="formArea pd20">
+										<div class="iptGroup">
+											<div class="single">
+												<input type="checkbox" name="chk3" id="chk3_1">
+												<label for="chk3_1">품절제외</label>
+											</div>
+										</div>
+									</div>
+									<div class="optionList pd20">
+										<ul>
+											<li><button type="button" class="option"><span class="tit">13N 아이보리 (남은수량 : 709개)</span></button></li>
+											<li><button type="button" class="option"><span class="tit">17N 바닐라 (남은수량 : 709개)</button></li>
+											<li><button type="button" class="option soldOut"><span class="tit">21C 쿨 베이지 [품절]</span></button></li>
+											<li><button type="button" class="option"><span class="tit">21N 베이지 (남은수량 : 709개)</span></button></li>
+											<li><button type="button" class="option"><span class="tit">23C 쿨 샌드 (남은수량 : 709개)</span></button></li>
+										</ul>
+									</div>
+									<!-- // 옵션이 텍스트인 경우 -->
+								</div>
+							</div>
+
+							<div class="alarmArea">
+								<p class="txt">품절된 옵션이 있습니다.</p>
+								<a href="#link" class="links">재입고 알림 신청</a>
+							</div>
+							
+							<div class="price clearFix">
+								<span class="total al pointC4">합계</span>
+								<p class="ar pointC1"><em class="txtXL montBold">44,650</em>원</p>
+							</div>
+
+							<div class="formArea mt20 pd20">
+								<div class="iptGroup">
+									<div class="single">
+										<input type="checkbox" name="chk3" id="chk3_3">
+										<label for="chk3_3">택배배송</label>
+									</div>
+									<div class="single">
+										<input type="checkbox" name="chk3" id="chk3_2">
+										<label for="chk3_2">&PICK
+											<a href="MA_SR_26.html" class="tipPop" title="&PICK 서비스">
+												<img src="../resources/images/common/ico_tip.png" alt="">
+											</a>
+										</label>
+										
+									</div>
+								</div>
+							</div>
+							
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					
+					<div class="btnArea half pd20 mb30">
+						<button type="button" class="btn_l">장바구니</button>
+						<button type="button" class="btn_p">바로구매</button>
+					</div>
+					
+					<!-- <button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

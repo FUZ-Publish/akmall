@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>STORE &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont full hasBtn"><!-- class :: full -->
+					<div class="popHead">
+						<h1 class="titH3">재입고 알림 신청</h1>
+					</div>
+					<div class="popBody">
+						<section>
+							<div class="prdCategory_list s">
+								<ul>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/temp/img_prd_01.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo pt15">
+												<div class="prdTitle"><a href="#link" class="ellipsis2"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<section class="borderT">
+							<div class="formArea">
+								<span class="label">신청옵션</span>
+								<div class="iptWrap flex">
+									<select name="" id="" class="minSelect">
+										<option value="">신청옵션</option>
+										<option value=""></option>
+									</select>
+								</div>
+
+								<span class="label txtL mt40">알림방식</span>
+								<ul class="iptGroup div_2 pt15">
+									<li>
+										<input type="checkbox" name="chk2" checked="checked" id="chk2_1">
+										<label for="chk2_1">문자</label>
+									</li>
+									<li>
+										<input type="checkbox" name="chk2" id="chk2_2">
+										<label for="chk2_2">APP PUSH</label>
+									</li>
+								</ul>
+								<span class="label txtL mt40">알림기간</span>
+
+								<div class="iptGroup pt15">
+									<div class="single">
+										<input type="radio" name="chk2" checked="checked"  id="chk3_1">
+										<label for="chk3_1">7일</label>
+									</div>
+									<div class="single">
+										<input type="radio" name="chk2" id="chk3_2">
+										<label for="chk3_2">1개월</label>
+									</div>
+								<div class="single">
+									<input type="radio" name="chk2" id="chk3_3">
+									<label for="chk3_3">3개월</label>
+									</div></div>
+							</div>
+						</section>
+						<section class="full hr">
+							<div class="noteAcc">
+								<div class="accHeader">
+									<a href="#link" class="accBtn">재입고 알림 이용안내</a>
+								</div>
+								<div class="accBody">
+									<ul class="txtList_disc">
+										<li>재입고 알림 신청일로부터 고객님이 설정한 기간 내 재입고가 될 경우 알림이 발송됩니다.</li>
+										<li>상품의 입고 시점에 따라 1회 발송되고, 이미 발송된 재입고 알림은 다시 발송되지 않으므로 고객님께서 확인 못하신 입고 알림을 다시 받고 싶으실 경우 해당 상품 페이지에서 재신청해 주시기 바랍니다.</li>
+										<li>재입고 알림은 먼저 신청한 순서대로 발송되며, 재입고 알림 후 인기 상품은 조기 소진될 수 있습니다.</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							
+							<!-- 본문 (e) -->
+						</div>
+					</div>
+					<div class="btnArea two half sticky">
+						<button type="button" class="btn_l">취소</button>
+						<button type="button" class="btn_p">신청</button>
+					</div>
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

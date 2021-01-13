@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>상품평 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont full"><!-- class :: full -->
+					<div class="popHead">
+						<h1 class="titH3 mont"><em>1</em> / <em class="normal">99</em></h1>
+					</div>
+					<div class="popBody">
+						<!-- 본문 (s) -->
+						<div class="prdCategory_list s mt20 pd20">
+							<ul>
+								<li>
+									<div class="inner">
+										<div class="prdImg">
+											<a href="#link">
+												<div class="img">
+													<img src="../resources/images/temp/img_prd_01.png" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="prdInfo">
+											<div class="prdTitle"><a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a></div>
+											<p class="txtS">212 루쥬 레벨</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<section class="hr mt20">
+							<div class="profileArea elem">
+								<div class="userWrap clearFix">
+									<div class="profileImg">
+										<a href="#">
+											<div class="img">
+												<img src="../resources/images/temp/img_user_profile.png" alt="">
+												<!-- <img src="../resources/images/content/img_user_profile_default.png" alt=""> -->
+											</div>
+										</a>
+									</div>
+									<div class="profileInfo">
+										<div class="userID">
+											<a href="#">AK123</a>
+										</div>
+										<div class="disc">
+											<span class="txtS">2020.09.12</span>
+											<span class="icoProfile_top">구매자</span>
+											<span class="icoProfile_buy">TOP<em>100</em></span>
+											<span class="icoProfile_exp">체험단</span>
+										</div>
+									</div>
+								</div>
+								<p class="profileElement">
+									<em>여자</em><em>24세</em><em>건성</em><em>붉은편</em><em>트러블</em><em>블랙헤드</em>
+								</p>
+							</div>
+
+							<div class="sliderNewWrap btn1 mt30">
+								<ul class="cateImg_slide">
+									<li>
+										<div class="proImgRev">
+											<div class="img">
+												<img src="../resources/images/content/img_product_review.png" alt="">
+											</div>
+											<p class="desc">1  원래 사용하던 제품인데 휴대용이필요해서 한 개 더 구매 했어요. 색상은 정말신선한 당근색이라고 할수있어요!</p>
+										</div>
+										<div class="proRevList">
+											<div class="proVodRev">
+												<div class="img">
+													<img src="../resources/images/content/img_product_vod.png" alt="">
+													<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+												</div>
+												<p class="desc">원래 사용하던 제품인데 휴대용이필요해서 한 개 더 구매 했어요. 색상은 정말신선한 당근색이라고 할수있어요!</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="proImgRev">
+											<div class="img">
+												<img src="../resources/images/content/img_product_review.png" alt="">
+											</div>
+											<p class="desc">2  원래 사용하던 제품인데 휴대용이필요해서 한 개 더 구매 했어요. 색상은 정말신선한 당근색이라고 할수있어요!</p>
+										</div>
+										<div class="proRevList">
+											<div class="proVodRev">
+												<div class="img">
+													<img src="../resources/images/content/img_product_vod.png" alt="">
+													<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+												</div>
+												<p class="desc">원래 사용하던 제품인데 휴대용이필요해서 한 개 더 구매 했어요. 색상은 정말신선한 당근색이라고 할수있어요!</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<div class="clearFix mt30">
+								<div class="starWrap al">
+									<span class="starRating">
+										<span style="width:100%"></span>
+									</span>
+									<span class="num">5.0</span>
+								</div>
+								<p class="date mont txtS ar">2020.12.31</p>
+							</div>
+							<div class="reviewPrdOpBox">
+								<dl>
+									<dt>구매옵션</dt>
+									<dd>212 루쥬 레벨</dd>
+									<dt>커버력</dt>
+									<dd>보통이예요</dd>
+									<dt>배송</dt>
+									<dd>빨라요</dd>
+								</dl>
+							</div>
+				
+							<p class="review">좋아요 추천합니다.</p>
+				
+							<div class="reviewPrd_Luv">
+								<em>LUV</em>
+								<p>상품케이스가 세련되고 예뻐서 특히 선물용으로 좋을 것이라고 생각합니다!</p>
+							</div>
+							<div class="reviewPrd_Hate">
+								<em>HATE</em>
+								<p>바르고 나면 약간의 트러블이 나올 수 있으니 매장에서 테스트 해보고 구매하셔야 할거 같아요ㅠㅠ</p>
+							</div>
+				
+							<div class="reviewPrdAid">
+								<button class="btn_aid off">도움이 돼요</button>
+								<span class="txtS"><em class="pointC1">999</em>명에게 도움이 되었습니다.</span>
+							</div>
+						</section>
+
+						<!-- 본문 (e) -->
+						<!-- <div class="popInner"></div> -->
+					</div> 
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html>

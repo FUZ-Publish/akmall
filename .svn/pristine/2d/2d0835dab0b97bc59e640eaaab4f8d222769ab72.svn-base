@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>코스미끄 &#124; 모바일 AK</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../resources/css/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common_re.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/content_re.css" />
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+	<!-- header -->
+	<header>
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div class="container">
+	</div>
+	<!-- layer_popup -->
+	<div class="popWrap">
+		<div class="popup">
+			<div class="popContain">
+				<div class="popCont full"><!-- class :: full -->
+					<div class="popHead">
+						<h1 class="titH3">VOD</h1>
+					</div>
+					<div class="popBody">
+						<section class="full">
+							<div class="vodLiveArea">
+								<div class="vodImg round0 scrollFixed scrollTop_2">
+									<div class="img">
+										<img src="../resources/images/content/img_vod_live1.png" alt="">
+										<a href="#" class="videoBtn"><span class="blind">설명글 보기</span></a>
+									</div>
+									<div class="liveBox">
+										<span class="live">LIVE</span>
+									</div>
+								</div>		
+								<div class="liveVodInfo pd20">
+									<div class="vodTitle"><a href="#link">[베네피트] 세라마이드 캡슐로 자극받은 피부 진정 보습, 캡슐진정크림!</a></div>
+									<div class="hashTag">
+										<em>#건성</em>
+										<em>#붉은편</em>
+										<em>#여름쿨톤</em>
+										<em>#트러블</em>
+										<em>#홍조</em>
+										<em>#립</em>
+									</div>
+									<div class="info">
+										<span class="view"><span class="blind">조회수</span>1,567</span>
+										<span class="heart">
+											<button type="button" class="btnPic btnZzim typeC off"><span class="blind">좋아요</span><em>251</em></button>
+										</span>
+									</div>
+								</div>						
+							</div>
+							<div class="prdCategory_list xs pd20 mt30">
+								<ul>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/temp/img_prd_01.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle">
+													<a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a>
+												</div>
+												<div class="prdPrice">
+													<div class="row">
+														<span class="price">9,999,999원</span>
+												</div>
+												<button type="button" class="btnPic btnZzim buy off"><span class="blind">장바구니</span></button>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/temp/img_prd_01.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle">
+													<a href="#link" class="ellipsis"><em>[베네피트]</em> 웨이트리스 모이스쳐 페이스 모이스처라이징 모이스처라이징 모이스처라이징</a>
+												</div>
+												<div class="prdPrice">
+													<div class="row">
+														<span class="price">9,999,999원</span>
+													</div>	
+												</div>
+												<button type="button" class="btnPic btnZzim buy on"><span class="blind">장바구니</span></button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<div class="mt40 pd20">
+								<button type="button" class="btn_l m more"><span>더보기</span></button>
+							</div>
+						</section>
+						<div class="popInner">
+							<!-- 본문 (s) -->
+							<div class="titleArea mt20">
+								<h2 class="titH2">추천VOD</h2>
+							</div>
+
+							<div class="prdCategoryVOD">
+								<ul>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/content/img_vod1.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle ellipsis2">
+													<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+												</div>
+												<div class="prdLikeit">
+													<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+												</div>
+												<div class="vodWatchNum">
+													<em>1,567</em>명 시청
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/content/img_vod2.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle ellipsis2">
+													<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+												</div>
+												<div class="prdLikeit">
+													<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+												</div>
+												<div class="vodWatchNum">
+													<em>1,567</em>명 시청
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/content/img_vod3.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle ellipsis2">
+													<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+												</div>
+												<div class="prdLikeit">
+													<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+												</div>
+												<div class="vodWatchNum">
+													<em>1,567</em>명 시청
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/content/img_vod4.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle ellipsis2">
+													<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+												</div>
+												<div class="prdLikeit">
+													<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+												</div>
+												<div class="vodWatchNum">
+													<em>1,567</em>명 시청
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="inner">
+											<div class="prdImg">
+												<a href="#link">
+													<div class="img">
+														<img src="../resources/images/content/img_vod5.png" alt="">
+													</div>
+												</a>
+											</div>
+											<div class="prdInfo">
+												<div class="prdTitle ellipsis2">
+													<a href="#link">지성 피부 스킨 케어 데일리 토너로 피지케어 피지케어</a>
+												</div>
+												<div class="prdLikeit">
+													<button type="button" class="btnPic btnZzim typeC off"><span class="blind">찜하기</span><em>999</em></button>
+												</div>
+												<div class="vodWatchNum">
+													<em>1,567</em>명 시청
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!-- 본문 (e) -->
+						</div>
+					</div> 
+					<button type="button" class="btnIco_close"><span class="blind">팝업 닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //layer_popup -->
+	<script type="text/javascript" src="../resources/js/config/config.js"></script>
+	<script type="text/javascript" data-main="config/define_renewalUI.js" src="../resources/js/lib/require.js"></script>
+    <!--// container -->
+	<!-- footer -->
+	<footer>
+	</footer>
+	<!--// footer -->
+</div>
+<!--// wrap -->
+</body>
+</html> 

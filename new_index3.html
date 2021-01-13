@@ -1,0 +1,2654 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>메뉴리스트 | Publishing Guide -</title>
+
+<link rel="stylesheet" type="text/css" href="pubMenuList/css/reset.css">
+<link rel="stylesheet" type="text/css" href="pubMenuList/css/common.css">
+<link rel="stylesheet" type="text/css" href="pubMenuList/css/guide.css">
+
+<script type="text/javascript" src="pubMenuList/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="pubMenuList/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="pubMenuList/js/d_menu.js"></script>
+<script type="text/javascript" src="pubMenuList/js/d_jquery.js"></script>
+<script type="text/javascript" src="pubMenuList/js/menuList.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<style>
+    td {font-size:12px;}
+	.txt_thr * {text-decoration:line-through; background-color:#929699;}
+	#wgContainer.layout2 {margin-left:0;}
+</style>
+</head>
+
+<body>
+
+<div title="스킵메뉴" class="skipMenu">
+	<a href="#wgHeader">주 메뉴 바로가기</a>
+    <a href="#wgContainer">본문 내용 바로가기</a>
+</div>
+<hr />
+<div id="wrapGuide">
+	<!-- HEADER s --<script type="text/javascript">TopArea();gnbBox_init(3);</script><!-- HEADER e //-->
+    <hr />
+    <div id="wgContainer" class="layout2 clfix">
+    	<!-- LNB s --<script type="text/javascript">LeftMenu01();lnb_menu('1','1');</script><!-- LNB e //-->
+        <div id="wgContent" class="clfix">
+        	<div class="titArea">
+            	<h1 class="gtit">메뉴리스트</h1>
+                <!--<p><script type="text/javascript">map.print(1,1,1);</script></p> -->
+            </div>
+            <div id="g_container" class="wgDsc">
+            	<div class="section cordView">
+                    
+                    <div class="dscBox type01">
+                        <ul class="lstDsc">
+                            <li><strong class="pointBk">구분</strong> : 신규 / 전체개선</li>
+                            <!-- <li><strong class="pointBk">CHECK</strong> : <strong class="pointGy02">ⓥ</strong> - validate | <strong class="pointGy02">ⓒ</strong> - cross browing | <strong class="pointGy02">ⓦ</strong> - WAH</li> -->
+                            <li><strong class="pointBk">완료여부</strong> : 미완료 N | 완료 Y. (* 완료된 값을 통해 자동으로 공정률 계산)</li>
+                            <li><strong class="pointBk">진행표시</strong> : <span class="txt_ing">완료일자 초록 : 퍼블작업중</span> | <span class="txt_ok">완료일자 빨강 : 퍼블 완료일</span> | <span class="txt_mod">수정일자 파랑 : 퍼블 수정일</span> | <span class="txt_mod">기획검수여부 파랑 : 퍼블수정 및 기획검수필요</span> | <span class="txt_ok">기획검수여부 빨강 : 퍼블수정 후 기획검수 완료일</span></li>
+                        </ul>
+                    </div>
+                </div><!--// section div -->
+                
+            	<div class="section">
+                    <h2 class="gtit">1. 작업공정률 <strong class="pointGn02 totalNum">[0%]</strong></h2>
+                </div>
+                
+                <!-- D: 작업공정률 테이블은 자동 반영되므로 수정금지  -->
+            	<table class="guideTbl01 green rowtbl">
+                    <colgroup>
+                    	<col style="width:15%;">
+                    	<col style="width:10%;">
+                        <col style="width:15%;">
+                    	<col style="width:10%;">
+                        <col style="width:15%;">
+                    	<col style="width:10%;">
+                        <col style="width:15%;">
+                    	<col style="width:10%;">
+                    </colgroup>
+                    <tbody>
+                    </tbody>
+                </table>
+                    
+            	
+                <div class="section">
+                    <h2 class="gtit">
+                    	2. PROJECT NAME / CATEGORY NAME
+                        <fieldset class="muSort">
+                            <legend>메뉴리스트 정렬선택</legend>
+                            <input type="radio" name="muSort" id="muSort1" checked><label for="muSort1"><span class="icon"></span>전체</label>
+                            <input type="radio" name="muSort" id="muSort2"><label for="muSort2"><span class="icon"></span>완료목록</label>
+                            <input type="radio" name="muSort" id="muSort3"><label for="muSort3"><span class="icon"></span>미완료목록</label>                       
+                        </fieldset>
+                    </h2>
+                </div>
+                <div id="g_content">
+                  
+					<table id="focus" class="guideTbl01 blue">
+						<colgroup>
+							<col width="3%" />
+							<col width="10%" />
+							<col width="10%" />
+							<col width="12%" />
+							<col width="10%" />
+							<col width="5%" />
+							<col width="6%" />
+							<col width="7%" />
+							<col width="6%" />
+							<col width="6%" />
+							<col width="7%" />
+							<col width="*%" />
+							<col width="6%" />
+						</colgroup>
+						<thead>
+						  <tr>
+							<th scope="col">NUM</th>
+							<th scope="col">1Depth</th>
+							<th scope="col">2Depth</th>
+							<th scope="col">3Depth</th>
+							<th scope="col">4Depth</th>
+							<th scope="col">구분</th>
+							<th scope="col">화면ID</th>
+							<th scope="col">완료여부</th>
+							<th scope="col">완료일자</th>
+							<th scope="col">수정일자</th>
+							<th scope="col">기획검수여부</th>
+							<th scope="col">비고</th>
+							<th scope="col">LINK</th>
+						  </tr>
+						</thead>
+						<!--  1depth 구분은 tbody로 함 -->
+						<!--  1depth가 1SET 임 -->
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">메인</td>
+								<td class="itemtit03">&nbsp;</td>
+								<td></td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-MA-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ing">20.11.11</td>
+								<td class="alC txt_mod">20.12.15</td>
+								<td></td>
+								<td>헤더 3줄 케이스 추가 (header class="headerScroll") / 헤더 2줄 케이스 주석처리 <br><span style="color:red">(class="wrap mainWrap")</span></td>
+								<td class="alC"><a href="html/MA_MA_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">메인</td>
+								<td class="itemtit03">&nbsp;</td>
+								<td></td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-MA-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ing">20.12.15</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td>페이지이동 swiper 스크립트 적용 예시 템플릿 (data-url 적용은 개발팀)</td>
+								<td class="alC"><a href="html/MA_MA_01_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-VC-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.04</td>
+								<td class="alC txt_mod">20.12.07</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">서브메인</td>
+								<td>[PU] 상품오픈</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_VC_10</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">서브메인</td>
+								<td>[PU] 방송 알림</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_VC_09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">서브메인</td>
+								<td>[PU] 방송 알림</td>
+								<td>21~08시 알림</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_VC_09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td>MA_VC_09_1</td>
+								<td class="alC"><a href="html/MA_VC_09_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">쇼핑라이브</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-VC-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">V-라이브 상세</td>
+								<td>그립</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-VC-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.05</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">V-라이브 상세</td>
+								<td>CJ</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-VC-04</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.05</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_04.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">[PU] V-VOD 상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-VC-06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.10</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">V-코스미끄</td>
+								<td class="itemtit03">[PU] 편성표</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-VC-08</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.03</td>
+								<td class="alC txt_mod">12.02.02</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_VC_08.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">리뷰라운지</td>
+								<td class="itemtit03"></td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-RL-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.12.15</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>리뷰라운지 페이지 "reviewWrap" 클래스 삭제</td>
+								<td class="alC"><a href="html/MA_RL_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">리뷰라운지</td>
+								<td class="itemtit03">베스트리뷰어</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-RL-04</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.12.15</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_RL_04.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">리뷰라운지</td>
+								<td class="itemtit03">베스트리뷰어</td>
+								<td>[PU] 베스트 리뷰어는?</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-RL-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.22</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.20</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_RL_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">리뷰라운지</td>
+								<td class="itemtit03">리뷰어 홈</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-RL-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.22</td>
+								<td class="alC txt_mod">20.12.15</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_RL_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">STORE MAIN</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.17</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">STORE MAIN</td>
+								<td>[PU] 배너 전체보기</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-23</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.11.23</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_23.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">스킨케어</td>
+								<td>대카테고리</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.07</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">스킨케어</td>
+								<td>중카테고리</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.11.23</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">브랜드샵</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-16</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_16.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.01</td>
+								<td class="alC txt_mod">20.12.16</td>
+								<td class="alC txt_mod"></td>
+								<td style="color:red">상품 상태별 구매하기 버튼 적용 페이지 - 예약판매, 품절, 판매종료</td>
+								<td class="alC"><a href="html/MA_SR_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA_SR_05_optLayer1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.21</td>
+								<td class="alC txt_mod">21.01.08</td>
+								<td class="alC txt_mod"></td>
+								<td><span style="color:red">선택할 옵션이 없는 경우</span><br>구매하기 버튼 클릭 시 default 옵션창 오픈</td>
+								<td class="alC"><a href="html/MA_SR_05_optLayer1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA_SR_05_optLayer2</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.21</td>
+								<td class="alC txt_mod">20.12.16</td>
+								<td class="alC txt_mod"></td>
+								<td><span style="color:red">선택할 옵션이 있는 경우</span><br> - 선택옵션 : 리스트 형태, 이미지 형태, 컬러칩 형태<br>- 구매하기 버튼 클릭 시 옵션 선택창 오픈</td>
+								<td class="alC"><a href="html/MA_SR_05_optLayer2.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA_SR_05_optLayer3</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.21</td>
+								<td class="alC txt_mod">20.12.16</td>
+								<td class="alC txt_mod"></td>
+								<td><span style="color:red">선물하기 버튼이 있을 경우</span><br>선물하기 버튼 클릭 시 default 옵션창 오픈</td>
+								<td class="alC"><a href="html/MA_SR_05_optLayer3.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.01</td>
+								<td class="alC txt_mod">20.12.16</td>
+								<td class="alC txt_mod"></td>
+								<td style="color:red"></td>
+								<td class="alC"><a href="html/MA_SR_05_optLayer1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>상품평 </td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.20</td>
+								<td class="alC txt_mod">20.12.07</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 혜택내역</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-14</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_14.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 공유하기</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-15</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.07</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_15.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 쿠폰 모두 받기</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-17</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>쿠폰이 길어길 경우 : class="popInner scrollY" 클래스 추가</td>
+								<td class="alC"><a href="html/MA_SR_17.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 재입고 알림 신청</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-22</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_22.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 마일리지</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-29</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_29.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 배송정보</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-30</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_30.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>전성분</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-32</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_32.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>제품속성</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-33</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.25</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_33.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>제품특징 사용법 안내</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-31</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ing">20.12.07</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>컨텐츠 디자인 필요</td>
+								<td class="alC"><a href="html/MA_SR_31.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>찍검기본정보안내</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_SR_31_1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod">20.12.08</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_31_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>상품설명</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-07</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.24</td>
+								<td class="alC txt_mod">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_07.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>상품고시정보</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.14</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_18.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>백화점 배송안내</td>
+								<td></td>
+								<td class="alC">유지(AS-IS동일)</td>
+								<td class="alC">MA-SR-19</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td class="alC txt_mod">20.12.21</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_19.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>명품화장품 구매시 안내사항</td>
+								<td></td>
+								<td class="alC">유지(AS-IS동일)</td>
+								<td class="alC">MA-SR-20</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td class="alC txt_mod">20.12.21</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_20.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>반품/교환 안내</td>
+								<td>백화점</td>
+								<td class="alC">유지(AS-IS동일)</td>
+								<td class="alC">MA-SR-21</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td class="alC txt_mod">20.12.21</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_21.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>반품/교환 안내</td>
+								<td>일반</td>
+								<td class="alC">유지(AS-IS동일)</td>
+								<td class="alC">MA-SR-21-1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.21</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_21_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] &PICK 예약</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-25</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_25.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] &PICK 서비스</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-26</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.18</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_26.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>상품 Q&A</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-12</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.23</td>
+								<td class="alC txt_mod">20.12.07</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_12.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 상품 Q&A 작성하기</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-13</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.19</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_13.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>[PU] 관련 영상 보기</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-34</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.04</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_34.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>구매하기 옵션 선택</td>
+								<td>옵션 선택이 없을 경우</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-34-1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.23</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>퍼블대기</td>
+								<td class="alC"><a href="html/MA_SR_34_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>구매하기 옵션 선택</td>
+								<td>옵션 선택이 있을 경우</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-34-2</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ing">20.11.23</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>퍼블대기 / 구매옵션 적용 페이지 : 구매옵션 영역 기획,디자인 재작업 필요</td>
+								<td class="alC"><a href="html/MA_SR_34_2.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>구매하기 옵션 선택</td>
+								<td>옵션 선택한 경우</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-34-3</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.23</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>퍼블대기</td>
+								<td class="alC"><a href="html/MA_SR_34_3.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>구매하기 옵션 선택</td>
+								<td>옵션이 텍스트인 경우</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-34-4</td>
+								<td class="alC">N</td>
+								<td class="alC txt_ing">20.11.23</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>퍼블대기</td>
+								<td class="alC"><a href="html/MA_SR_34_4.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">STORE</td>
+								<td class="itemtit03">상품상세</td>
+								<td>구매하기 옵션 선택</td>
+								<td>옵션 이미지 + 텍스트인 경우</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-SR-34-5</td>
+								<td class="alC">N</td>
+								<td class="alC txt_ing">20.11.23</td>
+								<td class="alC txt_mod">20.12.07</td>
+								<td class="alC txt_mod"></td>
+								<td>퍼블대기</td>
+								<td class="alC"><a href="html/MA_SR_34_5.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">21.01.07</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>원형차트개선필요</td>
+								<td class="alC"><a href="html/MA_PR_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr"> 
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>이용약관</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.11.23</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr> 
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>STEP1</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.12.16</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td style="color:red;">약관동의 + step1,2,3</td>
+								<td class="alC"><a href="html/MA_PR_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>STEP2</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>STEP3</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-07</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_07.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr> 
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>이용약관</td>
+								<td>[PU] 프로필 유도</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.21</td>
+								<td class="alC txt_mod">20.12.14</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr> 
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>STEP2</td>
+								<td>[PU] 피부타입</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-08</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.11.05</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_08.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr> 
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>STEP3</td>
+								<td>[PU] 뷰티클럽 가입 유도</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-10</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.21</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr> 
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">마이파우치</td>
+								<td class="itemtit03">뷰티프로필</td>
+								<td>뷰티클럽</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-PR-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_PR_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MP-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod">20.11.13</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MP_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">서브메인</td>
+								<td>내 정보 관리</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MP-12</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MP_12.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">주문/배송조회</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA_MP_01_1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod">20.11.05</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요 / 개발개선 / 취소/반품/교환내역 동일 화면</td>
+								<td class="alC"><a href="html/MA_MP_01_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[PU] 프로필 비공개 설정</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MP-19</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MP_19.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[TAB] 미작성 상품평</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_MP_03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MP_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[PU] 상품평 작성</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_MP_04</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA_SR_10</td>
+								<td class="alC"><a href="html/MA_SR_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[TAB] 작성한 상품평</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_MP_05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod">20.11.13</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MP_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[PU] 내가 쓴 상품평 수정</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_MP_06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod">20.11.13</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA_SR_10</td>
+								<td class="alC"><a href="html/MA_SR_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[TAB] 뷰티체험단</td>
+								<td>미작성 상품평</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_MP_17</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod">20.11.13</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MP_17.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>[TAB] 뷰티체험단</td>
+								<td>작성한 상품평</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_MP_18</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>기획서 : 상품평 공통</td>
+								<td class="alC"><a href="html/MA_MP_18.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">나만의공간</td>
+								<td class="itemtit03">상품평</td>
+								<td>VOD</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MP-11</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.26</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>기획서 : 공통 메뉴</td>
+								<td class="alC"><a href="html/MA_CM_14.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">선물추천</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-10</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">선물추천</td>
+								<td class="itemtit03">선물추천 목록</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-11</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.28</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_11.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-EM-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.17</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">초성 이벤트</td>
+								<td>상세</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-EM-08</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.07</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_08.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">초성 이벤트</td>
+								<td>[PU] 당첨확인</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-EM-12</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_12.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 진행중인 이벤트</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-EM-07</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.04</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_07.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 진행중인 뷰티체험단</td>
+								<td>목록</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-EM-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.21</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 진행중인 뷰티체험단</td>
+								<td>상세</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-EM-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.12.14</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 뷰티 체험단 후기</td>
+								<td>작성</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-EM-04</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok"></td>
+								<td>기획 확인 필요</td>
+								<td class="alC"><a href="html/MA_EM_04.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 뷰티 체험단 후기</td>
+								<td>상세정보</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-EM-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok"></td>
+								<td>기획 확인 필요</td>
+								<td class="alC"><a href="html/MA_EM_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 뷰티체험단</td>
+								<td>[PU] 상품평 작성 현황</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-EM-10</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.30</td>
+								<td class="alC txt_mod">20.12.14</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>참여단 조건 갯수에 따른 width script 개발 전달 완료</td>
+								<td class="alC"><a href="html/MA_EM_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">이벤트</td>
+								<td class="itemtit03">[TAB] 뷰티체험단</td>
+								<td>[PU] 뷰티 클럽 안내 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-EM-11</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_11.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.05</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td>[PU] 회원가입 유도 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MS-20</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.06</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_20.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td>비밀번호 변경 안내</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MS-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.06</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td>[PU] 비밀번호 변경 안내</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MS-02_1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.08</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/MA_MS_02_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td>비회원주문조회</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-MS-19</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.12</td>
+								<td class="alC txt_mod">20.11.17</td>
+								<td class="alC txt_ok"></td>
+								<td>10/22 화면 추가</td>
+								<td class="alC"><a href="html/MA_MS_19.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td>휴면 계정 활성화</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MS-15</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_15.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">로그인</td>
+								<td>휴면 계정 활성화</td>
+								<td>[PU] 복원 신청 완료 팝업</td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-MS-16</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_16.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">회원가입</td>
+								<td>게이트</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.05</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">회원가입</td>
+								<td>이메일 인증</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.07</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">회원가입</td>
+								<td>약관동의</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-17</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.06</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>간편 회원가입 전체 공통</td>
+								<td class="alC"><a href="html/MA_MS_17.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">회원가입</td>
+								<td>약관동의</td>
+								<td>[PU] 약관 상세 내용 팝업</td>
+								<td class="alC"></td>
+								<td class="alC">MA-MS-18</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.13</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>terms_view.html : 약관상세 공통</td>
+								<td class="alC"><a href="html/terms_view.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">회원가입</td>
+								<td>기본정보입력</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.13</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td style="color:red;">약관동의 + 정보입력</td>
+								<td class="alC"><a href="html/MA_MS_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">회원가입</td>
+								<td>가입완료</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-07</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.13</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_07.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>아이디 찾기</td>
+								<td>AK멤버스 통합회원</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-08</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.06</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA_MS_08 : one page</td>
+								<td class="alC"><a href="html/MA_MS_08.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>아이디 찾기</td>
+								<td>간편회원(이메일/SNS)</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA_MS_08 : one page</td>
+								<td class="alC"><a href="html/MA_MS_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>[PU] 아이디 찾기 결과 팝업</td>
+								<td>성공</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-10</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.09</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>[PU] 아이디 찾기 결과 팝업</td>
+								<td>실패</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-11</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.08</td>
+								<td class="alC txt_mod">20.11.08</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_11.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>비밀번호 찾기</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-12</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.08</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA_MS_08 : one page</td>
+								<td class="alC"><a href="html/MA_MS_12.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>[PU] 비밀번호 찾기</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-13</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.08</td>
+								<td class="alC txt_mod">20.12.04</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_13.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">회원</td>
+								<td class="itemtit03">[TAB] 아이디/비밀번호 찾기</td>
+								<td>[PU] 비밀번호 신규 입력</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-MS-14</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.12</td>
+								<td class="alC txt_mod">20.12.04</td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_MS_14.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공지사항</td>
+								<td class="itemtit03">[TAB] 공지사항</td>
+								<td>목록</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.05</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공지사항</td>
+								<td class="itemtit03">[TAB] 공지사항</td>
+								<td>상세</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.24</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공지사항</td>
+								<td class="itemtit03">[TAB] 당첨자 확인</td>
+								<td>목록</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.24</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공지사항</td>
+								<td class="itemtit03">[TAB] 당첨자 확인</td>
+								<td>상세</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-04</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.06</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_04.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공지사항</td>
+								<td class="itemtit03">[TAB] 당첨자 확인</td>
+								<td>당첨된/안된경우</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-CM-04_1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.12</td>
+								<td class="alC txt_mod">20.11.06</td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/MA_CM_04_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>최근검색어,인기검색어</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.05</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td style="color:red">(class="wrap searchWrap") : 통합검색 그라데이션 header</td>
+								<td class="alC"><a href="html/MA_SA_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>성분검색</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-04</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.05</td>
+								<td class="alC txt_mod">20.12.15</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td>성분검색 바텀레이어 페이지 "schConstituentWrap" 클래스 삭제</td>
+								<td class="alC"><a href="html/MA_SA_04.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>검색어 입력 중 화면</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.05</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td style="color:red">(class="wrap searchWrap") : 통합검색 그라데이션 header</td>
+								<td class="alC"><a href="html/MA_SA_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] 상품 검색 결과</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod">20.11.24</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td>탭 리뷰 -> 상품평으로 변경 필요</td>
+								<td class="alC"><a href="html/MA_SA_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] 상품 검색 결과</td>
+								<td>검색결과 없는 경우</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>MA-SA-02</td>
+								<td class="alC"><a href="html/MA_SA_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] 브랜드 검색 결과</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td>탭 리뷰 -> 상품평으로 변경 필요</td>
+								<td class="alC"><a href="html/MA_SA_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] 브랜드 검색 결과</td>
+								<td>검색결과 없는 경우</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-07</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>MA-SA-06</td>
+								<td class="alC"><a href="html/MA_SA_07.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] VOD 검색 결과</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-08</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.05</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td>탭 리뷰 -> 상품평으로 변경 필요</td>
+								<td class="alC"><a href="html/MA_SA_08.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] 상품평 검색 결과</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod">20.11.16</td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td>탭 리뷰 -> 상품평으로 변경 필요</td>
+								<td class="alC"><a href="html/MA_SA_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[TAB] 상품평 검색 결과</td>
+								<td>검색결과 없는 경우</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td>MA-SA-09</td>
+								<td class="alC"><a href="html/MA_SA_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">검색</td>
+								<td>[PU] 필터</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SA-10</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.29</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">퍼블수정대기</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SA_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">설정 (native)</td>
+								<td></td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-ST-03</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.06</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_ST_03.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">설정 (native)</td>
+								<td>앱권한설정안내</td>
+								<td>[PU] 접근 권한 안내 (Android/ios)</td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_ST_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">설정 (native)</td>
+								<td>[PU] 마케팅 동의 안내</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_ST_04.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">설정 (native)</td>
+								<td>알림함</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_ST_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr class="txt_thr">
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">설정 (native)</td>
+								<td>[PU] 황금애플 다운로드 팝업 (네이티브)</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_ST_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>뷰티상품평</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-00_3</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요 </td>
+								<td class="alC"><a href="html/MA_SR_00_3.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>뷰티상품평</td>
+								<td>비구매자,미등록or비공개</td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-00_4</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요 / IA 없음</td>
+								<td class="alC"><a href="html/MA_SR_00_4.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>간편상품평</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-00_1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/MA_SR_00_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>일반상품평</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC">MA-SR-00_2</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/MA_SR_00_2.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 상품평/필터 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_27.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 상품평 상세 팝업</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.06</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_11.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 상품평 작성(수정) 팝업</td>
+								<td></td>
+								<td class="alC">전체개선</td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 상품평 작성(수정) 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_SR_06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA_SR_10</td>
+								<td class="alC"><a href="html/MA_SR_10.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 설명글 추가 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA_SR_28</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.06</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_28.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 체험단 상품평 작성(수정) 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-EM-06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_EM_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>[PU] 체험단 상품평 작성(수정) 팝업</td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-EM-09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td>MA-EM-06</td>
+								<td class="alC"><a href="html/MA_EM_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<!-- <tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>상품상세</td>
+								<td>고객 상품평</td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">N</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">상품평</td>
+								<td>상품상세</td>
+								<td>고객 상품평 전체보기</td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">N</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_SR_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr> -->
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>HEADER</td>
+								<td>AK</td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC txt_ing">21.01.06</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/header_ak.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>HEADER</td>
+								<td>샤샤뷰</td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC txt_ing">21.01.06</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/header_shasha.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>HEADER</td>
+								<td>샤샤뷰</td>
+								<td class="alC">서브헤더</td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC txt_ing">21.01.06</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/sub_header_shasha.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>FOOTER</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.03</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td>화면ID필요</td>
+								<td class="alC"><a href="html/footer.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 카테고리</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-05</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod">20.12.04</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_05.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 브랜드</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-06</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_06.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 히스토리_최근본상품</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-07</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod">20.12.08</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_07.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 히스토리_최근본VOD</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-07-1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.08</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_07_1.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 히스토리_최근본페이지</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-07-2</td>
+								<td class="alC">N</td>
+								<td class="alC txt_ing">20.12.08</td>
+								<td class="alC txt_mod">20.12.14</td>
+								<td class="alC txt_mod"></td>
+								<td>1차 퍼블 완료</td>
+								<td class="alC"><a href="html/MA_CM_07_2.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 히스토리_찜한상품</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-07-3</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.08</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_07_3.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">메뉴</td>
+								<td>전체메뉴</td>
+								<td>[TAB] 히스토리_찜한 VOD</td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-14</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.09</td>
+								<td class="alC txt_mod">20.12.08</td>
+								<td class="alC txt_mod"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_14.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">오류페이지</td>
+								<td>시스템 점검</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-08</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_08.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">오류페이지</td>
+								<td>시스템 오류</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-CM-09</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.02</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_CM_09.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">팝업</td>
+								<td>[PU] 이용약관 상세</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.13</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td></td>
+								<td class="alC"><a href="html/terms_view.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">공통</td>
+								<td class="itemtit03" style="font-weight:bold">팝업</td>
+								<td>[PU] 달력 풀팝업</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.10.13</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_mod">기획검수필요</td>
+								<td></td>
+								<td class="alC"><a href="html/layer_full_calendar.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">베스트</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-BS-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.10</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok">20.11.16</td>
+								<td></td>
+								<td class="alC"><a href="html/MA_BS_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+								<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">타임스페셜</td>
+								<td class="itemtit03">서브메인</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-TS-01</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.10</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_TS_01.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">타임스페셜</td>
+								<td class="itemtit03">상세</td>
+								<td></td>
+								<td></td>
+								<td class="alC">신규</td>
+								<td class="alC">MA-TS-02</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.11.11</td>
+								<td class="alC txt_mod">20.12.02</td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/MA_TS_02.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">style</td>
+								<td></td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="guide/guide_style.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">content</td>
+								<td></td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="guide/guide_content.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">layer</td>
+								<td>기본 layer</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>하단에 고정 버튼이 들어갈 경우 "hasBtn"클래스 추가 : class="popCont hasBtn"</td>
+								<td class="alC"><a href="guide/guide_layer.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">layer</td>
+								<td>alert</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>class="popCont alert hasBtn"</td>
+								<td class="alC"><a href="guide/guide_layer_alert.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">layer</td>
+								<td>notice</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC">MA-MA-01_1</td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>class="popCont notice hasBtn"</td>
+								<td class="alC"><a href="guide/guide_layer_notice.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">layer</td>
+								<td>bottom</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>class="popCont bottom hasBtn"</td>
+								<td class="alC"><a href="guide/guide_layer_bottom.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">layer</td>
+								<td>full</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok"></td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td>class="popCont full hasBtn"</td>
+								<td class="alC"><a href="guide/guide_layer_full.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+							<tr>
+								<th scope="row">&nbsp;</th>
+								<td class="itemtit02">guide</td>
+								<td class="itemtit03">layout</td>
+								<td>바텀메뉴+플로팅버튼</td>
+								<td></td>
+								<td class="alC"></td>
+								<td class="alC"></td>
+								<td class="alC">Y</td>
+								<td class="alC txt_ok">20.12.07</td>
+								<td class="alC txt_mod"></td>
+								<td class="alC txt_ok"></td>
+								<td></td>
+								<td class="alC"><a href="html/bottomMenu.html" target="_blank" data-role="link">페이지이동</a></td>
+							</tr>
+						</tbody>
+					</table>
+                  <script type="text/javascript">$(document).ready(function() {$('#focus').tableHover();});</script>
+                  <script type="text/javascript">
+				  	function toggleed(trEle){
+						//alert(trEle.parentElement.rows)
+						var rows = trEle.parentElement.rows;
+						for(i = 0; i < rows.length; i++){
+							if(rows[i] == trEle){
+								trEle.style.backgroundColor = "#ffebeb"
+							}else{
+								rows[i].style.backgroundColor = ""
+							 }
+						   }
+						}
+                  </script>
+                  <script type="text/javascript">
+						var st1 = new SortableTable(document.getElementById("focus"), ["Number" ,"String","String", "String", "String", "String"]);
+						$(function(){
+							var tds = $("#focus tbody  th:first-child");
+							for(var i=0; i < tds.length; i++) {
+								$(tds[i]).html(i+1);
+							}
+						});
+						$('#focus thead th').click(function(){
+							//alert("a");
+							var tds = $("#focus tbody  th:first-child");
+							for(var i=0; i < tds.length; i++) {
+								//alert(tds[i].firstChild.nodeValue);
+								$(tds[i]).html(i+1);
+							}
+						});
+					</script>
+              </div>
+              <!--// g_content div -->
+              </div>
+              <!--// g_container div -->
+        </div><!--// wgContent div -->
+        
+    </div><!--// wgContainer div  -->
+    
+</div><!--// wrapGuide div -->
+</body>
+</html>

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<title>index</title>
+<script type="text/javascript" src="resources/js/lib/jquery-1.9.1.min.js"></script>
+<style>
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+body,h1,h2,h3,h4,th,td,input,select,textarea,button {font-size:12px;line-height:1.5;font-family:'Roboto','Droid Sans','Helvetica','Apple-Gothic','애플고딕','Tahoma',dotum,'돋움',gulim,'굴림',sans-serif;color:#000} 
+body {-webkit-text-size-adjust:none}
+button{-webkit-appearance: none;border: none;}
+img,fieldset,iframe{border:0 none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+dl,ul,ol,menu,li {list-style:none}
+input,select,button{vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+img{vertical-align:top}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+a{color:#000;text-decoration:none}
+a:active{color:#000;text-decoration:underline} 
+i,em,address{font-style:normal}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+legend,caption{display: block;overflow: hidden;visibility: hidden;width: 0 !important;height: 0 !important;line-height: 0 !important;font-size: 0 !important}
+
+/* input type 정의 */
+input[type='text'],input[type='date'], input[type='password'],input[type='tel'],input[type='email']{position: relative;-webkit-appearance:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input[type="text"],input[type='date'],input[type="password"],input[type='tel'],input[type='email']{border:1px solid #bbbbbb;color:#000;font-size:13px;height: 34px;text-indent: 10px}
+input[type="radio"],input:checked[type="radio"],input[type="checkbox"],input:checked[type="checkbox"],input[type="checkbox"].ck,input:checked[type="checkbox"].ck,input[type="radio"].ck,input:checked[type="radio"].ck{-webkit-appearance:none;appearance:none;border:none !important;outline:none !important;background-image:url(order_sp.png);background-repeat: no-repeat;background-size:150px 200px;}
+input[type="radio"]{width:25px;height:25px;background-position:-25px 0; } 
+input:checked[type="radio"]{width:25px;height:25px;background-position:-25px -25px;} 
+input[type="radio"].ck{width:25px;height:25px;border-radius:0;background-position:0 -126px;}
+input:checked[type="radio"].ck{width:25px;height:25px;border-radius:0;background-position:-25px -126px;}
+input[type="checkbox"]{width:25px;height:25px;border-radius:0;background-position:0 0;}
+input:checked[type="checkbox"]{width:25px;height:25px;border-radius:0;background-position:0 -25px;}
+input[type="checkbox"].ck{width:25px;height:25px;border-radius:0;background-position:0 -126px;}
+input:checked[type="checkbox"].ck{width:25px;height:25px;border-radius:0;background-position:-25px -126px;}
+
+
+h1{font-size: 20px;padding: 10px;}
+dl dt{background: #333;color: #fff;font-size: 14px;padding: 10px;border-bottom: 1px solid #fff;}
+dl dt.comp {color:#1b2026; background:#999;}
+dl dt .chk {display:block; font-size:13px; color:#ff206c; margin-top:5px;}
+dl dt .chk.tb2 {color:#203bff;}
+dl dd{display:flex; background: #fafafa;color: #fff;font-size: 14px;padding: 10px;border-bottom: 1px solid #999;}
+.check{border-top: 1px solid #333;position: fixed;left: 0;bottom: 0;width: 100%;background: #fff;}
+.check p{float: left;width: 50%;padding-bottom: 5px;}
+.check_onoff{padding: 10px 0;width: 100%;}
+.check div{padding-top: 10px;display: none;}
+.check p input{margin-left: 10px;}
+
+dl dd span{display: inline-block;height:18px;font-size: 11px;color: #474c53;background: #fff;padding: 2px 5px 0; border-radius:10px; margin-right:10px; width:46px; text-align:center;}
+dl dd span.bg{background:#c2c5c9;}
+dl dd span.new{background:#edeff1;}
+dl dd span.blue{background: blue;}
+#wrap{padding-bottom: 170px;}
+dl dd a{display: block; width:calc(100% - 56px);;}
+dl dd a > em {color:#ff206c;}
+dl dd a > em.un {color:#474c53;}
+.num{color:#fff;}
+.top{border: 1px solid #333; position: absolute;right: 5px;top: -50px;width: 50px;height: 30px;text-align: center;background: #666;color: #fff;padding-top: 12px;}
+.allcheck{position: absolute;top: 7px;left: 10px;}
+.sub_off{display: block;border: 1px solid #333; position: absolute;left: 5px;top: -50px;width: 100px;text-align: center;background: #666;color: #fff;line-height: 42px}</style>
+</head>
+
+<body>
+<div id="wrap">
+	<h1>AKmall <em class="num">0</em>(추후 js분리작업예정)</h1>
+	
+	<!-- Main -->
+	<dl>
+		<dt class="active">뷰티APP Main <em class="chk">기획검수 및 디자인 수정 적용 필요</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MA_01.html" target="_blank">Main <em>20.11.11</em></a>
+		</dd>
+	</dl>
+	<!--// Main -->
+	
+	<!-- 01_V-코스미끄 -->
+	<dl>
+		<dt class="active comp">01_V-코스미끄 <em class="chk">기획검수필요</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_01.html" target="_blank">V-코스미끄 서브메인 <em>20.11.10</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_10.html" target="_blank">[PU] V-코스미끄 서브메인 _상품 오픈 <em>20.11.02</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_09.html" target="_blank">[PU] 방송 알림 <em>20.11.02</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_09_1.html" target="_blank">[PU] 방송 알림_21~08시 알림 <em>20.11.02</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_02.html" target="_blank">쇼핑라이브 목록 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_03.html" target="_blank">V-라이브 상세(그립) <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_04.html" target="_blank">V-라이브 상세(CJ) <em>20.11.05</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_05.html" target="_blank">V-VOD 목록 (유튜브,홈쇼핑)</a>
+		</dd> -->
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_06.html" target="_blank">[PU] V-VOD 상세 <em>20.11.10</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_07.html" target="_blank">라이브예고</a>
+		</dd> -->
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_VC_08.html" target="_blank">[PU] 편성표 팝업 <em>20.11.03</em></a>
+		</dd>
+	</dl>
+	<!--// 01_V-코스미끄 -->
+	
+	<!-- 02_리뷰라운지 -->
+	<dl>
+		<dt class="active comp">02_리뷰라운지 (class="wrap reviewWrap") <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_RL_01.html" target="_blank">[TAB]리뷰라운지 베스트 리뷰 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_RL_04.html" target="_blank">[TAB]리뷰라운지 베스트 리뷰어 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_RL_03.html" target="_blank">리뷰어 홈 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_RL_05.html" target="_blank">[PU]베스트리뷰어는? <em>20.10.22</em></a>
+		</dd>
+	</dl>
+	<!--// 02_리뷰라운지 -->
+
+	<!-- 03_Store -->
+	<dl>
+		<dt class="active comp">03_Store <em class="chk">기획검수필요</em></dt>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_01.html" target="_blank">Store Main <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_23.html" target="_blank">[PU]배너전체보기 <em>20.11.10</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_02.html" target="_blank">스킨케어 대카테고리 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_03.html" target="_blank">스킨케어 중카테고리 <em>20.11.11</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_04.html" target="_blank">[LP]필터</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_05.html" target="_blank">[TAB]뷰티정보</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_07.html" target="_blank">[TAB]상품설명</a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_32.html" target="_blank">전성분</a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_29.html" target="_blank">[PU]마일리지 팝업</a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_30.html" target="_blank">[PU]배송정보 팝업</a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_31.html" target="_blank">제품특징 사용법 안내</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_09.html" target="_blank">[TAB]상품평</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_10.html" target="_blank">[PU]상품평 팝업</a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_27.html" target="_blank">[PU]상품평 필터 팝업</a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_SR_28.html" target="_blank">[PU]상품평 이미지, 동영상 설명 팝업</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_12.html" target="_blank">[TAB]상품Q&A <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_13.html" target="_blank">[PU]상품Q&A 작성</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_14.html" target="_blank">[PU]혜택내역</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_15.html" target="_blank">[PU]공유하기</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_17.html" target="_blank">[PU]쿠폰모두받기</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_22.html" target="_blank">[PU]재입고 알림신청</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_23.html" target="_blank">[PU]&PICK 예약 팝업</a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_24.html" target="_blank">[PU]&PICK 서비스 팝업</a>
+		</dd> -->
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_16.html" target="_blank">브랜드샵 <em>20.11.11</em></a>
+		</dd>
+	</dl>
+	<!--// 03_Store -->
+	
+	<!-- 04_마이파우치 -->
+	<dl>
+		<dt class="active comp">04_마이파우치 (원형차트개선필요) <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_01.html" target="_blank">마이파우치 서브메인 <em>20.11.10</em> 원형차트</a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_09.html" target="_blank">[PU] 프로필 유도 <em>20.10.21</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_02.html" target="_blank">뷰티프로필 이용약관 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_06.html" target="_blank">뷰티프로필 STEP1 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_06_2.html" target="_blank">뷰티프로필 수정 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_06_1.html" target="_blank">[PU]뷰티프로필 등록 팝업 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_05.html" target="_blank">뷰티프로필 STEP2 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_08.html" target="_blank">[PU]피부타입 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_07.html" target="_blank">뷰티프로필 STEP3 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_10.html" target="_blank">[PU] 뷰티클럽 가입 유도 <em>20.10.21</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_03.html" target="_blank">뷰티클럽 <em>20.11.09</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="new">신규</span>
+			<a href="html/MA_PR_04.html" target="_blank">[PU]이용약관 <em class="un">20.09.23 : 삭제</em></a>
+		</dd> -->
+	</dl>
+	<!--// 04_마이파우치 -->
+
+	<!-- 05_나만의공간 -->
+	<dl>
+		<dt class="active comp">05_나만의공간 <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MP_01.html" target="_blank">나만의공간 서브메인 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MP_01_1.html" target="_blank">주문/배송조회 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_MP_19.html" target="_blank">[PU]프로필 비공개 설정 <em>20.10.15</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MP_03.html" target="_blank">[TAB]뷰티체험단 미작성 상품평 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MP_05.html" target="_blank">[TAB]뷰티체험단 작성한 상품평 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MP_17.html" target="_blank">[TAB]뷰티체험단 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MP_12.html" target="_blank">내 정보 관리 <em>20.11.05</em></a>
+		</dd>
+	</dl>
+	<!--// 05_나만의공간 -->
+
+	<!-- 06_이벤트 -->
+	<dl>
+		<dt class="active comp">06_이벤트 <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_01.html" target="_blank">이벤트 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_02.html" target="_blank">[TAB]진행중인 뷰티 체험단 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_03.html" target="_blank">진행중인 뷰티 체험단 상세정보 <em>20.11.11</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_04.html" target="_blank">[TAB]뷰티 체험단 후기 작성 <em class="un">psd/기획 없음</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_05.html" target="_blank">뷰티 체험단 후기 상세정보 <em class="un">psd/기획 없음</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_06.html" target="_blank">[PU]뷰티 테스터 후기 작성 <em>20.10.27</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_09.html" target="_blank">[PU]뷰티 테스터 후기 수정</a>
+		</dd> -->
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_EM_10.html" target="_blank">[PU]상품평 작성 현황 <em>20.10.30</em></a>
+		</dd>
+		<dd>
+			<span class="bg">신규</span>
+			<a href="html/MA_EM_11.html" target="_blank">[PU]뷰티클럽 안내 <em>20.10.30</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_EM_07.html" target="_blank">[TAB]진행중인 이벤트 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_EM_08.html" target="_blank">초성 이벤트 상세 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_EM_08_1.html" target="_blank">[PU]초성 이벤트_당첨확인 <em>20.11.05</em></a>
+		</dd>
+	</dl>
+	<!--// 06_이벤트 -->
+
+	<!-- 07_주문&결제 --
+	<dl>
+		<dt class="active comp">07_주문&결제 - 삭제</dt>
+		<dd>
+			<span class="new">-</span>
+			<a href="html/.html" target="_blank">-</a>
+		</dd>
+	</dl>
+	<!--// 07_주문&결제 -->
+
+	<!-- 08_히스토리 --
+	<dl>
+		<dt class="active comp">08_히스토리 - 삭제</dt>
+		<dd>
+			<span class="new">-</span>
+			<a href="html/.html" target="_blank">-</a>
+		</dd>
+	</dl>
+	<!--// 08_히스토리 -->
+
+	<!-- 09_공통_검색 -->
+	<dl>
+		<dt class="active comp">09_공통_검색 <em class="chk">기획검수필요</em></dt>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_01.html" target="_blank">검색 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_04.html" target="_blank">성분검색 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_05.html" target="_blank">검색어 자동완성 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_02.html" target="_blank">[TAB]상품 검색 결과 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_06.html" target="_blank">[TAB]브랜드 검색 결과 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_08.html" target="_blank">[TAB]VOD 검색 결과 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_09.html" target="_blank">[TAB]리뷰 결과 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SA_10.html" target="_blank">[PU]필터 <em>20.10.29</em></a>
+		</dd>
+	</dl>
+	<!--// 09_공통_검색 -->
+
+	<!-- 10_회원 -->
+	<dl>
+		<dt class="active comp">10_회원 <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_01.html" target="_blank">로그인 (회원/비회원) <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MS_20.html" target="_blank">[PU] 비회원구매버튼 클릭시 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MS_02.html" target="_blank">비밀번호 변경안내 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MS_02_1.html" target="_blank">[PU]비밀번호 변경안내 <em>20.10.08</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MS_19.html" target="_blank">비회원주문조회 <em class="un">20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MS_15.html" target="_blank">휴면계정 활성화 <em>20.10.12</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_MS_16.html" target="_blank">휴면계정 활성화 복원신청완료 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_03.html" target="_blank">회원가입 안내 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_05.html" target="_blank">이메일 인증 <em>20.10.07</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_17.html" target="_blank">간편회원가입 약관동의 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_06.html" target="_blank">간편회원가입 정보입력 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_07.html" target="_blank">간편회원가입 가입완료 <em>20.11.13</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_08.html" target="_blank">[tab]아이디찾기 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_10.html" target="_blank">[PU]아이디찾기 완료 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_11.html" target="_blank">[PU]아이디찾기 실패 <em>20.10.08</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_09.html" target="_blank">AK Mall 간편회원 아이디찾기</a>
+		</dd> -->
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_13.html" target="_blank">[PU]비밀번호 찾기 <em>20.10.08</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_14.html" target="_blank">[PU]비밀번호 신규 입력 <em>20.10.08</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_MS_14.html" target="_blank">비밀번호 변경완료</a>
+		</dd> -->
+	</dl>
+	<!--// 10_회원 -->
+
+	<!-- 11_상품평 -->
+	<dl>
+		<dt class="active comp">11_상품평 <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_10.html" target="_blank">[PU]상품평 작성(수정)팝업 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_11.html" target="_blank">[PU]상품평 상세팝업 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_SR_27.html" target="_blank">[PU]상품평 필터팝업 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_SR_28.html" target="_blank">[PU]설명글 추가팝업 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_EM_06.html" target="_blank">[PU]체험단 상품평 작성(수정)팝업 <em>20.11.09</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="new">신규</span>
+			<a href="html/MA_EM_09.html" target="_blank">[PU]체험단 상품평 수정팝업</a>
+		</dd> -->
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_00_1.html" target="_blank">간편상품평 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_00_2.html" target="_blank">일반상품평 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_00_3.html" target="_blank">뷰티상품평 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="bg">전체개선</span>
+			<a href="html/MA_SR_00_4.html" target="_blank">뷰티상품평 - 비구매자,미등록or비공개 <em>20.11.09</em></a>
+		</dd>
+	</dl>
+	<!--// 11_상품평 -->
+
+	<!-- 12_베스트 -->
+	<dl>
+		<dt class="active comp">12_베스트 <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_BS_01.html" target="_blank">베스트 <em>20.11.10</em></a>
+		</dd>
+	</dl>
+	<!--// 12_베스트 -->
+
+	<!-- 13_선물하기 -->
+	<dl>
+		<dt class="active comp">13_선물추천 (화면ID필요) <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_10.html" target="_blank">선물하기 메인 <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_11.html" target="_blank">생일,스몰럭셔리,임신/출산 목록 <em>20.11.05</em></a>
+		</dd>
+		<!-- <dd>
+			<span class="new">신규</span>
+			<a href="html/gift_03.html" target="_blank">부모님선물,여친선물,남친선물 <em>20.10.26</em></a>
+		</dd> -->
+	</dl>
+	<!--// 13_선물하기 -->
+
+	<!-- 14_공지사항 -->
+	<dl>
+		<dt class="active comp">14_공지사항 <em class="chk tb2">기획검수완료_201106</em></dt>
+		
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_01.html" target="_blank">[TAB]공지사항 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_02.html" target="_blank">공지사항 상세 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_03.html" target="_blank">[TAB]당첨자확인 <em>20.11.05</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_04.html" target="_blank">당첨자확인 상세 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_CM_04_1.html" target="_blank">당첨된/안된경우 <em>20.11.06</em></a>
+		</dd>
+	</dl>
+	<!--// 14_공지사항 -->
+
+	<!-- 15_공통 -->
+	<dl>
+		<dt class="active comp">15_공통_설정 (native) <em class="chk tb2">기획검수완료_201106</em></dt>
+		<dd>
+			<a href="html/MA_ST_03.html" target="_blank">설정 <em>20.11.06</em></a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_08.html" target="_blank">알림 목록</a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_08.html" target="_blank">[PU]접근권한 안내</a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_08.html" target="_blank">[PU]마케팅동의 안내</a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_08.html" target="_blank">[PU]황금애플 다운로드</a>
+		</dd>
+	</dl>
+	<!--// 15_공통 -->
+
+	<!-- 15_공통 -->
+	<dl>
+		<dt class="active comp">15_공통 <em class="chk">기획검수필요</em></dt>
+		<dd>
+			<a href="html/MA_CM_08.html" target="_blank">시스템 점검 <em>20.11.02</em></a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_09.html" target="_blank">시스템 오류 <em>20.11.02</em></a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_05.html" target="_blank">[TAB]전체메뉴 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_06.html" target="_blank">[TAB]브랜드 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_07.html" target="_blank">[TAB]히스토리 <em>20.11.11</em></a>
+		</dd>
+		<dd>
+			<a href="html/MA_CM_07_1.html" target="_blank">[TAB]히스토리_최근본VOD <em>20.11.09</em></a>
+		</dd>
+		<dd>
+			<a href="html/terms_view.html" target="_blank">풀팝업 이용약관 상세 <em>20.10.13</em></a>
+		</dd>
+		<dd>
+			<a href="html/layer_full_calendar.html" target="_blank">풀팝업 달력 <em>20.10.13</em></a>
+		</dd>
+		<dd>
+			<a href="html/footer.html" target="_blank">FOOTER <em>20.11.03</em></a>
+		</dd>
+	</dl>
+	<!--// 15_공통 -->
+
+
+	<!-- 타임스페셜 -->
+	<dl>
+		<dt class="active">타임스페셜 <em class="chk">디자인필요</em></dt>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_TS_01.html" target="_blank">타임스페셜 서브메인</a>
+		</dd>
+		<dd>
+			<span class="new">신규</span>
+			<a href="html/MA_TS_02.html" target="_blank">타임스페셜 상세</a>
+		</dd>
+	</dl>
+	<!--// 타임스페셜 -->
+
+
+	<!-- 100_guide -->
+	<dl>
+		<dt class="active">100_guide</dt>
+		<dd>
+			<a href="guide/guide_style.html" target="_blank">guide_style</a>
+		</dd>
+		<dd>
+			<a href="guide/guide_content.html" target="_blank">guide_content</a>
+		</dd>
+		<dd>
+			<a href="guide/guide_layer.html" target="_blank">guide_layer</a>
+		</dd>
+		<dd>
+			<a href="guide/guide_layer_alert.html" target="_blank">guide_layer_alert</a>
+		</dd>
+		<dd>
+			<a href="guide/guide_layer_notice.html" target="_blank">guide_layer_notice</a>
+		</dd>
+		<dd>
+			<a href="guide/guide_layer_bottom.html" target="_blank">guide_layer_bottom</a>
+		</dd>
+		<dd>
+			<a href="guide/guide_layer_full.html" target="_blank">guide_layer_full</a>
+		</dd>
+	</dl>
+	<!--// 100_guide -->
+
+
+
+
+	<div class="check">
+		<button class="sub_off">서브메뉴 접기</button>
+		<input type="checkbox" class="allcheck">
+		<a href="#" class="top">TOP ▲</a>
+		<!--<button class="check_onoff">하단 메뉴명</button>-->
+	</div>
+	
+</div>
+<script>
+var $wrap=$('.check div');
+	var $box=$('dl');
+	var $len = $box.length;
+	var $txt = $box.find('dt');
+
+	function item(){
+		var htm = '';
+	        
+	        htm+= ''
+	                
+	            for(var i= 0, len=$len; i<len; i++){            
+	                htm+='<p><input type="checkbox" class="item" checked="checked"> <a href="#idx'+ i + '">' + $txt.eq(i).text() +'</a></p>'
+	            };
+
+	        return htm;
+	}
+	$wrap.append(item());
+
+	for(var i= 0, len=$len; i<len; i++){            
+        $box.eq(i).attr('id','idx'+i);
+    };
+
+
+	$(document).on('change','input[type="checkbox"]',function(){
+
+            var $this = jQuery(this);
+            var $index = $this.parent().index();
+
+            if($this.is(':checked')){
+                $box.eq($index).show();
+            }
+            if(!$this.is(':checked')){
+                $box.eq($index).hide();
+     		}
+
+	});
+
+	$('.check_onoff').click(function(){
+		var $this = jQuery(this);
+        if($this.hasClass('active')){
+            $this.removeClass('active');
+            $this.next().hide();
+        }else if(!$this.hasClass('active')){
+            $this.addClass('active');
+            $this.next().show();
+        }
+	});
+
+	$('.sub_off').click(function(){
+		var $this = jQuery(this);
+        if($this.hasClass('active')){
+            $this.removeClass('active');
+            $('dd').show();
+            $('dt').addClass('active');
+        }else if(!$this.hasClass('active')){
+            $this.addClass('active');
+            $('dd').hide();
+            $('dt').removeClass('active');
+        }
+	});
+
+var dd = $('dd');
+var len = dd.length;
+
+$txt.click(function(){
+	var $this = jQuery(this);
+        if($this.hasClass('active')){
+            $this.removeClass('active');
+            $this.parent().find('dd').hide();
+        }else if(!$this.hasClass('active')){
+            $this.addClass('active');
+            $this.parent().find('dd').show();
+        }
+});
+
+
+$('.num').text(len);
+
+function checkAll(obj1,obj2){
+        var state = 1;
+        $('.'+obj2).each(function(i,el){
+            if($(el).prop('checked')) {state *= 1;}
+            else {state *= 0;}
+        });
+        $('.'+obj1).prop('checked', state);
+    }
+
+$(document).on('click', '.item', function(){
+	//alert();
+	setTimeout( function(){ checkAll('allcheck','item') }, 50); 
+}); 
+$(document).on('click','.allcheck', function(){
+     $('.item').prop('checked', $(this).prop('checked')? true: false);
+     if($(this).is(':checked')){
+		$box.show();
+     }
+     if(!$(this).is(':checked')){
+     	$box.hide();
+     }
+
+});
+checkAll('allcheck','item');  
+</script>
+</body>
+</html>
